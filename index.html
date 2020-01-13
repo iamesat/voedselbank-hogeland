@@ -12,108 +12,111 @@
 			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
 			crossorigin="anonymous"
 		/>
-		<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap&subset=latin-ext" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700&display=swap&subset=latin-ext" rel="stylesheet" />
 		<link rel="stylesheet" href="css/style.css" />
 		<title>Voedselbank Het Hogeland</title>
 	</head>
 	<body>
 		<header>
-			<nav class="navbar navbar-expand-lg navbar-light bg-light">
-				<a class="navbar-brand" href="#"><img src="img/logo.png" alt="Voedselbank Het Hogeland"/></a>
-				<button
-					class="navbar-toggler"
-					type="button"
-					data-toggle="collapse"
-					data-target="#navbarNavDropdown"
-					aria-controls="navbarNavDropdown"
-					aria-expanded="false"
-					aria-label="Toggle navigation"
-				>
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarNavDropdown">
-					<ul class="navbar-nav">
-						<li class="nav-item active">
-							<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-						</li>
-						<li class="nav-item dropdown">
-							<a
-								class="nav-link dropdown-toggle"
-								href="#"
-								id="navbarDropdownMenuLink"
-								role="button"
-								data-toggle="dropdown"
-								aria-haspopup="true"
-								aria-expanded="false"
-							>
-								Klanten
-							</a>
-							<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-								<a class="dropdown-item" href="#">Criteriatoets</a>
-								<a class="dropdown-item" href="#">Uitgiftemoment</a>
-								<a class="dropdown-item" href="#">Recepten</a>
-								<a class="dropdown-item" href="#">Klantenadministratie</a>
-								<a class="dropdown-item" href="#">FAQ</a>
-							</div>
-						</li>
-						<li class="nav-item dropdown">
-							<a
-								class="nav-link dropdown-toggle"
-								href="#"
-								id="navbarDropdownMenuLink"
-								role="button"
-								data-toggle="dropdown"
-								aria-haspopup="true"
-								aria-expanded="false"
-							>
-								Donateurs
-							</a>
-							<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-								<a class="dropdown-item" href="#">Doneren</a>
-								<a class="dropdown-item" href="#">Financiele ondersteuning</a>
-								<a class="dropdown-item" href="#">Materiele ondersteuning</a>
-							</div>
-						</li>
-						<li class="nav-item dropdown">
-							<a
-								class="nav-link dropdown-toggle"
-								href="#"
-								id="navbarDropdownMenuLink"
-								role="button"
-								data-toggle="dropdown"
-								aria-haspopup="true"
-								aria-expanded="false"
-							>
-								Vrijwilligers
-							</a>
-							<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-								<a class="dropdown-item" href="#">Aanmelden</a>
-								<a class="dropdown-item" href="#">Vacatures</a>
-								<a class="dropdown-item" href="#">Dagje helpen</a>
-							</div>
-						</li>
-						<li class="nav-item dropdown">
-							<a
-								class="nav-link dropdown-toggle"
-								href="#"
-								id="navbarDropdownMenuLink"
-								role="button"
-								data-toggle="dropdown"
-								aria-haspopup="true"
-								aria-expanded="false"
-							>
-								Over ons
-							</a>
-							<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-								<a class="dropdown-item" href="#">Geschiedenis</a>
-								<a class="dropdown-item" href="#">Doelen</a>
-								<a class="dropdown-item" href="#">Bestuur</a>
-								<a class="dropdown-item" href="#">Contact</a>
-							</div>
-						</li>
-					</ul>
-				</div>
-			</nav>
+			<div class="container">
+				<nav class="navbar navbar-expand-lg navbar-light bg-light">
+					<a class="navbar-brand" href="#"><img src="img/logo.png" alt="Voedselbank Het Hogeland"/></a>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-toggle="collapse"
+						data-target="#navbarNavDropdown"
+						aria-controls="navbarNavDropdown"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse  justify-content-end" id="navbarNavDropdown">
+						<ul class="navbar-nav">
+							<li class="nav-item active">
+								<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+							</li>
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle"
+									href="#"
+									id="customerDropdown"
+									role="button"
+									data-toggle="dropdown"
+									aria-haspopup="true"
+									aria-expanded="false"
+								>
+									Klanten
+								</a>
+								<div class="dropdown-menu" aria-labelledby="customerDropdown">
+									<a class="dropdown-item" href="#">Criteriatoets</a>
+									<a class="dropdown-item" href="#">Uitgiftemoment</a>
+									<a class="dropdown-item" href="#">Recepten</a>
+									<a class="dropdown-item" href="#">Klantenadministratie</a>
+									<a class="dropdown-item" href="#">FAQ</a>
+								</div>
+							</li>
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle"
+									href="#"
+									id="donateDropdown"
+									role="button"
+									data-toggle="dropdown"
+									aria-haspopup="true"
+									aria-expanded="false"
+								>
+									Donateurs
+								</a>
+								<div class="dropdown-menu" aria-labelledby="donateDropdown">
+									<a class="dropdown-item" href="#">Doneren</a>
+									<a class="dropdown-item" href="#">Financiele ondersteuning</a>
+									<a class="dropdown-item" href="#">Materiele ondersteuning</a>
+								</div>
+							</li>
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle"
+									href="#"
+									id="volunteerDropdown"
+									role="button"
+									data-toggle="dropdown"
+									aria-haspopup="true"
+									aria-expanded="false"
+								>
+									Vrijwilligers
+								</a>
+								<div class="dropdown-menu" aria-labelledby="volunteerDropdown">
+									<a class="dropdown-item" href="#">Aanmelden</a>
+									<a class="dropdown-item" href="#">Vacatures</a>
+									<a class="dropdown-item" href="#">Dagje helpen</a>
+								</div>
+							</li>
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle"
+									href="#"
+									id="aboutUsDropdown"
+									role="button"
+									data-toggle="dropdown"
+									aria-haspopup="true"
+									aria-expanded="false"
+								>
+									Over ons
+								</a>
+								<div class="dropdown-menu" aria-labelledby="aboutUsDropdown">
+									<a class="dropdown-item" href="#">Geschiedenis</a>
+									<a class="dropdown-item" href="#">Doelen</a>
+									<a class="dropdown-item" href="#">Bestuur</a>
+									<a class="dropdown-item" href="#">Contact</a>
+								</div>
+							</li>
+							<li class="navigation-donate"><a class="btn btn-nav-donate" href="#" role="button">Doneer</a></li>
+						</ul>
+					</div>
+				</nav>
+			</div>
 		</header>
 
 		<main></main>
