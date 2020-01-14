@@ -1,0 +1,70 @@
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #343434;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+body {
+  background-color: #F9F9F9;
+}
+
+.media {
+  background-color: white;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1400px;
+  }
+}
+.stappen-top {
+  padding-top: 2rem;
+}
+
+.stappen {
+  padding-top: 25px;
+  padding-left: 65px;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+.form-personen {
+  display: inline-block;
+  width: 17%;
+}
+
+.shadow {
+  box-shadow: 0 0.1rem 0.1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.overlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  background-color: grey;
+}
+
+/*# sourceMappingURL=klantstyle.css.map */
