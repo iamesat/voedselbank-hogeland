@@ -124,6 +124,11 @@ header {
   padding: 0.5rem;
 }
 
+#languageDropdown {
+  color: #AAAAAA;
+  font-size: 1rem;
+}
+
 .navbar-light .navbar-nav .show > .nav-link,
 .navbar-light .navbar-nav .active > .nav-link {
   color: #F47A20;
@@ -131,6 +136,40 @@ header {
 
 .navbar-light .navbar-nav .nav-link {
   color: #343434;
+}
+
+footer {
+  background-color: #EFEFEF;
+  color: #343434;
+  display: flex;
+  justify-content: space-between;
+}
+footer ul {
+  list-style-type: none;
+}
+footer ul .footer-title {
+  font-weight: 600;
+}
+footer a {
+  color: #343434;
+}
+footer a:hover {
+  color: #F47A20;
+  text-decoration: none;
+}
+footer .footer-side-info {
+  background-color: #AAAAAA;
+  padding: 1rem;
+  color: #FFFFFF;
+  text-align: center;
+}
+footer .footer-side-info a {
+  color: #FFFFFF;
+  display: inline-block;
+  margin-right: 2rem;
+}
+footer .footer-side-info span {
+  margin-right: 1rem;
 }
 
 img {

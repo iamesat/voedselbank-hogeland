@@ -1,0 +1,40 @@
+footer {
+	background-color: $lightgray;
+	color: $black;
+	display: flex;
+	justify-content: space-between;
+
+	ul {
+		list-style-type: none;
+
+		.footer-title {
+			font-weight: 600;
+		}
+	}
+
+	a {
+		color: $black;
+
+		&:hover {
+			color: $orange;
+			text-decoration: none;
+		}
+	}
+
+	.footer-side-info {
+		background-color: $darkgray;
+		padding: 1rem;
+		color: $white;
+		text-align: center;
+
+		& a {
+			color: $white;
+			display: inline-block;
+			margin-right: 2rem;
+		}
+
+		span {
+			margin-right: 1rem;
+		}
+	}
+}

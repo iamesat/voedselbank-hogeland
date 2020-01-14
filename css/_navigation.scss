@@ -6,7 +6,7 @@ header {
 	font-size: 1.125rem;
 	padding: 1rem 0;
 
-	@media screen and (min-width: 768px){
+	@media screen and (min-width: 768px) {
 		padding: 2rem 0;
 	}
 }
@@ -14,7 +14,7 @@ header {
 .navbar-brand {
 	max-width: 60%;
 
-	@media screen and (min-width: 768px){
+	@media screen and (min-width: 768px) {
 		max-width: 25%;
 	}
 }
@@ -29,10 +29,10 @@ header {
 }
 
 .nav-item {
-	padding: .5rem;
+	padding: 0.5rem;
 
 	@media screen and (min-width: 768px) {
-		margin-right: .5rem;
+		margin-right: 0.5rem;
 	}
 
 	& + .nav-item {
@@ -50,25 +50,25 @@ header {
 
 .dropdown-toggle::after {
 	position: absolute;
-	right: .5rem;
+	right: 0.5rem;
 	top: 1.5rem;
 
-	@media screen and (min-width: 768px){
+	@media screen and (min-width: 768px) {
 		display: none;
 	}
 
 	.nav-item.show & {
-		border-bottom: .3em solid;
+		border-bottom: 0.3em solid;
 		border-top: 0;
 	}
 }
 
 .navigation-donate {
 	margin-top: 1rem;
-	padding: 0 .5rem;
+	padding: 0 0.5rem;
 	text-align: center;
 
-	@media screen and (min-width: 768px){
+	@media screen and (min-width: 768px) {
 		margin-top: 0.5rem;
 	}
 }
@@ -78,7 +78,7 @@ header {
 	color: $white;
 	font-size: inherit;
 	font-weight: 600;
-	padding: .5rem 1.25rem;
+	padding: 0.5rem 1.25rem;
 	width: 100%;
 }
 
@@ -87,14 +87,19 @@ header {
 	border: 0;
 	padding: 0;
 
-	@media screen and (min-width: 768px){
+	@media screen and (min-width: 768px) {
 		border: 1px solid $lightgray;
 	}
 
 	.dropdown-item {
 		border-top: 1px solid $lightgray;
-		padding: .5rem;
+		padding: 0.5rem;
 	}
+}
+
+#languageDropdown {
+	color: $darkgray;
+	font-size: 1rem;
 }
 
 .navbar-light .navbar-nav .show > .nav-link,
