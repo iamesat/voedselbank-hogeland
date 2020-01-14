@@ -15,11 +15,10 @@ h2 {
 h3 {
   font-size: 1rem;
   font-weight: 700;
-  text-transform: uppercase;
 }
 
 p {
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 300;
 }
 
@@ -139,7 +138,7 @@ header {
 }
 
 footer {
-  background-color: #EFEFEF;
+  background-color: #f8f9fa;
   color: #343434;
 }
 footer .footer-rows {
@@ -201,7 +200,7 @@ footer .card-body {
   padding-top: 0;
 }
 footer .footer-side-info {
-  background-color: #e4e4e4;
+  background-color: #EFEFEF;
   padding: 1rem;
   color: #343434;
   font-size: 0.875rem;
@@ -232,6 +231,90 @@ footer .footer-side-info span {
 img {
   height: auto;
   max-width: 100%;
+}
+
+main {
+  background-color: #EFEFEF;
+}
+main .cards {
+  padding: 2rem 0;
+}
+@media screen and (min-width: 768px) {
+  main .cards {
+    display: flex;
+    margin: 1rem;
+  }
+}
+main .cards .card {
+  border: none;
+}
+main .cards .card:not(:last-child) {
+  margin-bottom: 2rem;
+}
+main .cards .btn {
+  color: #FFFFFF;
+  width: 100%;
+}
+main .cards .btn-client {
+  background-color: #6BCB4F;
+}
+main .cards .btn-volunteer {
+  background-color: #2D8EFC;
+}
+main .cards .btn-donate {
+  background-color: #F47A20;
+}
+main .jumbotron {
+  background-color: #FFFFFF;
+}
+main .jumbotron h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+}
+main .jumbotron h2 {
+  color: #F47A20;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+main .jumbotron .link-about-us {
+  color: #343434;
+}
+main .jumbotron .link-about-us:active, main .jumbotron .link-about-us:focus {
+  text-decoration: none;
+}
+main .jumbotron .link-about-us i {
+  margin-left: 0.5rem;
+}
+main .link-arrow {
+  text-align: right;
+  display: block;
+  margin-right: 0.5rem;
+  color: #343434;
+}
+main .agenda h2 {
+  margin-bottom: 1rem;
+}
+main .agenda .card {
+  margin-bottom: 2rem;
+}
+main .agenda .card-title {
+  background-color: #AAAAAA;
+  color: #FFFFFF;
+  padding: 1rem 1rem 1rem 1.5rem;
+  margin: 0;
+}
+main .agenda .card-text span {
+  display: block;
+  margin-top: 0.5rem;
+}
+main .agenda .card-text span i {
+  margin-right: 0.5rem;
+}
+main .news h3 {
+  color: #F47A20;
+  font-size: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */
