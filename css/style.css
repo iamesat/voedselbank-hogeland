@@ -141,14 +141,22 @@ header {
 footer {
   background-color: #EFEFEF;
   color: #343434;
-  display: flex;
+}
+footer .footer-rows {
   justify-content: space-between;
+  padding: 2rem 0;
 }
 footer ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 footer ul .footer-title {
   font-weight: 600;
+  margin-bottom: 1rem;
+}
+footer ul li + li {
+  margin-top: 0.25rem;
 }
 footer a {
   color: #343434;
@@ -157,16 +165,65 @@ footer a:hover {
   color: #F47A20;
   text-decoration: none;
 }
+footer .card,
+footer .card-header {
+  border: none;
+  background-color: transparent;
+}
+footer .card-header {
+  padding: 0.75rem 0;
+}
+footer .card-header .btn-link {
+  color: #343434;
+  font-weight: 600;
+}
+footer .card-header .btn-link:active, footer .card-header .btn-link:focus {
+  text-decoration: none;
+}
+footer .card-header .btn-link::after {
+  display: inline-block;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+  position: absolute;
+  right: 0.5rem;
+  top: 1.5rem;
+}
+footer .card-header .btn-link[aria-expanded=true]::after {
+  border-top: 0;
+  border-bottom: 0.3em solid;
+}
+footer .card-body {
+  padding-top: 0;
+}
 footer .footer-side-info {
-  background-color: #AAAAAA;
+  background-color: #e4e4e4;
   padding: 1rem;
-  color: #FFFFFF;
-  text-align: center;
+  color: #343434;
+  font-size: 0.875rem;
 }
 footer .footer-side-info a {
-  color: #FFFFFF;
+  color: #343434;
   display: inline-block;
-  margin-right: 2rem;
+  margin-right: 1rem;
+}
+footer .footer-side-info a:hover {
+  color: #F47A20;
+  text-decoration: none;
+}
+footer .footer-side-info a:first-of-type {
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+@media screen and (min-width: 768px) {
+  footer .footer-side-info a:first-of-type {
+    width: auto;
+    margin-bottom: 0;
+  }
 }
 footer .footer-side-info span {
   margin-right: 1rem;
