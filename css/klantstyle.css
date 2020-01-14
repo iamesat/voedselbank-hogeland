@@ -23,6 +23,10 @@ p {
   font-weight: 300;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #F9F9F9;
 }
@@ -51,20 +55,15 @@ h1 {
 
 .form-personen {
   display: inline-block;
-  width: 17%;
+  width: 6%;
 }
 
 .shadow {
   box-shadow: 0 0.1rem 0.1rem rgba(0, 0, 0, 0.15) !important;
 }
 
-.overlay {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  bottom: 0px;
-  right: 0px;
-  background-color: grey;
+.p-3 {
+  padding: 0rem !important;
 }
 
 /*# sourceMappingURL=klantstyle.css.map */
