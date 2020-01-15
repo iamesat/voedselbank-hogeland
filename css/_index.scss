@@ -2,41 +2,89 @@ main {
 	background-color: $lightgray;
 
 	.cards {
-		padding: 2rem 0;
+		padding: 1rem 0;
+
+		&.select-target {
+			padding: 4rem 0;
+		}
 
 		@media screen and (min-width: 768px) {
 			display: flex;
-			margin: 1rem;
+			padding: 4rem 0;
 		}
 
 		.card {
 			border: none;
+			flex: 1;
 		}
 
 		.card:not(:last-child) {
 			margin-bottom: 2rem;
+
+			@media screen and (min-width: 768px) {
+				margin-bottom: 0;
+				margin-right: 2rem;
+			}
 		}
 
 		.btn {
 			color: $white;
+			font-weight: 700;
 			width: 100%;
+
+			&:focus,
+			&:active {
+				box-shadow: none;
+			}
 		}
 
 		.btn-client {
 			background-color: $green;
+
+			&:hover,
+			&:active,
+			&:focus {
+				background-color: darken($color: $green, $amount: 10%);
+			}
 		}
 
 		.btn-volunteer {
 			background-color: $blue;
+
+			&:hover,
+			&:active,
+			&:focus {
+				background-color: darken($color: $blue, $amount: 10%);
+			}
 		}
 
 		.btn-donate {
 			background-color: $orange;
+
+			&:hover,
+			&:active,
+			&:focus {
+				background-color: darken($color: $orange, $amount: 10%);
+			}
 		}
 	}
 
 	.jumbotron {
 		background-color: $white;
+
+		.jumbotron-flex {
+			@media screen and (min-width: 768px) {
+				display: flex;
+
+				.about-us {
+					padding-left: 3rem;
+				}
+			}
+		}
+
+		img {
+			border-radius: 0.25rem;
+		}
 
 		h1 {
 			font-size: 1.5rem;
@@ -52,10 +100,11 @@ main {
 		}
 
 		.link-about-us {
-			color: $black;
+			text-align: left;
 
 			&:active,
-			&:focus {
+			&:focus,
+			&:hover {
 				text-decoration: none;
 			}
 
@@ -66,26 +115,55 @@ main {
 	}
 
 	.link-arrow {
-		text-align: right;
+		color: $black;
 		display: block;
 		margin-right: 0.5rem;
-		color: $black;
+		text-align: right;
+
+		.fa-arrow-right {
+			transition: all 0.3s ease-in-out;
+		}
+
+		&:hover {
+			.fa-arrow-right {
+				margin-left: 1rem;
+				margin-right: -0.5rem;
+			}
+		}
 	}
 
 	.agenda {
 		h2 {
-			margin-bottom: 1rem;
+			margin: 3rem 0 1rem;
+		}
+
+		.cards {
+			@media screen and (min-width: 768px) {
+				padding-top: 1rem;
+				padding-bottom: 4rem;
+			}
 		}
 
 		.card {
 			margin-bottom: 2rem;
+
+			@media screen and (min-width: 768px) {
+				margin-bottom: 0;
+
+				&:not(:last-child) {
+					margin-right: 2rem;
+				}
+			}
 		}
 
 		.card-title {
-			background-color: $darkgray;
+			background-color: $black;
 			color: $white;
 			padding: 1rem 1rem 1rem 1.5rem;
 			margin: 0;
+			font-size: 1rem;
+			border-top-left-radius: 0.25rem;
+			border-top-right-radius: 0.25rem;
 		}
 
 		.card-text {
@@ -101,9 +179,24 @@ main {
 	}
 
 	.news {
+		padding-bottom: 4rem;
+
+		h2 {
+			@media screen and (min-width: 768px) {
+				min-height: 56px;
+			}
+		}
+
 		h3 {
 			color: $orange;
 			font-size: 1rem;
+		}
+
+		.cards {
+			@media screen and (min-width: 768px) {
+				padding-top: 1rem;
+				padding-bottom: 1rem;
+			}
 		}
 	}
 }

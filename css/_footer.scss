@@ -4,7 +4,7 @@ footer {
 
 	.footer-rows {
 		justify-content: space-between;
-		padding: 2rem 0;
+		padding: 2rem 0 3rem;
 	}
 
 	ul {
@@ -75,13 +75,13 @@ footer {
 	}
 
 	.footer-side-info {
-		background-color: $lightgray;
+		background-color: $black;
 		padding: 1rem;
-		color: $black;
+		color: $white;
 		font-size: 0.875rem;
 
 		a {
-			color: $black;
+			color: $white;
 			display: inline-block;
 			margin-right: 1rem;
 

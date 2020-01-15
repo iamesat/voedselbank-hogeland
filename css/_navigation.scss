@@ -80,6 +80,13 @@ header {
 	font-weight: 600;
 	padding: 0.5rem 1.25rem;
 	width: 100%;
+
+	&:hover,
+	&:active,
+	&:focus {
+		background-color: darken($color: $orange, $amount: 10%);
+		color: $white;
+	}
 }
 
 .dropdown-menu {
