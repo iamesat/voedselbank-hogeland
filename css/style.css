@@ -392,5 +392,17 @@ main .news h3 {
     padding-bottom: 1rem;
   }
 }
+main .news .link-more-news {
+  text-align: right;
+  color: #AAAAAA;
+  display: block;
+  margin-right: 1.5rem;
+}
+main .news .link-more-news:active, main .news .link-more-news:focus, main .news .link-more-news:hover {
+  text-decoration: none;
+}
+main .news .link-more-news i {
+  margin-left: 0.5rem;
+}
 
 /*# sourceMappingURL=style.css.map */

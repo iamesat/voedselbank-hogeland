@@ -198,5 +198,22 @@ main {
 				padding-bottom: 1rem;
 			}
 		}
+
+		.link-more-news {
+			text-align: right;
+			color: $darkgray;
+			display: block;
+			margin-right: 1.5rem;
+
+			&:active,
+			&:focus,
+			&:hover {
+				text-decoration: none;
+			}
+
+			i {
+				margin-left: 0.5rem;
+			}
+		}
 	}
 }
