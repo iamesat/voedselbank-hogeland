@@ -1,7 +1,119 @@
-.btn-link {
-	color: $black;
+@media screen and (min-width: 768px) {
+	main .agenda .issue-moment {
+		padding-bottom: 1rem;
+
+		.card {
+			margin-bottom: 0;
+		}
+	}
+	.download-link-issue {
+		text-align: right;
+		margin-right: 0;
+	}
 }
 
-.card-header {
-	background-color: $white;
+.faq {
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+
+	@media screen and (min-width: 768px) {
+		margin-bottom: 5rem;
+	}
+
+	h2 {
+		margin-bottom: 1rem;
+
+		@media screen and (min-width: 768px) {
+			margin-bottom: 2rem;
+		}
+	}
 }
+
+.accordion {
+	background-color: $white;
+
+	.card,
+	.card-header {
+		border: none;
+	}
+
+	.card,
+	.card:first-of-type,
+	.card:not(:first-of-type):not(:last-of-type) {
+		border-bottom: 2px solid $lightgray;
+	}
+
+	.card:last-of-type {
+		border-bottom: none;
+	}
+
+	.card-header {
+		padding: 0.75rem 0;
+
+		.btn-link {
+			color: $black;
+			font-weight: 600;
+			text-align: left;
+
+			&:active,
+			&:focus,
+			&:hover {
+				text-decoration: none;
+			}
+
+			&::after {
+				display: inline-block;
+				margin-left: 0.255em;
+				vertical-align: 0.255em;
+				content: '';
+				border-top: 0.3em solid;
+				border-right: 0.3em solid transparent;
+				border-bottom: 0;
+				border-left: 0.3em solid transparent;
+				position: absolute;
+				right: 0.5rem;
+				top: 1.8rem;
+			}
+
+			&[aria-expanded='true']::after {
+				border-top: 0;
+				border-bottom: 0.3em solid;
+			}
+		}
+	}
+}
+
+.contact-client {
+	h2 {
+		margin-bottom: 2rem;
+	}
+
+	dt {
+		margin-bottom: 0.5rem;
+	}
+
+	dd {
+		margin-bottom: 1rem;
+	}
+
+	ul {
+		list-style-type: none;
+		padding: 0;
+	}
+
+	i {
+		margin-right: .5rem;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.google-maps {
+		margin: 4rem 4rem 0 0;
+	}
+
+	.jumbotron-issue {
+		padding-bottom: 0;
+	}
+}
+
+

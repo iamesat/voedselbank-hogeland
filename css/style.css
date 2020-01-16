@@ -564,12 +564,106 @@ main .cards.collect-moment {
   margin-left: 0.5rem;
 }
 
-.btn-link {
-  color: #343434;
+@media screen and (min-width: 768px) {
+  main .agenda .issue-moment {
+    padding-bottom: 1rem;
+  }
+  main .agenda .issue-moment .card {
+    margin-bottom: 0;
+  }
+
+  .download-link-issue {
+    text-align: right;
+    margin-right: 0;
+  }
+}
+.faq {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+@media screen and (min-width: 768px) {
+  .faq {
+    margin-bottom: 5rem;
+  }
+}
+.faq h2 {
+  margin-bottom: 1rem;
+}
+@media screen and (min-width: 768px) {
+  .faq h2 {
+    margin-bottom: 2rem;
+  }
 }
 
-.card-header {
+.accordion {
   background-color: #FFFFFF;
+}
+.accordion .card,
+.accordion .card-header {
+  border: none;
+}
+.accordion .card,
+.accordion .card:first-of-type,
+.accordion .card:not(:first-of-type):not(:last-of-type) {
+  border-bottom: 2px solid #EFEFEF;
+}
+.accordion .card:last-of-type {
+  border-bottom: none;
+}
+.accordion .card-header {
+  padding: 0.75rem 0;
+}
+.accordion .card-header .btn-link {
+  color: #343434;
+  font-weight: 600;
+  text-align: left;
+}
+.accordion .card-header .btn-link:active, .accordion .card-header .btn-link:focus, .accordion .card-header .btn-link:hover {
+  text-decoration: none;
+}
+.accordion .card-header .btn-link::after {
+  display: inline-block;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+  position: absolute;
+  right: 0.5rem;
+  top: 1.8rem;
+}
+.accordion .card-header .btn-link[aria-expanded=true]::after {
+  border-top: 0;
+  border-bottom: 0.3em solid;
+}
+
+.contact-client h2 {
+  margin-bottom: 2rem;
+}
+.contact-client dt {
+  margin-bottom: 0.5rem;
+}
+.contact-client dd {
+  margin-bottom: 1rem;
+}
+.contact-client ul {
+  list-style-type: none;
+  padding: 0;
+}
+.contact-client i {
+  margin-right: 0.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .google-maps {
+    margin: 4rem 4rem 0 0;
+  }
+
+  .jumbotron-issue {
+    padding-bottom: 0;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
