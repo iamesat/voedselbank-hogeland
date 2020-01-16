@@ -436,6 +436,19 @@ main ol li {
   padding-left: 0.5rem;
   margin-bottom: 0.5rem;
 }
+@media screen and (min-width: 768px) {
+  main .donate-form {
+    height: 100%;
+    margin-top: -1rem;
+    padding: 9.5rem 2rem;
+  }
+}
+main .donate-form h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid orange;
+  padding-bottom: 0.5rem;
+}
 main .radio-buttons {
   margin-bottom: 1rem;
 }
@@ -464,9 +477,17 @@ main .testimonials .card {
   border: none;
   margin-bottom: 2rem;
 }
+@media screen and (min-width: 768px) {
+  main .testimonials .card {
+    margin-bottom: 0;
+  }
+}
+main .testimonials .card p {
+  font-weight: 700;
+}
 main .testimonials .card .card-title {
   font-weight: 500;
-  color: orange;
+  color: #F47A20;
 }
 
 /*# sourceMappingURL=style.css.map */
