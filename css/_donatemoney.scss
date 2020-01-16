@@ -1,0 +1,79 @@
+main {
+	background-color: $lightgray;
+
+	nav[aria-label='breadcrumb'] {
+		background-color: $black;
+		color: $white;
+
+		.breadcrumb {
+			background-color: $black;
+			padding: 1rem 0;
+		}
+
+		.breadcrumb-item + .breadcrumb-item::before {
+			color: $white;
+		}
+	}
+
+	h1 {
+		font-size: 2rem;
+		font-weight: 700;
+		margin: 2rem 0;
+	}
+
+	.pro-donate {
+		margin: 3rem 0 1rem;
+	}
+
+	ol {
+		margin-bottom: 3rem;
+		padding-left: 1rem;
+		font-weight: 300;
+
+		li {
+			padding-left: 0.5rem;
+			margin-bottom: 0.5rem;
+		}
+	}
+
+	.radio-buttons {
+		margin-bottom: 1rem;
+
+		.form-check-inline {
+			margin-right: 1.5rem;
+		}
+	}
+
+	.input-group-text {
+		border: 0;
+		background-color: $lightgray;
+		font-weight: 500;
+	}
+
+	input.form-control {
+		border: 0;
+		background-color: $lightgray;
+
+		&:focus {
+			box-shadow: none;
+		}
+	}
+
+	.btn-donate {
+		margin: 0.5rem 0 1rem;
+	}
+
+	.testimonials {
+		padding-bottom: 2rem;
+
+		.card {
+			border: none;
+			margin-bottom: 2rem;
+
+			.card-title {
+				font-weight: 500;
+				color: orange;
+			}
+		}
+	}
+}

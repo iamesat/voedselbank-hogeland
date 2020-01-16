@@ -405,4 +405,68 @@ main .news .link-more-news i {
   margin-left: 0.5rem;
 }
 
+main {
+  background-color: #EFEFEF;
+}
+main nav[aria-label=breadcrumb] {
+  background-color: #343434;
+  color: #FFFFFF;
+}
+main nav[aria-label=breadcrumb] .breadcrumb {
+  background-color: #343434;
+  padding: 1rem 0;
+}
+main nav[aria-label=breadcrumb] .breadcrumb-item + .breadcrumb-item::before {
+  color: #FFFFFF;
+}
+main h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 2rem 0;
+}
+main .pro-donate {
+  margin: 3rem 0 1rem;
+}
+main ol {
+  margin-bottom: 3rem;
+  padding-left: 1rem;
+  font-weight: 300;
+}
+main ol li {
+  padding-left: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+main .radio-buttons {
+  margin-bottom: 1rem;
+}
+main .radio-buttons .form-check-inline {
+  margin-right: 1.5rem;
+}
+main .input-group-text {
+  border: 0;
+  background-color: #EFEFEF;
+  font-weight: 500;
+}
+main input.form-control {
+  border: 0;
+  background-color: #EFEFEF;
+}
+main input.form-control:focus {
+  box-shadow: none;
+}
+main .btn-donate {
+  margin: 0.5rem 0 1rem;
+}
+main .testimonials {
+  padding-bottom: 2rem;
+}
+main .testimonials .card {
+  border: none;
+  margin-bottom: 2rem;
+}
+main .testimonials .card .card-title {
+  font-weight: 500;
+  color: orange;
+}
+
 /*# sourceMappingURL=style.css.map */

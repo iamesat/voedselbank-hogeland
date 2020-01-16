@@ -35,7 +35,7 @@
 					</button>
 					<div class="collapse navbar-collapse  justify-content-end" id="navbarNavDropdown">
 						<ul class="navbar-nav">
-							<li class="nav-item active">
+							<li class="nav-item ">
 								<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
 							</li>
 							<li class="nav-item dropdown">
@@ -59,7 +59,7 @@
 									<a class="dropdown-item" href="#">Klantenadministratie</a>
 								</div>
 							</li>
-							<li class="nav-item dropdown">
+							<li class="nav-item dropdown active">
 								<a
 									class="nav-link dropdown-toggle"
 									href="#"
@@ -139,133 +139,78 @@
 		</header>
 
 		<main>
-			<div class="container">
-				<div class="cards select-target">
-					<div class="card">
-						<img class="card-img-top" src="https://picsum.photos/400/300" alt="Card image cap" />
-						<div class="card-body">
-							<h2 class="card-title">Klant worden?</h2>
-							<p class="card-text">Bij Voedselbank Het Hogeland is zelfs en dag helpen voldoende om voor een glimlach van een ander te zorgen.</p>
-							<a href="#" class="btn btn-client">Bekijk de mogelijkheden</a>
-						</div>
-					</div>
-					<div class="card">
-						<img class="card-img-top" src="https://picsum.photos/400/300" alt="Card image cap" />
-						<div class="card-body">
-							<h2 class="card-title">De voedselbank steunen?</h2>
-							<p class="card-text">Bij Voedselbank Het Hogeland is zelfs en dag helpen voldoende om voor een glimlach van een ander te zorgen.</p>
-							<a href="#" class="btn btn-donate">Bekijk de mogelijkheden</a>
-						</div>
-					</div>
-					<div class="card">
-						<img class="card-img-top" src="https://picsum.photos/400/300" alt="Card image cap" />
-						<div class="card-body">
-							<h2 class="card-title">Vrijwilliger worden?</h2>
-							<p class="card-text">
-								Bij Voedselbank Het Hogeland is zelfs en dag helpen voldoende om voor een glimlach van een ander te zorgen.
-							</p>
-							<a href="#" class="btn btn-volunteer">Bekijk de mogelijkheden</a>
-						</div>
-					</div>
+			<nav aria-label="breadcrumb">
+				<div class="container">
+					<ol class="breadcrumb">
+						<li class="breadcrumb-item">Donateurs</li>
+						<li class="breadcrumb-item" aria-current="page">Geld</li>
+					</ol>
 				</div>
+			</nav>
+
+			
+			<div class="container">
+				<h1>Door een donatie van €6,50 kan één gezin geholpen worden</h1>
+				<p>
+					Hoewel het voedsel gratis beschikbaar wordt gesteld en Stichting Voedselbank Het Hogeland alleen met vrijwilligers werken, is het voor ons
+					onmogelijk alle kosten te dekken. We hebben dagelijkse onkosten in de vorm van telefoonkosten, energiekosten, brandstof, verzekeringen, etc.
+					Verder bedragen de extra kosten voor elk voedselpakket tussen de €2 en €3. Dit zijn noodzakelijke onkosten. We proberen deze kosten te
+					dekken via fondsen, sponsoring en giften. Ook uw hulp hebben we nodig.
+				</p>
+				<h3 class="pro-donate">Voordelen van periodiek schenken</h3>
+				<p>
+					Als u geld schenkt aan de voedselbank, dan wordt dit ook wel een periodieke schenking genoemd. De voedselbank is een Algemeen Nut Beogende
+					Instelling (ANBI), het bedrag dat u schenkt kunt u bij uw belastingaangifte volledig aftrekken. Een paar voorwaarden:
+				</p>
+				<ol>
+					<li>De periodieke schenking is schriftelijk vastgelegd in een schenkingsovereenkomst.</li>
+					<li>De schenking heeft een looptijd van minimaal vijf jaar.</li>
+					<li>De schenking bedraagt elk jaar hetzelfde bedrag.</li>
+					<li>De voedselbank levert geen tegenprestatie voor de schenking.</li>
+				</ol>
 			</div>
+
 			<div class="jumbotron jumbotron-fluid">
 				<div class="container">
-					<div class="jumbotron-flex">
-						<div>
-							<img src="https://picsum.photos/400/300" alt="Voedselbank Het Hogeland" />
+					<div class="radio-buttons">
+						<div class="form-check form-check-inline">
+							<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" />
+							<label class="form-check-label" for="inlineRadio1">Eenmalig</label>
 						</div>
-						<div class="col about-us">
-							<h1>Voedselbank Het Hogeland</h1>
-							<h2>Over ons</h2>
-							<p>
-								Voedselbank Het Hogeland is ontstaan uit een samenwerking tussen de stichting Vrienden Arme Kant Winsum, de werkgroep Arme Kant
-								De Marne en de oorspronkelijke voedselbank Eemsmond.
-							</p>
-							<a href="#" class="link-about-us link-arrow">Lees verder <i class="fas fa-arrow-right"></i></a>
+						<div class="form-check form-check-inline">
+							<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2" />
+							<label class="form-check-label" for="inlineRadio2">Maandelijks</label>
 						</div>
 					</div>
+					<div class="input-group mb-3">
+						<div class="input-group-prepend">
+							<span class="input-group-text" id="basic-addon1">€</span>
+						</div>
+						<input type="text" class="form-control" aria-label="Money" aria-describedby="basic-addon1" />
+					</div>
+					<a class="btn btn-nav-donate btn-donate" href="#" role="button">Doneer via iDeal</a>
 				</div>
 			</div>
-			<div class="container agenda">
-				<h2>Agenda</h2>
-				<div class="cards">
-					<div class="card">
-						<h2 class="card-title">17 januari 2020</h2>
-						<div class="card-body">
-							<p class="card-text">
-								<span><i class="far fa-question-circle"></i> Uitgiftemoment achternamen A t/m L </span>
-								<span><i class="far fa-clock"></i> 13:00 - 15:30 uur</span>
-								<span><i class="fas fa-map-marker-alt"></i> Lombok 1, 9951SC Winsum</span>
-							</p>
-							<a href="#" class="link-arrow"><i class="fas fa-arrow-right"></i></a>
-						</div>
-					</div>
-					<div class="card">
-						<h2 class="card-title">24 januari 2020</h2>
-						<div class="card-body">
-							<p class="card-text">
-								<span><i class="far fa-question-circle"></i> Uitgiftemoment achternamen M t/m Z </span>
-								<span><i class="far fa-clock"></i> 13:00 - 15:30 uur</span>
-								<span><i class="fas fa-map-marker-alt"></i> Lombok 1, 9951SC Winsum</span>
-							</p>
-							<a href="#" class="link-arrow"><i class="fas fa-arrow-right"></i></a>
-						</div>
-					</div>
-					<div class="card">
-						<h2 class="card-title">19 februari 2020</h2>
-						<div class="card-body">
-							<p class="card-text">
-								<span><i class="far fa-question-circle"></i> Inzamelmoment </span>
-								<span><i class="far fa-clock"></i> 13:00 - 15:30 uur</span>
-								<span><i class="fas fa-map-marker-alt"></i> Lombok 1, 9951SC Winsum</span>
-							</p>
-							<a href="#" class="link-arrow"><i class="fas fa-arrow-right"></i></a>
-						</div>
+
+			<div class="container testimonials">
+				<div class="card">
+					<div class="card-body">
+						<p class="card-text">"De voedselbank zorgt ervoor dat ik mijn leven kan herpakken."</p>
+						<p class="card-title">Suus Sietzema</p>
 					</div>
 				</div>
-			</div>
-			<div class="container news">
-				<h2>Nieuws</h2>
-				<div class="cards">
-					<div class="card">
-						<img class="card-img-top" src="https://picsum.photos/400/300" alt="Card image cap" />
-						<div class="card-body">
-							<h2 class="card-title">Een 10 voor voedselveiligheid</h2>
-							<h3 class="card-title">25 november 2019</h3>
-							<p class="card-text">
-								Afgelopen week hebben wij het goed nieuws mogen ontvangen dat wij tijdens de controle op voedselveiligheid door Sensz zijn
-								beoordeeld met een 10!
-							</p>
-							<a href="#" class="link-arrow"><i class="fas fa-arrow-right"></i></a>
-						</div>
-					</div>
-					<div class="card">
-						<img class="card-img-top" src="https://picsum.photos/400/300" alt="Card image cap" />
-						<div class="card-body">
-							<h2 class="card-title">Oproep voor Voedselbank Het Hogeland</h2>
-							<h3 class="card-title">18 juli 2019</h3>
-							<p class="card-text">
-								De Voedselbank Het Hogeland is bezig met het oprichten van een inzamel- en promotieteam. Dit team willen we inzetten om bij
-								supermarkten voedsel in te zamelen.
-							</p>
-							<a href="#" class="link-arrow"><i class="fas fa-arrow-right"></i></a>
-						</div>
-					</div>
-					<div class="card">
-						<img class="card-img-top" src="https://picsum.photos/400/300" alt="Card image cap" />
-						<div class="card-body">
-							<h2 class="card-title">Een bijzondere donatie</h2>
-							<h3 class="card-title">17 juni 2019</h3>
-							<p class="card-text">
-								Afgelopen week ontvingen wij een heel bijzondere donatie. Albert en Coba van Lune hebben een tijdje geleden hun zilveren
-								huwelijk mogen vieren.
-							</p>
-							<a href="#" class="link-arrow"><i class="fas fa-arrow-right"></i></a>
-						</div>
+				<div class="card">
+					<div class="card-body">
+						<p class="card-text">"Mijn gezin heeft nu voldoende te eten."</p>
+						<p class="card-title">Pieter Jongman</p>
 					</div>
 				</div>
-				<a class="link-more-news link-arrow" href="#">Lees meer nieuws <i class="fas fa-arrow-right"></i></a>
+				<div class="card">
+					<div class="card-body">
+						<p class="card-text">"Ik kon na het faillisement van mijn bedrijf bij de voedselbank terecht. Ik ben ze daar erg dankbaar voor!"</p>
+						<p class="card-title">Gert de Boer</p>
+					</div>
+				</div>
 			</div>
 		</main>
 
@@ -274,11 +219,11 @@
 				<div id="accordion">
 					<div class="card">
 						<div class="card-header" id="headingOne">
-							<h5 class="mb-0">
+							<h3 class="mb-0">
 								<button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-controls="collapseOne">
 									Over ons
 								</button>
-							</h5>
+							</h3>
 						</div>
 
 						<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
