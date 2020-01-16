@@ -127,16 +127,16 @@
 			</ol>
 
 		  </nav>
-
+<section class="section1">
 		  <div class="container stappen-top shadow p-3 mb-5 bg-white rounded">
 			
 				<div class="media">
 					
 						<div class="container ">
 						<div class="stappen">
-						  <h1 class="dikte">UIT HOEVEEL PERSONEN BESTAAT UW HUISHOUDEN?</h1>
+						  <h1 class="dikte">Uit hoeveel personen bestaat uw huishouden?</h1>
 						  <br>
-						  <label>Mijn huishouden bestaat uit </label> <input type="text" class="form-control form-personen" placeholder="0"><label> &nbsp; personen.</label>
+						  <label>Mijn huishouden bestaat uit </label> <input type="text" id="personenID" class="form-control form-personen" placeholder="0"><label> &nbsp; personen.</label>
 
 						  <div class="container">
 							<div class="row">
@@ -171,7 +171,7 @@
 								&nbsp;
 							  </div>
 							  <div class="col-md-4 float-right">
-								<a href="#stap2"><h3 class="float-right">VOLGENDE STAP<i class="fas fa-arrow-right"></i></h3></a>
+								<a href="#stap2" id="buttonstap2"><h3 class="float-right">Volgende stap<i class="fas fa-arrow-right"></i></h3></a>
 							  </div>
 							</div>
 						  </div>
@@ -186,7 +186,7 @@
 				<div class="media">
 						<div class="container">
 							<div class="stappen">
-						  <h1 class="dikte">VERDIENT U MEER OF MINDER DAN €450,00 PER MAAND?</h1>
+						  <h1 class="dikte">Verdient u meer of minder dan €450,- per maand?</h1>
 						  <br><br>
 							<div class="custom-control custom-radio custom-control-inline">
 							<input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
@@ -230,7 +230,7 @@
 								&nbsp;
 							  </div>
 							  <div class="col-md-4 float-right">
-								<a href="#stap3"><h3 class="float-right">VOLGENDE STAP<i class="fas fa-arrow-right"></i></h3></a>
+								<a href="#stap3" id="buttonstap3"><h3 class="float-right">Volgende stap<i class="fas fa-arrow-right"></i></h3></a>
 							  </div>
 							</div>
 						  </div>
@@ -247,7 +247,7 @@
 					
 						<div class="container">
 							<div class="stappen">
-						  <h1 class="dikte">U KOMT WEL IN AANMERKING VOOR VOEDSELHULP</h1>
+						  <h1 class="dikte">U kom wel in aanmerking voor de voedselhulp</h1>
 						  <br>
 						  <label>U heeft een aanmeldformulier nodig om u aan te melden bij de onderstaande instanties. Download hieronder het aanmeldformulier.</label>
 						  <br><br>
@@ -271,6 +271,8 @@
 						<img src="img/toets/03-tangle.png" class="ml-3" alt="...">
 				  </div>
 			  </div>
+
+			</section>
 
 			  <footer>
 				<div class="container d-lg-none d-xl-none">
@@ -420,6 +422,27 @@
 						<a href="#">Colofon</a>
 					</div>
 				</div>
+
+				<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+					  <div class="modal-content">
+						<div class="modal-header">
+						  <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+						  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						  </button>
+						</div>
+						<div class="modal-body">
+						  ...
+						</div>
+						<div class="modal-footer">
+						  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						  <button type="button" class="btn btn-primary">Save changes</button>
+						</div>
+					  </div>
+					</div>
+				  </div>
+
 			</footer>
 
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->

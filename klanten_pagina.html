@@ -20,7 +20,6 @@
 		<header>
 			<div class="container">
 				<nav class="navbar navbar-expand-lg navbar-light bg-light">
-					
 					<a class="navbar-brand" href="#"><img src="img/logo.png" alt="Voedselbank Het Hogeland"/></a>
 					<button
 						class="navbar-toggler"
@@ -52,10 +51,11 @@
 								</a>
 								<div class="dropdown-menu" aria-labelledby="customerDropdown">
 									<a class="dropdown-item" href="#">Criteriatoets</a>
-									<a class="dropdown-item" href="#">Uitgiftemoment</a>
+									<a class="dropdown-item" href="#">Uitgifte</a>
 									<a class="dropdown-item" href="#">Recepten</a>
-									<a class="dropdown-item" href="#">Klantenadministratie</a>
+									<a class="dropdown-item" href="#">Externe instanties</a>
 									<a class="dropdown-item" href="#">FAQ</a>
+									<a class="dropdown-item" href="#">Klantenadministratie</a>
 								</div>
 							</li>
 							<li class="nav-item dropdown">
@@ -72,8 +72,8 @@
 								</a>
 								<div class="dropdown-menu" aria-labelledby="donateDropdown">
 									<a class="dropdown-item" href="#">Doneren</a>
-									<a class="dropdown-item" href="#">Financiele ondersteuning</a>
-									<a class="dropdown-item" href="#">Materiele ondersteuning</a>
+									<a class="dropdown-item" href="#">Producten</a>
+									<a class="dropdown-item" href="#">Geld</a>
 								</div>
 							</li>
 							<li class="nav-item dropdown">
@@ -110,10 +110,28 @@
 									<a class="dropdown-item" href="#">Geschiedenis</a>
 									<a class="dropdown-item" href="#">Doelen</a>
 									<a class="dropdown-item" href="#">Bestuur</a>
+									<a class="dropdown-item" href="#">Nieuws</a>
 									<a class="dropdown-item" href="#">Contact</a>
 								</div>
 							</li>
 							<li class="navigation-donate"><a class="btn btn-nav-donate" href="#" role="button">Doneer</a></li>
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle"
+									href="#"
+									id="languageDropdown"
+									role="button"
+									data-toggle="dropdown"
+									aria-haspopup="true"
+									aria-expanded="false"
+								>
+									NL
+								</a>
+								<div class="dropdown-menu" aria-labelledby="languageDropdown">
+									<a class="dropdown-item" href="#">NL</a>
+									<a class="dropdown-item" href="#">ENG</a>
+								</div>
+							</li>
 						</ul>
 					</div>
 				</nav>
@@ -128,21 +146,25 @@
 
 		  </nav>
 
+		  <section class="alg-section">
 			<div class="container">
 				<br><br>
-			  <h2>SNEL WETEN OF U IN AANMERKING KOMT<br>
-				VOOR VOEDSELHULP?</h2>
+			  <h2>Snel weten of u in aanmerking komt<br>
+				voor voedselhulp?</h2>
+				<span>CRITERIATOETS</span>
+				<br><br>
 			  <p>Kom snel en eenvoudig te weten of u in aanmerking komt voor de diensten die Voedselbank Het Hogeland<br>
 				u te bieden heeft. De criteriatoets bestaat uit twee stappen waardoor u binnen één minuut weet wat de vervolgstappen zijn.</p>
 				<br>
-				<button type="button" class="btn btn-primary btn-lg">Doe de toets</button>
+				<a href="klanten_toets.html" class="btn btn-primary toetsbutton">Doe de toets</a>
 			</div>
+		</section>
 
 			<section class="section1">
 			<div class="container stappen-top">
 				<div class="row">
 					<div class="col-md-8">
-						<h3>Uitgiftemomenten</h3>
+						<h2>Uitgiftemomenten</h2>
 						<div class="maanden">      
 							<ul>
 							  <li>
@@ -199,7 +221,7 @@
 						  
 					</div>
 					<div class="col-sm">
-						<br>
+						<h2 class="tekst-licht">Download overzicht <i class="fas fa-download"></i> </h2>
 						<div class="maanden maanden-events">      
 							<ul>
 							  <li>
@@ -209,12 +231,116 @@
 						  </div>
 											
 						  <ul class="dagen">  
-							  <li>Uitgiftemoment</li>
+
+							<p class="card-text">
+								<span><i class="far fa-question-circle"></i> Uitgiftemoment</span>
+								<br>
+								<span><i class="far fa-clock"></i> 13:00 - 15:30 uur</span>
+								<br>
+								<span><i class="fas fa-map-marker-alt"></i> Lombok 1, 9951SC Winsum</span>
+							</p>
 							
 						  </ul>
 						  
 					</div>
 				  </div>
+				</div>
+			</section>
+
+			<section class="section1">
+				<div class="container stappen-top">
+					<h2>Veel gestelde vragen</h2>
+					<div class="row">
+						<div class="col-md-8">
+							<div class="accordion" id="accordionExample">
+								<div class="card">
+								  <div class="card-header" id="headingOne">
+									<p class="mb-0">
+									  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+										Wie kan een voedselpakket ophalen? 
+									  </button>
+									</p>
+								  </div>
+
+								  <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+									<div class="card-body">
+									  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+									</div>
+								  </div>
+								</div>
+								<div class="card">
+								  <div class="card-header" id="headingTwo">
+									<p class="mb-0">
+									  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+										Wat moet er worden meegenomen om een voedselpakket op te halen?
+									  </button>
+									</p>
+								  </div>
+								  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+									<div class="card-body">
+									  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+									</div>
+								  </div>
+								</div>
+								<div class="card">
+								  <div class="card-header" id="headingThree">
+									<p class="mb-0">
+									  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+										Moet ik de houdbaarheidsdatum van een product controleren voor consumptie?
+									  </button>
+									</p>
+								  </div>
+								  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+									<div class="card-body">
+									  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+									</div>
+								  </div>
+								</div>
+								<div class="card">
+									<div class="card-header" id="headingFour">
+									  <p class="mb-0">
+										<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+											Wat als ik niet op het uitgiftemoment aanwezig kan zijn?
+										</button>
+									  </p>
+									</div>
+									<div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+									  <div class="card-body">
+										Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+									  </div>
+									</div>
+								  </div>
+								  <div class="card">
+									<div class="card-header" id="headingFive">
+									  <p class="mb-0">
+										<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+											Waar kan ik een klacht indienen?
+										</button>
+									  </p>
+									</div>
+									<div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+									  <div class="card-body">
+										Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+									  </div>
+									</div>
+								  </div>
+							  </div>
+						</div>
+					</div>
+				  </div>
+			  </section>
+
+			  <section class="alg-section">
+				<div class="container">
+					<br><br>
+				  <h2>NIEUW: GOEDKOPE MAALTIJDEN BEREIDEN?<br>
+					VOOR VOEDSELHULP?</h2>
+					<span>KOKEN VOOR 'N PRIKKIE</span>
+					<br><br>
+				  <p>Kom snel en eenvoudig te weten of u in aanmerking komt voor de diensten die Voedselbank Het Hogeland<br>
+					u te bieden heeft. De criteriatoets bestaat uit twee stappen waardoor u binnen één minuut weet wat de vervolgstappen zijn.</p>
+					<br>
+					<a href="#" class="btn btn-primary toetsbutton">Bekijk recepten</a>
 				</div>
 			</section>
 

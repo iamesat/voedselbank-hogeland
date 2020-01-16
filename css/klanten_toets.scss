@@ -5,27 +5,21 @@ html {
     scroll-behavior: smooth;
   }
 
-body {
-    background-color: #F9F9F9;
-}
-
 .media {
     background-color: white;
 }
 
-@media (min-width: 1200px){
-.container {
-    max-width: 1400px;
-}
-}
-
 .stappen-top {
-    padding-top: 2rem;
+    padding-top: 0.5rem;
 }
 
 .stappen {
     padding-top: 25px;
     padding-left: 65px;
+}
+
+.card-text {
+    padding: 30px;
 }
 
 h1 {
@@ -45,9 +39,32 @@ h1 {
     padding: 0rem!important;
 }
 
+.tekst-licht {
+    color: $darkgray;
+}
+
+.breadcrumb {
+    margin-bottom: 0rem;
+}
+
+.alg-section {
+    padding-top: 10px;
+    padding-bottom: 60px;
+}
+
+.alg-section span{
+    // font-weight: 600;
+    color: $blue;
+}
 
 .section1 {
-    background-color: $darkgray;
+    background-color: $backgroundgrey;
+    padding-bottom: 55px;
+    padding-top: 35px;
+}
+
+.section1 h2 {
+    margin: 3rem 0 1rem;
 }
 
 * {
@@ -59,14 +76,14 @@ ul {
 }
 
 .maanden {
-  padding: 16px 25px;
+  padding: 20px 25px;
   width: 100%;
   background: #343434;
 //   text-align: center;
 }
 
 .maanden-events {
-    padding: 16px 25px;
+    padding: 20px 25px;
   }
 
 .maanden ul {
@@ -94,7 +111,7 @@ ul {
 .weekdagen {
   margin: 0;
   padding: 10px 0;
-  background-color: #ddd;
+  background-color: #f7f7f7;
 }
 
 .weekdagen li {
@@ -105,25 +122,33 @@ ul {
 }
 
 .dagen {
-  padding: 10px 0;
-  background: #eee;
+  padding: 20px 0 0 0;
+  background: #fff;
   margin: 0;
 }
 
 .dagen li {
-  list-style-type: none;
-  display: inline-block;
-  width: 13.6%;
-  text-align: center;
-  margin-bottom: 5px;
-  font-size:12px;
-  color: #777;
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 18px;
+    color: #777;
 }
 
 .dagen li .active {
   padding: 5px;
-  background: #9ba1a0;
+  background: #2D8EFC;
   color: white !important
+}
+
+.btn-link {
+    color: $black;
+}
+
+.toetsbutton {
+    font-size: 24px;
 }
 
 @media screen and (max-width:720px) {
@@ -138,3 +163,44 @@ ul {
 @media screen and (max-width: 290px) {
   .weekdagen li, .dagen li {width: 12.2%;}
 }
+
+.card-header {
+    background-color: $white;
+}
+
+.row-striped:nth-of-type(odd){
+    background-color: #efefef;
+    border-left: 4px #000000 solid;
+  }
+  
+  .row-striped:nth-of-type(even){
+    background-color: #ffffff;
+    border-left: 4px #efefef solid;
+  }
+  
+  .row-striped {
+      padding: 15px 0;
+  }
+
+  #stap2 {
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    background-image: linear-gradient(120deg, #000000, #000000);
+    opacity: .4;
+    pointer-events: none;
+  }
+
+  #stap3 {
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    background-image: linear-gradient(120deg, #000000, #000000);
+    opacity: .4;
+    pointer-events: none;
+  }
+
+  #stap-alg
+  {
+    pointer-events: all;
+  }
