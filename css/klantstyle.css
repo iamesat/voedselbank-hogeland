@@ -35,7 +35,7 @@ html {
 }
 
 .stappen {
-  padding-top: 55px;
+  padding-top: 30px;
   padding-left: 65px;
 }
 
@@ -90,6 +90,11 @@ h1 {
 @media (max-width: 768px) {
   .section1 .container {
     max-width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .container img {
+    max-width: 14%;
   }
 }
 * {
@@ -232,6 +237,10 @@ ul {
 
 #stap-alg {
   pointer-events: all;
+}
+
+.toetsbackground {
+  background-color: #2d8efc;
 }
 
 /*# sourceMappingURL=klantstyle.css.map */

@@ -14,7 +14,7 @@ html {
 }
 
 .stappen {
-    padding-top: 55px;
+    padding-top: 30px;
     padding-left: 65px;
 }
 
@@ -74,6 +74,14 @@ h1 {
     max-width: 100%;
 }
 }
+
+@media (max-width: 768px) {
+    .container img {
+    max-width: 14%;
+}
+}
+
+
 
 * {
     box-sizing: border-box;
@@ -211,4 +219,10 @@ ul {
   #stap-alg
   {
     pointer-events: all;
+  }
+
+
+
+  .toetsbackground {
+      background-color: #2d8efc;
   }
