@@ -1,17 +1,7 @@
-
-
 $('#buttonstap2').click(function() {
-    $('#stap2').css({
-        'background-image': 'none',
-        'opacity': '1',
-        'pointer-events': 'all',
-    });
+	$('#stap2').removeClass('overlay');
 });
 
 $('#buttonstap3').click(function() {
-    $('#stap3').css({
-        'background-image': 'none',
-        'opacity': '1',
-        'pointer-events': 'all',
-    });
+	$('#stap3').removeClass('overlay');
 });

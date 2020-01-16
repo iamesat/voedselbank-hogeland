@@ -33,10 +33,10 @@
 					</button>
 					<div class="collapse navbar-collapse  justify-content-end" id="navbarNavDropdown">
 						<ul class="navbar-nav">
-							<li class="nav-item active">
+							<li class="nav-item ">
 								<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
 							</li>
-							<li class="nav-item dropdown">
+							<li class="nav-item dropdown active">
 								<a
 									class="nav-link dropdown-toggle"
 									href="#"
@@ -129,7 +129,7 @@
 				</nav>
 			</div>
 		</header>
-		<main>
+		<main class="main-client-criteria-test">
 			<nav aria-label="breadcrumb">
 				<div class="container">
 					<ol class="breadcrumb">
@@ -139,132 +139,117 @@
 				</div>
 			</nav>
 
-			<section class="section1">
-				<div class="container stappen-top shadow p-3 mb-5 bg-white rounded">
-					<div class="media">
-						<div class="container ">
-							<div class="stappen">
-								<h1 class="dikte">Uit hoeveel personen bestaat uw huishouden?</h1>
-								<br />
-								<label>Mijn huishouden bestaat uit </label>
-								<input type="text" id="personenID" class="form-control form-personen" placeholder="0" /><label> &nbsp; personen.</label>
+			<div class="container question rounded">
+				<div class="left">
+					<h1>Uit hoeveel personen bestaat uw huishouden?</h1>
+					<label>Mijn huishouden bestaat uit </label>
+					<input type="text" id="personenID" class="form-control form-personen" placeholder="0" /><label> &nbsp; personen.</label>
 
-								<div class="container">
-									<div class="row">
-										<div class="col align-self-start"></div>
-										<div class="col align-self-center"></div>
-										<div class="col align-self-end"></div>
-									</div>
-								</div>
+					<a class="next" href="#stap2" id="buttonstap2">Volgende stap <i class="fas fa-arrow-right"></i></a>
+				</div>
+				<img src="img/toets/01-tangle.png" alt="..." />
+			</div>
 
-								<div class="container">
-									<div class="row">
-										<div class="col-lg-12">
-											&nbsp;
-										</div>
-										<div class="col-lg-12">
-											&nbsp;
-										</div>
-										<div class="col-lg-12">
-											&nbsp;
-										</div>
-										<div class="col-lg-12">
-											&nbsp;
-										</div>
-										<div class="col-lg-8">
-											&nbsp;
-										</div>
-										<div class="col-md-4 float-right">
-											<a href="#stap2" id="buttonstap2"
-												><h3 class="float-right">Volgende stap &nbsp;<i class="fas fa-arrow-right"></i></h3
-											></a>
-										</div>
-									</div>
-								</div>
-							</div>
+			<div class="container question rounded overlay" id="stap2">
+				<div class="left">
+					<h1>Verdient u meer of minder dan €450,- per maand?</h1>
+					<div class="custom-control custom-radio custom-control-inline">
+						<input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input" />
+						<label class="custom-control-label" for="customRadioInline1">Meer</label>
+					</div>
+					<div class="custom-control custom-radio custom-control-inline">
+						<input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input" />
+						<label class="custom-control-label" for="customRadioInline2">Minder</label>
+					</div>
+
+					<a class="next" href="#stap3" id="buttonstap3">Volgende stap <i class="fas fa-arrow-right"></i></a>
+				</div>
+				<img src="img/toets/02-tangle.png" alt="..." />
+			</div>
+
+			<div class="container question rounded overlay" id="stap3">
+				<div class="left">
+					<h1>U kom wel in aanmerking voor de voedselhulp</h1>
+					<label
+						>U heeft een aanmeldformulier nodig om u aan te melden bij de onderstaande instanties. Download hieronder het aanmeldformulier.</label
+					>
+					<button type="button" class="btn btn-primary next">Download Overzicht <i class="fas fa-download"></i></button>
+				</div>
+				<img src="img/toets/03-tangle.png" alt="..." />
+			</div>
+
+			<div class="container extern-company">
+				<h2>Externe instanties</h2>
+				<div class="cards">
+					<div class="card">
+						<div class="card-body">
+							<h2 class="card-title">Voedselbank Nederland</h2>
+							<p class="card-text">
+								De overkoepelende organisatie van alle voedselbanken in Nederland.
+							</p>
+							<a href="https://www.voedselbankennederland.nl"><i class="fas fa-globe"></i> www.voedselbankennederland.nl</a>
+							<a href="mailto:welkom@voedselbankennederland.nl"><i class="fas fa-envelope"></i>welkom@voedselbankennederland.nl</a>
+							<a href="tel:+31885435435"><i class="fas fa-phone-alt"></i> 088-543 543 5</a>
 						</div>
-						<img src="img/toets/01-tangle.png" class="ml-3" alt="..." />
+					</div>
+					<div class="card">
+						<div class="card-body">
+							<h2 class="card-title">Humanitas afdeling ’t Hoogeland</h2>
+							<p class="card-text">
+								Vereniging Humanitas komt op voor een samenleving waarin mensen actief vorm geven aan hun eigen leven en verantwoordelijkheid
+								nemen voor het samenleven met elkaar.
+							</p>
+							<a href="https://www.voedselbankennederland.nl"><i class="fas fa-globe"></i> www.voedselbankennederland.nl</a>
+							<a href="mailto:welkom@voedselbankennederland.nl"><i class="fas fa-envelope"></i>welkom@voedselbankennederland.nl</a>
+							<a href="tel:+31885435435"><i class="fas fa-phone-alt"></i> 088-543 543 5</a>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-body">
+							<h2 class="card-title">Mensenwerk Hogeland</h2>
+							<p class="card-text">
+								De overkoepelende organisatie van alle voedselbanken in Nederland.
+							</p>
+							<a href="https://www.voedselbankennederland.nl"><i class="fas fa-globe"></i> www.voedselbankennederland.nl</a>
+							<a href="mailto:welkom@voedselbankennederland.nl"><i class="fas fa-envelope"></i>welkom@voedselbankennederland.nl</a>
+							<a href="tel:+31885435435"><i class="fas fa-phone-alt"></i> 088-543 543 5</a>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-body">
+							<h2 class="card-title">Vluchtelingenwerk Noord-Nederland</h2>
+							<p class="card-text">
+								De overkoepelende organisatie van alle voedselbanken in Nederland.
+							</p>
+							<a href="https://www.voedselbankennederland.nl"><i class="fas fa-globe"></i> www.voedselbankennederland.nl</a>
+							<a href="mailto:welkom@voedselbankennederland.nl"><i class="fas fa-envelope"></i>welkom@voedselbankennederland.nl</a>
+							<a href="tel:+31885435435"><i class="fas fa-phone-alt"></i> 088-543 543 5</a>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-body">
+							<h2 class="card-title">Stichting GoedGeregeld Groningen</h2>
+							<p class="card-text">
+								De overkoepelende organisatie van alle voedselbanken in Nederland.
+							</p>
+							<a href="https://www.voedselbankennederland.nl"><i class="fas fa-globe"></i> www.voedselbankennederland.nl</a>
+							<a href="mailto:welkom@voedselbankennederland.nl"><i class="fas fa-envelope"></i>welkom@voedselbankennederland.nl</a>
+							<a href="tel:+31885435435"><i class="fas fa-phone-alt"></i> 088-543 543 5</a>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-body">
+							<h2 class="card-title">MEE Groningen</h2>
+							<p class="card-text">
+								De overkoepelende organisatie van alle voedselbanken in Nederland.
+							</p>
+							<a href="https://www.voedselbankennederland.nl"><i class="fas fa-globe"></i> www.voedselbankennederland.nl</a>
+							<a href="mailto:welkom@voedselbankennederland.nl"><i class="fas fa-envelope"></i>welkom@voedselbankennederland.nl</a>
+							<a href="tel:+31885435435"><i class="fas fa-phone-alt"></i> 088-543 543 5</a>
+						</div>
 					</div>
 				</div>
-
-				<div class="container stappen-top shadow p-3 mb-5 bg-white rounded" id="stap2">
-					<div class="media">
-						<div class="container">
-							<div class="stappen">
-								<h1 class="dikte">Verdient u meer of minder dan €450,- per maand?</h1>
-								<br /><br />
-								<div class="custom-control custom-radio custom-control-inline">
-									<input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input" />
-									<label class="custom-control-label" for="customRadioInline1">Meer</label>
-								</div>
-								<div class="custom-control custom-radio custom-control-inline">
-									<input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input" />
-									<label class="custom-control-label" for="customRadioInline2">Minder</label>
-								</div>
-
-								<div class="container">
-									<div class="row">
-										<div class="col align-self-start"></div>
-										<div class="col align-self-center"></div>
-										<div class="col align-self-end"></div>
-									</div>
-								</div>
-
-								<div class="container">
-									<div class="row">
-										<div class="col-lg-12">
-											&nbsp;
-										</div>
-										<div class="col-lg-12">
-											&nbsp;
-										</div>
-										<div class="col-lg-12">
-											&nbsp;
-										</div>
-										<div class="col-lg-12">
-											&nbsp;
-										</div>
-										<div class="col-lg-8">
-											&nbsp;
-										</div>
-										<div class="col-md-4 float-right">
-											<a href="#stap3" id="buttonstap3"
-												><h3 class="float-right">Volgende stap &nbsp;<i class="fas fa-arrow-right"></i></h3
-											></a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<img src="img/toets/02-tangle.png" class="ml-3" alt="..." />
-					</div>
-				</div>
-				<div class="container stappen-top shadow p-3 mb-5 bg-white rounded" id="stap3">
-					<div class="media">
-						<div class="container">
-							<div class="stappen">
-								<h1 class="dikte">U kom wel in aanmerking voor de voedselhulp</h1>
-								<br />
-								<label
-									>U heeft een aanmeldformulier nodig om u aan te melden bij de onderstaande instanties. Download hieronder het
-									aanmeldformulier.</label
-								>
-								<br /><br />
-								<button type="button" class="btn btn-primary btn-lg">Download Overzicht &nbsp;<i class="fas fa-download"></i></button>
-
-								<div class="container">
-									<div class="row">
-										<div class="col align-self-start"></div>
-										<div class="col align-self-center"></div>
-										<div class="col align-self-end"></div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<img src="img/toets/03-tangle.png" class="ml-3" alt="..." />
-					</div>
-				</div>
-			</section>
+			</div>
 		</main>
 
 		<footer>
