@@ -10,9 +10,27 @@
 	}
 }
 
+.criteria-heading {
+	margin-bottom: 3rem;
+
+	h1 {
+		margin-bottom: 1rem;
+	}
+
+	h3 {
+		color: $blue;
+		margin-bottom: 1rem;
+	}
+}
+
 .question {
 	background-color: $white;
 	margin-bottom: 3rem;
+
+	h2 {
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+	}
 
 	@media screen and (min-width: 768px) {
 		display: flex;

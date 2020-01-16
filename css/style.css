@@ -671,9 +671,24 @@ main .cards.collect-moment {
 .main-client-criteria-test .breadcrumb {
   margin-bottom: 4rem;
 }
+.criteria-heading {
+  margin-bottom: 3rem;
+}
+.criteria-heading h1 {
+  margin-bottom: 1rem;
+}
+.criteria-heading h3 {
+  color: #2D8EFC;
+  margin-bottom: 1rem;
+}
+
 .question {
   background-color: #FFFFFF;
   margin-bottom: 3rem;
+}
+.question h2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 @media screen and (min-width: 768px) {
   .question {
