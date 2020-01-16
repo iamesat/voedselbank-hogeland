@@ -564,4 +564,12 @@ main .cards.collect-moment {
   margin-left: 0.5rem;
 }
 
+.btn-link {
+  color: #343434;
+}
+
+.card-header {
+  background-color: #FFFFFF;
+}
+
 /*# sourceMappingURL=style.css.map */
