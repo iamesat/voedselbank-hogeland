@@ -36,7 +36,14 @@ main {
 		}
 	}
 
+	.form-donate {
+		padding: 0;
+	}
+
 	.donate-form {
+		padding-left: 2rem;
+		padding-right: 2rem;
+
 		@media screen and (min-width: 768px) {
 			height: 100%;
 			margin-top: -1rem;

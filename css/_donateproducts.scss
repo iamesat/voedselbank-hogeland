@@ -1,0 +1,58 @@
+main .cards {
+	&.collect-moment {
+		display: block;
+	}
+}
+
+.jumbotron-style-list {
+	margin-left: 2rem;
+}
+
+.product-list {
+	margin-top: 3rem;
+
+	h2 {
+		margin-bottom: 1.5rem;
+		margin-left: 1rem;
+	}
+
+	ul {
+		font-weight: 300;
+		padding-left: 0.5rem;
+	}
+
+	p {
+		margin: 2rem 2rem;
+		border-top: 1px solid $darkgray;
+		border-bottom: 1px solid $darkgray;
+		padding: 1rem 0;
+	}
+
+	.download-link {
+		margin-left: 3rem;
+		margin-bottom: 1rem;
+
+		@media screen and (min-width: 768px) {
+			text-align: right;
+			margin-right: 7rem;
+			margin-bottom: 0;
+		}
+	}
+}
+
+.download-link {
+	color: $darkgray;
+	display: block;
+	margin-right: 1.5rem;
+
+	&:active,
+	&:focus,
+	&:hover {
+		text-decoration: none;
+		color: $orange;
+	}
+
+	i {
+		margin-left: 0.5rem;
+	}
+}

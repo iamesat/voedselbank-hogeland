@@ -311,7 +311,7 @@ main .jumbotron h1 {
   margin-bottom: 0.5rem;
   margin-top: 1rem;
 }
-main .jumbotron h2 {
+main .jumbotron h3 {
   color: #F47A20;
   font-size: 1rem;
   margin-bottom: 1rem;
@@ -347,13 +347,10 @@ main .agenda h2 {
     padding-bottom: 4rem;
   }
 }
-main .agenda .card {
+main .agenda .card:not(:last-child) {
   margin-bottom: 2rem;
 }
 @media screen and (min-width: 768px) {
-  main .agenda .card {
-    margin-bottom: 0;
-  }
   main .agenda .card:not(:last-child) {
     margin-right: 2rem;
   }
@@ -377,6 +374,9 @@ main .agenda .card-text span i {
 main .news {
   padding-bottom: 4rem;
 }
+main .news h2 {
+  margin-top: 2rem;
+}
 @media screen and (min-width: 768px) {
   main .news h2 {
     min-height: 56px;
@@ -392,16 +392,16 @@ main .news h3 {
     padding-bottom: 1rem;
   }
 }
-main .news .link-more-news {
+main .link-more-news {
   text-align: right;
   color: #AAAAAA;
   display: block;
   margin-right: 1.5rem;
 }
-main .news .link-more-news:active, main .news .link-more-news:focus, main .news .link-more-news:hover {
+main .link-more-news:active, main .link-more-news:focus, main .link-more-news:hover {
   text-decoration: none;
 }
-main .news .link-more-news i {
+main .link-more-news i {
   margin-left: 0.5rem;
 }
 
@@ -435,6 +435,13 @@ main ol {
 main ol li {
   padding-left: 0.5rem;
   margin-bottom: 0.5rem;
+}
+main .form-donate {
+  padding: 0;
+}
+main .donate-form {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 @media screen and (min-width: 768px) {
   main .donate-form {
@@ -488,6 +495,56 @@ main .testimonials .card p {
 main .testimonials .card .card-title {
   font-weight: 500;
   color: #F47A20;
+}
+
+main .cards.collect-moment {
+  display: block;
+}
+
+.jumbotron-style-list {
+  margin-left: 2rem;
+}
+
+.product-list {
+  margin-top: 3rem;
+}
+.product-list h2 {
+  margin-bottom: 1.5rem;
+  margin-left: 1rem;
+}
+.product-list ul {
+  font-weight: 300;
+  padding-left: 0.5rem;
+}
+.product-list p {
+  margin: 2rem 2rem;
+  border-top: 1px solid #AAAAAA;
+  border-bottom: 1px solid #AAAAAA;
+  padding: 1rem 0;
+}
+.product-list .download-link {
+  margin-left: 3rem;
+  margin-bottom: 1rem;
+}
+@media screen and (min-width: 768px) {
+  .product-list .download-link {
+    text-align: right;
+    margin-right: 7rem;
+    margin-bottom: 0;
+  }
+}
+
+.download-link {
+  color: #AAAAAA;
+  display: block;
+  margin-right: 1.5rem;
+}
+.download-link:active, .download-link:focus, .download-link:hover {
+  text-decoration: none;
+  color: #F47A20;
+}
+.download-link i {
+  margin-left: 0.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */
