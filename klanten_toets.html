@@ -20,7 +20,6 @@
 		<header>
 			<div class="container">
 				<nav class="navbar navbar-expand-lg navbar-light bg-light">
-					
 					<a class="navbar-brand" href="#"><img src="img/logo.png" alt="Voedselbank Het Hogeland"/></a>
 					<button
 						class="navbar-toggler"
@@ -52,10 +51,11 @@
 								</a>
 								<div class="dropdown-menu" aria-labelledby="customerDropdown">
 									<a class="dropdown-item" href="#">Criteriatoets</a>
-									<a class="dropdown-item" href="#">Uitgiftemoment</a>
+									<a class="dropdown-item" href="#">Uitgifte</a>
 									<a class="dropdown-item" href="#">Recepten</a>
-									<a class="dropdown-item" href="#">Klantenadministratie</a>
+									<a class="dropdown-item" href="#">Externe instanties</a>
 									<a class="dropdown-item" href="#">FAQ</a>
+									<a class="dropdown-item" href="#">Klantenadministratie</a>
 								</div>
 							</li>
 							<li class="nav-item dropdown">
@@ -71,8 +71,8 @@
 									Donateurs
 								</a>
 								<div class="dropdown-menu" aria-labelledby="donateDropdown">
-									<a class="dropdown-item" href="#">Financiele ondersteuning</a>
-									<a class="dropdown-item" href="#">Materiele ondersteuning</a>
+									<a class="dropdown-item" href="#">Producten</a>
+									<a class="dropdown-item" href="#">Geld</a>
 								</div>
 							</li>
 							<li class="nav-item dropdown">
@@ -109,10 +109,28 @@
 									<a class="dropdown-item" href="#">Geschiedenis</a>
 									<a class="dropdown-item" href="#">Doelen</a>
 									<a class="dropdown-item" href="#">Bestuur</a>
+									<a class="dropdown-item" href="#">Nieuws</a>
 									<a class="dropdown-item" href="#">Contact</a>
 								</div>
 							</li>
 							<li class="navigation-donate"><a class="btn btn-nav-donate" href="#" role="button">Doneer nu</a></li>
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle"
+									href="#"
+									id="languageDropdown"
+									role="button"
+									data-toggle="dropdown"
+									aria-haspopup="true"
+									aria-expanded="false"
+								>
+									NL
+								</a>
+								<div class="dropdown-menu" aria-labelledby="languageDropdown">
+									<a class="dropdown-item" href="#">NL</a>
+									<a class="dropdown-item" href="#">ENG</a>
+								</div>
+							</li>
 						</ul>
 					</div>
 				</nav>
@@ -126,16 +144,16 @@
 			</ol>
 
 		  </nav>
-
+<section class="section1">
 		  <div class="container stappen-top shadow p-3 mb-5 bg-white rounded">
 			
 				<div class="media">
 					
 						<div class="container ">
 						<div class="stappen">
-						  <h1 class="dikte">UIT HOEVEEL PERSONEN BESTAAT UW HUISHOUDEN?</h1>
+						  <h1 class="dikte">Uit hoeveel personen bestaat uw huishouden?</h1>
 						  <br>
-						  <label>Mijn huishouden bestaat uit </label> <input type="text" class="form-control form-personen" placeholder="0"><label> &nbsp; personen.</label>
+						  <label>Mijn huishouden bestaat uit </label> <input type="text" id="personenID" class="form-control form-personen" placeholder="0"><label> &nbsp; personen.</label>
 
 						  <div class="container">
 							<div class="row">
@@ -163,14 +181,12 @@
 								&nbsp;
 							  </div> <div class="col-lg-12">
 								&nbsp;
-							  </div> <div class="col-lg-12">
-								&nbsp;
 							  </div>
-							  <div class="col-lg-8">
+							   <div class="col-lg-8">
 								&nbsp;
 							  </div>
 							  <div class="col-md-4 float-right">
-								<a href="#stap2"><h3 class="float-right">VOLGENDE STAP<i class="fas fa-arrow-right"></i></h3></a>
+								<a href="#stap2" id="buttonstap2"><h3 class="float-right">Volgende stap<i class="fas fa-arrow-right"></i></h3></a>
 							  </div>
 							</div>
 						  </div>
@@ -185,7 +201,7 @@
 				<div class="media">
 						<div class="container">
 							<div class="stappen">
-						  <h1 class="dikte">VERDIENT U MEER OF MINDER DAN €450,00 PER MAAND?</h1>
+						  <h1 class="dikte">Verdient u meer of minder dan €450,- per maand?</h1>
 						  <br><br>
 							<div class="custom-control custom-radio custom-control-inline">
 							<input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
@@ -220,16 +236,14 @@
 								&nbsp;
 							  </div> <div class="col-lg-12">
 								&nbsp;
-							  </div> <div class="col-lg-12">
-								&nbsp;
-							  </div> <div class="col-lg-12">
+							  </div><div class="col-lg-12">
 								&nbsp;
 							  </div>
 							  <div class="col-lg-8">
 								&nbsp;
 							  </div>
 							  <div class="col-md-4 float-right">
-								<a href="#stap3"><h3 class="float-right">VOLGENDE STAP<i class="fas fa-arrow-right"></i></h3></a>
+								<a href="#stap3" id="buttonstap3"><h3 class="float-right">Volgende stap<i class="fas fa-arrow-right"></i></h3></a>
 							  </div>
 							</div>
 						  </div>
@@ -246,7 +260,7 @@
 					
 						<div class="container">
 							<div class="stappen">
-						  <h1 class="dikte">U KOMT WEL IN AANMERKING VOOR VOEDSELHULP</h1>
+						  <h1 class="dikte">U kom wel in aanmerking voor de voedselhulp</h1>
 						  <br>
 						  <label>U heeft een aanmeldformulier nodig om u aan te melden bij de onderstaande instanties. Download hieronder het aanmeldformulier.</label>
 						  <br><br>
@@ -270,6 +284,8 @@
 						<img src="img/toets/03-tangle.png" class="ml-3" alt="...">
 				  </div>
 			  </div>
+
+			</section>
 
 			  <footer>
 				<div class="container d-lg-none d-xl-none">
@@ -417,6 +433,27 @@
 						<a href="#">Colofon</a>
 					</div>
 				</div>
+
+				<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+					  <div class="modal-content">
+						<div class="modal-header">
+						  <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+						  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						  </button>
+						</div>
+						<div class="modal-body">
+						  ...
+						</div>
+						<div class="modal-footer">
+						  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						  <button type="button" class="btn btn-primary">Save changes</button>
+						</div>
+					  </div>
+					</div>
+				  </div>
+
 			</footer>
 
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
