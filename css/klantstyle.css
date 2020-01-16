@@ -35,7 +35,7 @@ html {
 }
 
 .stappen {
-  padding-top: 25px;
+  padding-top: 55px;
   padding-left: 65px;
 }
 
@@ -78,7 +78,7 @@ h1 {
 }
 
 .section1 {
-  background-color: #F9F9F9;
+  background-color: #F2F2F2;
   padding-bottom: 55px;
   padding-top: 35px;
 }
@@ -87,6 +87,11 @@ h1 {
   margin: 3rem 0 1rem;
 }
 
+@media (max-width: 768px) {
+  .section1 .container {
+    max-width: 100%;
+  }
+}
 * {
   box-sizing: border-box;
 }
