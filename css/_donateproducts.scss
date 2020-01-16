@@ -1,6 +1,21 @@
 main .cards {
 	&.collect-moment {
 		display: block;
+		padding-bottom: 2rem;
+	}
+}
+
+.donate-product-info {
+	margin-bottom: 4rem;
+
+	.agenda .cards .card {
+		@media screen and (min-width: 768px) {
+			margin-right: 0;
+		}
+
+		.card-title {
+			background-color: $orange;
+		}
 	}
 }
 
@@ -14,6 +29,7 @@ main .cards {
 	h2 {
 		margin-bottom: 1.5rem;
 		margin-left: 1rem;
+		color: $orange;
 	}
 
 	ul {
@@ -29,12 +45,11 @@ main .cards {
 	}
 
 	.download-link {
-		margin-left: 3rem;
+		margin-left: 2rem;
 		margin-bottom: 1rem;
 
 		@media screen and (min-width: 768px) {
 			text-align: right;
-			margin-right: 7rem;
 			margin-bottom: 0;
 		}
 	}
