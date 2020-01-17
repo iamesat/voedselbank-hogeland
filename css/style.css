@@ -665,6 +665,10 @@ main .cards.collect-moment {
     padding-bottom: 0;
   }
 }
+html {
+  scroll-behavior: smooth;
+}
+
 .main-client-criteria-test {
   padding-bottom: 4rem;
 }
