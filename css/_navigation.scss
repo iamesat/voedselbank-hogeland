@@ -117,3 +117,7 @@ header {
 .navbar-light .navbar-nav .nav-link {
 	color: $black;
 }
+
+.navbar-nav li:hover>.dropdown-menu {
+	display: block;
+  }

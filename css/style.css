@@ -141,6 +141,10 @@ header {
   color: #343434;
 }
 
+.navbar-nav li:hover > .dropdown-menu {
+  display: block;
+}
+
 footer {
   background-color: #f8f9fa;
   color: #343434;
