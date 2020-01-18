@@ -774,4 +774,34 @@ main .extern-company p {
   }
 }
 
+.main-volunteer-jobs .breadcrumb {
+  margin-bottom: 0rem;
+}
+.main-volunteer-jobs .btn-volunteer {
+  color: #FFFFFF;
+  background-color: #6BCB4F;
+  font-weight: 700;
+  max-width: 100%;
+  padding: 15px;
+  height: 22%;
+}
+.main-volunteer-jobs .btn-volunteer:hover, .main-volunteer-jobs .btn-volunteer:active, .main-volunteer-jobs .btn-volunteer:focus {
+  background-color: #51b235;
+}
+.main-volunteer-jobs h3 {
+  color: #6BCB4F !important;
+}
+.main-volunteer-jobs p {
+  font-size: 1rem;
+}
+.main-volunteer-jobs .helpbox p {
+  margin-bottom: 2.5rem;
+}
+.main-volunteer-jobs .vacatures {
+  padding: 1.25rem;
+}
+.main-volunteer-jobs .vacatures h3 {
+  padding-bottom: 1rem;
+}
+
 /*# sourceMappingURL=style.css.map */

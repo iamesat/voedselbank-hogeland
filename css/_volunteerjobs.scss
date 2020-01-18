@@ -1,0 +1,49 @@
+.main-volunteer-jobs{
+
+
+.breadcrumb {
+    margin-bottom: 0rem;
+}
+
+
+.btn-volunteer {
+
+    color: $white;
+    background-color: $green;
+    font-weight: 700;
+    max-width: 100%;
+    padding: 15px;
+    height: 22%;
+
+    &:hover,
+    &:active,
+    &:focus {
+        background-color: darken($color: $green, $amount: 10%);
+    }
+}
+
+h3 {
+    color: $green !important;
+}
+
+p {
+    font-size: 1rem;
+}
+
+.helpbox {
+    p {
+        margin-bottom: 2.5rem;
+    }
+}
+
+.vacatures {
+    padding: 1.25rem;
+
+    h3 {
+        padding-bottom: 1rem;
+    }
+}
+
+
+
+}
