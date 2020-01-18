@@ -1,6 +1,6 @@
 html {
 	scroll-behavior: smooth;
-  }
+}
 
 .main-client-criteria-test {
 	padding-bottom: 4rem;
@@ -10,7 +10,6 @@ html {
 	}
 
 	.cards {
-
 	}
 }
 
@@ -83,12 +82,6 @@ html {
 	width: 2.6rem;
 }
 
-.overlay {
-	height: 100%;
-	width: 100%;
-	z-index: 10;
-	opacity: 0.4;
-	pointer-events: none;
+.hide {
+	display: none;
 }
-
-

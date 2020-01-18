@@ -1,9 +1,9 @@
 $('#buttonstap2').click(function() {
-	$('#stap2').removeClass('overlay');
+	$('#stap2').removeClass('hide');
 });
 
 $('#buttonstap3').click(function() {
-	$('#stap3').removeClass('overlay');
+	$('#stap3').removeClass('hide');
 });
 
 $(document).ready(function(){
