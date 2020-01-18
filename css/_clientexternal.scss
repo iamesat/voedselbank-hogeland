@@ -1,0 +1,44 @@
+main.main-client-external {
+	a {
+		display: block;
+		margin-bottom: 0.5rem;
+		text-decoration: none;
+
+		i {
+			margin-right: 0.5rem;
+		}
+	}
+
+	p {
+		margin-bottom: 2rem;
+	}
+
+	.criteria-heading {
+		margin-bottom: 2rem;
+	}
+
+	@media screen and (min-width: 768px) {
+		.cards {
+			flex-wrap: wrap;
+			padding-bottom: 2rem;
+			padding-top: 2rem;
+
+			.card {
+				flex: auto;
+				margin-bottom: 2rem;
+				margin-right: 2rem;
+				width: calc(33% - 2rem);
+
+				.card-body {
+					display: flex;
+					flex-direction: column;
+					justify-content: space-between;
+
+					> div:first-child {
+						margin-bottom: 2rem;
+					}
+				}
+			}
+		}
+	}
+}
