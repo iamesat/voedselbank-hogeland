@@ -274,16 +274,16 @@ main .cards .btn:focus, main .cards .btn:active {
   box-shadow: none;
 }
 main .cards .btn-client {
-  background-color: #6BCB4F;
-}
-main .cards .btn-client:hover, main .cards .btn-client:active, main .cards .btn-client:focus {
-  background-color: #51b235;
-}
-main .cards .btn-volunteer {
   background-color: #2D8EFC;
 }
-main .cards .btn-volunteer:hover, main .cards .btn-volunteer:active, main .cards .btn-volunteer:focus {
+main .cards .btn-client:hover, main .cards .btn-client:active, main .cards .btn-client:focus {
   background-color: #0373f3;
+}
+main .cards .btn-volunteer {
+  background-color: #6BCB4F;
+}
+main .cards .btn-volunteer:hover, main .cards .btn-volunteer:active, main .cards .btn-volunteer:focus {
+  background-color: #51b235;
 }
 main .cards .btn-donate {
   background-color: #F47A20;

@@ -39,22 +39,22 @@ main {
 		}
 
 		.btn-client {
-			background-color: $green;
-
-			&:hover,
-			&:active,
-			&:focus {
-				background-color: darken($color: $green, $amount: 10%);
-			}
-		}
-
-		.btn-volunteer {
 			background-color: $blue;
 
 			&:hover,
 			&:active,
 			&:focus {
 				background-color: darken($color: $blue, $amount: 10%);
+			}
+		}
+
+		.btn-volunteer {
+			background-color: $green;
+
+			&:hover,
+			&:active,
+			&:focus {
+				background-color: darken($color: $green, $amount: 10%);
 			}
 		}
 
