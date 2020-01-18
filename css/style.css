@@ -236,6 +236,9 @@ footer .footer-side-info a:first-of-type {
 footer .footer-side-info span {
   margin-right: 1rem;
 }
+footer .navigation-donate {
+  margin-top: 0.3rem;
+}
 
 img {
   height: auto;
