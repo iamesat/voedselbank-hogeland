@@ -1,0 +1,22 @@
+.main-client-recipes {
+	.recipes {
+		h3 {
+			color: $blue;
+		}
+
+		@media screen and (min-width: 768px) {
+			.cards {
+				display: flex;
+				flex-wrap: wrap;
+				padding: 2rem 0;
+
+				.card {
+					flex: auto;
+					margin-bottom: 2rem;
+					margin-right: 2rem;
+					width: calc(33% - 2rem);
+				}
+			}
+		}
+	}
+}

@@ -49,9 +49,11 @@
 									Klanten
 								</a>
 								<div class="dropdown-menu" aria-labelledby="customerDropdown">
-									<a class="dropdown-item" href="client-criteria-test.html">Criteriatoets</a>
-									<a class="dropdown-item" href="client-issue.html">Uitgifte</a>
-									<a class="dropdown-item" href="client-recipes.html">Recepten</a>
+									<a class="dropdown-item" href="client-external.html">Aanmelden</a
+									><a class="dropdown-item" href="client-issue.html">Uitgifte</a
+									><a class="dropdown-item" href="client-criteria-test.html">Criteriatoets</a>
+									<a class="dropdown-item" href="client-recipes.html">Recepten</a
+									><a class="dropdown-item" href="client-administration.html">Klantadministratie</a>
 								</div>
 							</li>
 							<li class="nav-item dropdown">
@@ -101,10 +103,10 @@
 									Over ons
 								</a>
 								<div class="dropdown-menu" aria-labelledby="aboutUsDropdown">
-									<a class="dropdown-item" href="#">De voedselbank</a>
+									<a class="dropdown-item" href="#">Ons verhaal</a>
 									<a class="dropdown-item" href="#">Nieuws</a>
-									<a class="dropdown-item" href="contact.html">Contact</a>
-
+									<a class="dropdown-item" href="aboutus-faq.html">Veelgestelde vragen</a
+									><a class="dropdown-item" href="aboutus-contact.html">Contact</a>
 								</div>
 							</li>
 							<li class="navigation-donate"><a class="btn btn-nav-donate" href="donate-money.html" role="button">Doneer nu</a></li>
@@ -160,9 +162,17 @@
 				<img src="img/toets/01-tangle.png" alt="..." />
 			</div>
 
-			<div class="container question rounded overlay" id="stap2">
+			<div class="container question rounded hide" id="stap2">
 				<div class="left">
-					<h2>Verdient u meer of minder dan €450,- per maand?<a href="#stap2" data-toggle="popover" data-content="Waarom inschrijven?"><i class="fas fa-question-circle"></i></a></h2>
+					<h2>
+						Heeft u meer of minder dan €450,- te besteden na aftrek van uw vaste lasten?
+						<!-- <a
+							href="#stap2"
+							data-toggle="popover"
+							data-content="Waarom inschrijven?"
+							><i class="fas fa-question-circle"></i
+						></a> -->
+					</h2>
 					<div class="custom-control custom-radio custom-control-inline">
 						<input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input" />
 						<label class="custom-control-label" for="customRadioInline1">Meer</label>
@@ -176,93 +186,17 @@
 				<img src="img/toets/02-tangle.png" alt="..." />
 			</div>
 
-			<div class="container question rounded overlay" id="stap3">
+			<div class="container question rounded hide" id="stap3">
 				<div class="left">
 					<h2>U komt in aanmerking voor een voedselpakket van de voedselbank</h2>
 					<label
-						>Download hieronder het aanmeldformulier. Afhankelijk van uw situatie kunt u contact zoeken met een van de onderstaande externe
+						>Download hieronder het aanmeldformulier. Afhankelijk van uw situatie kunt u contact zoeken met een externe
 						instanties om de aanmelding te voltooien. In het gedownloadde aanmeldformulier vindt u welke gegevens u dient mee te nemen naar de
 						gekozen instanties.</label
 					>
 					<button type="button" class="btn btn-primary next">Download aanmeldformulier <i class="fas fa-download"></i></button>
 				</div>
 				<img src="img/toets/03-tangle.png" alt="..." />
-			</div>
-
-			<div class="container extern-company">
-				<h2>Externe instanties</h2>
-				<div class="cards">
-					<div class="card">
-						<div class="card-body">
-							<h2 class="card-title">Voedselbank Nederland</h2>
-							<p class="card-text">
-								De overkoepelende organisatie van alle voedselbanken in Nederland.
-							</p>
-							<a href="https://www.voedselbankennederland.nl"><i class="fas fa-globe"></i> www.voedselbankennederland.nl</a>
-							<a href="mailto:welkom@voedselbankennederland.nl"><i class="fas fa-envelope"></i>welkom@voedselbankennederland.nl</a>
-							<a href="tel:+31885435435"><i class="fas fa-phone-alt"></i> 088-543 543 5</a>
-						</div>
-					</div>
-					<div class="card">
-						<div class="card-body">
-							<h2 class="card-title">Humanitas afdeling ’t Hoogeland</h2>
-							<p class="card-text">
-								Vereniging Humanitas komt op voor een samenleving waarin mensen actief vorm geven aan hun eigen leven en verantwoordelijkheid
-								nemen voor het samenleven met elkaar.
-							</p>
-							<a href="https://www.humanitas.nl"><i class="fas fa-globe"></i> www.humanitas.nl</a>
-							<a href="mailto:afdeling.hoogeland@humanitas.nl"><i class="fas fa-envelope"></i>afdeling.hoogeland@humanitas.nl</a>
-							<a href="tel:+31645029915"><i class="fas fa-phone-alt"></i> 06-45029915</a>
-						</div>
-					</div>
-					<div class="card">
-						<div class="card-body">
-							<h2 class="card-title">Mensenwerk Hogeland</h2>
-							<p class="card-text">
-								Mensenwerk Hogeland is een stichting die zich sterk maakt voor het welzijn van alle inwoners van de gemeenten Bedum, De Marne,
-								Winsum en Eemsmond.
-							</p>
-							<a href="https://www.mensenwerkhogeland.nl "><i class="fas fa-globe"></i> www.mensenwerkhogeland.nl </a>
-							<a href="mailto:info@mensenwerkhogeland.nl"><i class="fas fa-envelope"></i>info@mensenwerkhogeland.nl</a>
-							<a href="tel:+31595745090"><i class="fas fa-phone-alt"></i> 0595-745090</a>
-						</div>
-					</div>
-					<div class="card">
-						<div class="card-body">
-							<h2 class="card-title">Vluchtelingenwerk Noord-Nederland</h2>
-							<p class="card-text">
-								VluchtelingenWerk Nederland behartigt de belangen van vluchtelingen en asielzoekers in Nederland, vanaf het moment van
-								binnenkomst tot en met de integratie in de Nederlandse samenleving.
-							</p>
-							<a href="https://www.vluchtelingenwerk.nl"><i class="fas fa-globe"></i> www.vluchtelingenwerk.nl</a>
-							<a href="mailto:info-noord@vluchtelingenwerk.nl"><i class="fas fa-envelope"></i>info-noord@vluchtelingenwerk.nl</a>
-							<a href="tel:+31505757290"><i class="fas fa-phone-alt"></i> 050-5757290</a>
-						</div>
-					</div>
-					<div class="card">
-						<div class="card-body">
-							<h2 class="card-title">Stichting GoedGeregeld Groningen</h2>
-							<p class="card-text">
-								Stichting GoedGeregeld biedt ambulante begeleiding aan mensen die volop in de complexiteit van het leven staan. Soms veroorzaakt
-								door onmacht, soms door psychische - en/of verstandelijke beperkingen, soms door de omgeving.
-							</p>
-							<a href="https://www.stichtinggoedgeregeld.nl "><i class="fas fa-globe"></i> www.stichtinggoedgeregeld.nl </a>
-							<a href="mailto:info@stichtinggoedgeregeld.nl"><i class="fas fa-envelope"></i>info@stichtinggoedgeregeld.nl</a>
-							<a href="tel:+31612878251"><i class="fas fa-phone-alt"></i> 06-12878251</a>
-						</div>
-					</div>
-					<div class="card">
-						<div class="card-body">
-							<h2 class="card-title">MEE Groningen</h2>
-							<p class="card-text">
-								MEE Groningen ondersteunt mensen met een beperking op alle levensgebieden waardoor zij mee kunnen doen in de samenleving.
-							</p>
-							<a href="https://www.meegroningen.nl"><i class="fas fa-globe"></i> www.meegroningen.nl</a>
-							<a href="mailto:mee@meegroningen.nl"><i class="fas fa-envelope"></i>mee@meegroningen.nl</a>
-							<a href="tel:+31505274500"><i class="fas fa-phone-alt"></i> 050-5274500</a>
-						</div>
-					</div>
-				</div>
 			</div>
 		</main>
 
@@ -283,9 +217,8 @@
 								<ul>
 									<li><a href="#">Ons Verhaal</a></li>
 									<li><a href="#">Nieuws</a></li>
-									<li><a href="contact.html">Contact</a></li>
-
-
+									<li><a href="aboutus-faq.html">Veelgestelde vragen</a></li>
+									<li><a href="aboutus-contact.html">Contact</a></li>
 								</ul>
 							</div>
 						</div>
@@ -309,7 +242,8 @@
 								<ul>
 									<li><a href="client-criteria-test.html">Criteriatoets</a></li>
 									<li><a href="client-issue.html">Uitgifte</a></li>
-									<li><a href="#">Recepten</a></li>
+									<li><a href="client-recipes.html">Recepten</a></li>
+									<li><a href="client-external.html">Aanmelden</a></li>
 								</ul>
 							</div>
 						</div>
@@ -368,9 +302,8 @@
 						<li class="footer-title"><a href="index.html">Over ons</a></li>
 						<li><a href="#">Ons verhaal</a></li>
 						<li><a href="#">Nieuws</a></li>
-						<li><a href="contact.html">Contact</a></li>
-
-
+						<li><a href="aboutus-faq.html">Veelgestelde vragen</a></li>
+						<li><a href="aboutus-contact.html">Contact</a></li>
 					</ul>
 				</div>
 				<div class="col">
@@ -378,7 +311,8 @@
 						<li class="footer-title">Klanten</li>
 						<li><a href="client-criteria-test.html">Criteriatoets</a></li>
 						<li><a href="client-issue.html">Uitgifte</a></li>
-						<li><a href="#">Recepten</a></li>
+						<li><a href="client-recipes.html">Recepten</a></li>
+						<li><a href="client-external.html">Aanmelden</a></li>
 					</ul>
 				</div>
 				<div class="col">

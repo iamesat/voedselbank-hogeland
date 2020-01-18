@@ -1,6 +1,7 @@
 body {
   font-family: "Source Sans Pro", sans-serif;
   color: #343434;
+  font-size: 1.125rem;
 }
 
 h1 {
@@ -18,8 +19,8 @@ h3 {
 }
 
 p {
-  font-size: 1rem;
-  font-weight: 300;
+  font-size: 1.125rem;
+  font-weight: 400;
 }
 
 header {
@@ -345,24 +346,27 @@ main .link-arrow:hover .fa-arrow-right {
   margin-left: 1rem;
   margin-right: -0.5rem;
 }
-main .agenda h2 {
+main.homepage .agenda, main.client-issue .agenda {
+  padding-bottom: 0;
+}
+main.homepage .agenda h2, main.client-issue .agenda h2 {
   margin: 3rem 0 1rem;
 }
 @media screen and (min-width: 768px) {
-  main .agenda .cards {
+  main.homepage .agenda .cards, main.client-issue .agenda .cards {
     padding-top: 1rem;
-    padding-bottom: 4rem;
+    padding-bottom: 2rem;
   }
 }
-main .agenda .card:not(:last-child) {
+main.homepage .agenda .cards .card, main.client-issue .agenda .cards .card {
   margin-bottom: 2rem;
 }
 @media screen and (min-width: 768px) {
-  main .agenda .card:not(:last-child) {
+  main.homepage .agenda .cards .card:not(:last-child), main.client-issue .agenda .cards .card:not(:last-child) {
     margin-right: 2rem;
   }
 }
-main .agenda .card-title {
+main.homepage .agenda .card-title, main.client-issue .agenda .card-title {
   background-color: #343434;
   color: #FFFFFF;
   padding: 1rem 1rem 1rem 1.5rem;
@@ -371,12 +375,31 @@ main .agenda .card-title {
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
 }
-main .agenda .card-text span {
+main.homepage .agenda .card-text span, main.client-issue .agenda .card-text span {
   display: block;
   margin-top: 0.5rem;
 }
-main .agenda .card-text span i {
+main.homepage .agenda .card-text span i, main.client-issue .agenda .card-text span i {
   margin-right: 0.5rem;
+}
+main.client-issue .agenda {
+  padding-bottom: 2rem;
+}
+@media screen and (min-width: 768px) {
+  main.client-issue .agenda {
+    padding-bottom: 4rem;
+  }
+}
+main.client-issue .agenda .cards .card:last-child {
+  margin-bottom: 0;
+}
+@media screen and (min-width: 768px) {
+  main.client-issue .agenda .cards {
+    padding-bottom: 0;
+  }
+  main.client-issue .agenda .cards .card:last-child {
+    margin-bottom: 2rem;
+  }
 }
 main .news {
   padding-bottom: 4rem;
@@ -571,6 +594,15 @@ main .cards.collect-moment {
   margin-left: 0.5rem;
 }
 
+.agenda {
+  padding-bottom: 2rem;
+}
+@media screen and (min-width: 768px) {
+  .agenda {
+    padding-bottom: 4rem;
+  }
+}
+
 @media screen and (min-width: 768px) {
   main .agenda .issue-moment {
     padding-bottom: 1rem;
@@ -584,68 +616,6 @@ main .cards.collect-moment {
     margin-right: 0;
   }
 }
-.faq {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-}
-@media screen and (min-width: 768px) {
-  .faq {
-    margin-bottom: 5rem;
-  }
-}
-.faq h2 {
-  margin-bottom: 1rem;
-}
-@media screen and (min-width: 768px) {
-  .faq h2 {
-    margin-bottom: 2rem;
-  }
-}
-
-.accordion {
-  background-color: #FFFFFF;
-}
-.accordion .card,
-.accordion .card-header {
-  border: none;
-}
-.accordion .card,
-.accordion .card:first-of-type,
-.accordion .card:not(:first-of-type):not(:last-of-type) {
-  border-bottom: 2px solid #EFEFEF;
-}
-.accordion .card:last-of-type {
-  border-bottom: none;
-}
-.accordion .card-header {
-  padding: 0.75rem 0;
-}
-.accordion .card-header .btn-link {
-  color: #343434;
-  font-weight: 600;
-  text-align: left;
-}
-.accordion .card-header .btn-link:active, .accordion .card-header .btn-link:focus, .accordion .card-header .btn-link:hover {
-  text-decoration: none;
-}
-.accordion .card-header .btn-link::after {
-  display: inline-block;
-  margin-left: 0.255em;
-  vertical-align: 0.255em;
-  content: "";
-  border-top: 0.3em solid;
-  border-right: 0.3em solid transparent;
-  border-bottom: 0;
-  border-left: 0.3em solid transparent;
-  position: absolute;
-  right: 0.5rem;
-  top: 1.8rem;
-}
-.accordion .card-header .btn-link[aria-expanded=true]::after {
-  border-top: 0;
-  border-bottom: 0.3em solid;
-}
-
 .contact-client h2 {
   margin-bottom: 2rem;
 }
@@ -748,36 +718,78 @@ html {
   width: 2.6rem;
 }
 
-.overlay {
-  height: 100%;
-  width: 100%;
-  z-index: 10;
-  opacity: 0.4;
-  pointer-events: none;
+.hide {
+  display: none;
 }
 
-main .extern-company a {
-  display: block;
-  margin-bottom: 0.5rem;
-  text-decoration: none;
-}
-main .extern-company a i {
-  margin-right: 0.5rem;
-}
-main .extern-company p {
-  margin-bottom: 2rem;
+.main-client-recipes .recipes h3 {
+  color: #2D8EFC;
 }
 @media screen and (min-width: 768px) {
-  main .extern-company .cards {
+  .main-client-recipes .recipes .cards {
+    display: flex;
     flex-wrap: wrap;
-    padding-top: 2rem;
-    padding-bottom: 0;
+    padding: 2rem 0;
   }
-  main .extern-company .cards .card {
+  .main-client-recipes .recipes .cards .card {
     flex: auto;
     margin-bottom: 2rem;
     margin-right: 2rem;
     width: calc(33% - 2rem);
+  }
+}
+
+main.main-client-external a {
+  display: block;
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+}
+main.main-client-external a i {
+  margin-right: 0.5rem;
+}
+main.main-client-external p {
+  margin-bottom: 2rem;
+}
+main.main-client-external .criteria-heading {
+  margin-bottom: 2rem;
+}
+@media screen and (min-width: 768px) {
+  main.main-client-external .cards {
+    flex-wrap: wrap;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+  }
+  main.main-client-external .cards .card {
+    flex: auto;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+    width: calc(33% - 2rem);
+  }
+  main.main-client-external .cards .card .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  main.main-client-external .cards .card .card-body > div:first-child {
+    margin-bottom: 2rem;
+  }
+}
+
+.main-client-administration {
+  padding-bottom: 2rem;
+}
+@media screen and (min-width: 768px) {
+  .main-client-administration {
+    padding-bottom: 4rem;
+  }
+}
+
+.flex {
+  padding-top: 2rem;
+}
+@media screen and (min-width: 768px) {
+  .flex {
+    display: flex;
   }
 }
 
@@ -811,42 +823,67 @@ main .extern-company p {
   padding-bottom: 1rem;
 }
 
-.breadcrumb {
-  margin-bottom: 0rem;
+.faq {
+  margin-top: 3rem;
+  padding-bottom: 3rem;
+}
+@media screen and (min-width: 768px) {
+  .faq {
+    margin-bottom: 0;
+    padding-bottom: 4rem;
+  }
+}
+.faq h2 {
+  margin-bottom: 1rem;
+}
+@media screen and (min-width: 768px) {
+  .faq h2 {
+    margin-bottom: 2rem;
+  }
 }
 
-.main-about-us .about-us {
-  padding-left: 0rem !important;
-}
-.main-about-us h3 {
-  color: #F47A20;
-}
-.main-about-us .overons .card-title {
-  background-color: #F47A20;
-  color: #FFFFFF;
-  padding: 2rem 2rem 2rem 2rem;
-  text-align: center;
-  margin: 0;
-  font-size: 1rem;
-  border-top-left-radius: 0.25rem;
-  border-top-right-radius: 0.25rem;
-}
-.main-about-us .overons p {
-  font-size: 14px;
-}
-.main-about-us .overons .maatschapplelijk {
-  padding: 1.5rem 1rem 1.3rem 1rem;
-}
-.main-about-us .bestuurstyle {
+.accordion {
   background-color: #FFFFFF;
 }
-
-.link-arrow {
-  color: #FFFFFF;
+.accordion .card,
+.accordion .card-header {
+  border: none;
 }
-
-.google-maps {
-  margin: 0rem 0rem 0 0;
+.accordion .card,
+.accordion .card:first-of-type,
+.accordion .card:not(:first-of-type):not(:last-of-type) {
+  border-bottom: 2px solid #EFEFEF;
+}
+.accordion .card:last-of-type {
+  border-bottom: none;
+}
+.accordion .card-header {
+  padding: 0.75rem 0;
+}
+.accordion .card-header .btn-link {
+  color: #343434;
+  font-weight: 600;
+  text-align: left;
+}
+.accordion .card-header .btn-link:active, .accordion .card-header .btn-link:focus, .accordion .card-header .btn-link:hover {
+  text-decoration: none;
+}
+.accordion .card-header .btn-link::after {
+  display: inline-block;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+  position: absolute;
+  right: 0.5rem;
+  top: 1.8rem;
+}
+.accordion .card-header .btn-link[aria-expanded=true]::after {
+  border-top: 0;
+  border-bottom: 0.3em solid;
 }
 
 /*# sourceMappingURL=style.css.map */

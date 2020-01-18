@@ -12,8 +12,6 @@
 			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
 			crossorigin="anonymous"
 		/>
-		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet" />
-		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700&display=swap&subset=latin-ext" rel="stylesheet" />
 		<link rel="stylesheet" href="css/style.css" />
 		<title>Voedselbank Het Hogeland</title>
 	</head>
@@ -35,7 +33,7 @@
 					</button>
 					<div class="collapse navbar-collapse  justify-content-end" id="navbarNavDropdown">
 						<ul class="navbar-nav">
-							<li class="nav-item active">
+							<li class="nav-item ">
 								<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
 							</li>
 							<li class="nav-item dropdown">
@@ -51,9 +49,11 @@
 									Klanten
 								</a>
 								<div class="dropdown-menu" aria-labelledby="customerDropdown">
-									<a class="dropdown-item" href="client-external.html">Aanmelden</a><a class="dropdown-item" href="client-issue.html">Uitgifte</a><a class="dropdown-item" href="client-criteria-test.html">Criteriatoets</a>
-<a class="dropdown-item" href="client-recipes.html">Recepten</a									><a class="dropdown-item" href="client-administration.html">Klantadministratie</a>
-									
+									<a class="dropdown-item" href="client-external.html">Aanmelden</a
+									><a class="dropdown-item" href="client-issue.html">Uitgifte</a
+									><a class="dropdown-item" href="client-criteria-test.html">Criteriatoets</a>
+									<a class="dropdown-item" href="client-recipes.html">Recepten</a
+									><a class="dropdown-item" href="client-administration.html">Klantadministratie</a>
 								</div>
 							</li>
 							<li class="nav-item dropdown">
@@ -86,11 +86,11 @@
 									Vrijwilligers
 								</a>
 								<div class="dropdown-menu" aria-labelledby="volunteerDropdown">
-																		<a class="dropdown-item" href="volunteer-jobs.html">Vacatures</a>
+									<a class="dropdown-item" href="volunteer-jobs.html">Vacatures</a>
 									<a class="dropdown-item" href="#" target="_blank">Intranet</a>
 								</div>
 							</li>
-							<li class="nav-item dropdown">
+							<li class="nav-item dropdown  active">
 								<a
 									class="nav-link dropdown-toggle"
 									href="#"
@@ -105,8 +105,8 @@
 								<div class="dropdown-menu" aria-labelledby="aboutUsDropdown">
 									<a class="dropdown-item" href="#">Ons verhaal</a>
 									<a class="dropdown-item" href="#">Nieuws</a>
-									<a class="dropdown-item" href="aboutus-faq.html">Veelgestelde vragen</a><a class="dropdown-item" href="aboutus-contact.html">Contact</a>
-
+									<a class="dropdown-item" href="aboutus-faq.html">Veelgestelde vragen</a
+									><a class="dropdown-item" href="aboutus-contact.html">Contact</a>
 								</div>
 							</li>
 							<li class="navigation-donate"><a class="btn btn-nav-donate" href="donate-money.html" role="button">Doneer nu</a></li>
@@ -132,138 +132,146 @@
 				</nav>
 			</div>
 		</header>
-
-		<main class="homepage">
-			<div class="container">
-				<div class="cards select-target">
-					<div class="card">
-						<img class="card-img-top" src="https://picsum.photos/400/300" alt="Card image cap" />
-						<div class="card-body">
-							<h2 class="card-title">Klant worden?</h2>
-							<p class="card-text">Bij Voedselbank Het Hogeland is zelfs en dag helpen voldoende om voor een glimlach van een ander te zorgen.</p>
-							<a href="client-criteria-test.html" class="btn btn-client">Bekijk de mogelijkheden</a>
-
-
-
-						</div>
-					</div>
-					<div class="card">
-						<img class="card-img-top" src="https://picsum.photos/400/300" alt="Card image cap" />
-						<div class="card-body">
-							<h2 class="card-title">De voedselbank steunen?</h2>
-							<p class="card-text">Bij Voedselbank Het Hogeland is zelfs en dag helpen voldoende om voor een glimlach van een ander te zorgen.</p>
-							<a href="donate-money.html" class="btn btn-donate">Bekijk de mogelijkheden</a>
-						</div>
-					</div>
-					<div class="card">
-						<img class="card-img-top" src="https://picsum.photos/400/300" alt="Card image cap" />
-						<div class="card-body">
-							<h2 class="card-title">Vrijwilliger worden?</h2>
-							<p class="card-text">
-								Bij Voedselbank Het Hogeland is zelfs en dag helpen voldoende om voor een glimlach van een ander te zorgen.
-							</p>
-							<a href="#" class="btn btn-volunteer">Bekijk de mogelijkheden</a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="jumbotron jumbotron-fluid">
+		<main class="main-aboutus-faq">
+			<nav aria-label="breadcrumb">
 				<div class="container">
-					<div class="jumbotron-flex">
-						<div>
-							<img src="https://picsum.photos/400/300" alt="Voedselbank Het Hogeland" />
-						</div>
-						<div class="col about-us">
-							<h1>Voedselbank Het Hogeland</h1>
-							<h3>Over ons</h3>
-							<p>
-								Voedselbank Het Hogeland is ontstaan uit een samenwerking tussen de stichting Vrienden Arme Kant Winsum, de werkgroep Arme Kant
-								De Marne en de oorspronkelijke voedselbank Eemsmond.
+					<ol class="breadcrumb">
+						<li class="breadcrumb-item">Over ons</li>
+						<li class="breadcrumb-item" aria-current="page">Veelgestelde vragen</li>
+					</ol>
+				</div>
+			</nav>
+
+			<div class="container faq">
+				<h2>Veelgestelde vragen</h2>
+				<div class="accordion" id="accordionExample">
+					<div class="card">
+						<div class="card-header" id="headingOne">
+							<p class="mb-0">
+								<button
+									class="btn btn-link collapsed"
+									type="button"
+									data-toggle="collapse"
+									data-target="#collapseOne"
+									aria-expanded="false"
+									aria-controls="collapseOne"
+								>
+									Wie kan het voedselpakket ophalen?
+								</button>
 							</p>
-							<a href="#" class="link-about-us link-arrow">Lees verder <i class="fas fa-arrow-right"></i></a>
+						</div>
+
+						<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+							<div class="card-body">
+								Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non
+								cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
+								on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson
+								cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
+								aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+							</div>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-header" id="headingTwo">
+							<p class="mb-0">
+								<button
+									class="btn btn-link collapsed"
+									type="button"
+									data-toggle="collapse"
+									data-target="#collapseTwo"
+									aria-expanded="false"
+									aria-controls="collapseTwo"
+								>
+									Wat moet er worden meegenomen om een voedselpakket op te halen?
+								</button>
+							</p>
+						</div>
+						<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+							<div class="card-body">
+								Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non
+								cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
+								on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson
+								cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
+								aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+							</div>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-header" id="headingThree">
+							<p class="mb-0">
+								<button
+									class="btn btn-link collapsed"
+									type="button"
+									data-toggle="collapse"
+									data-target="#collapseThree"
+									aria-expanded="false"
+									aria-controls="collapseThree"
+								>
+									Moet ik de houdbaarheidsdatum van een product controleren voor consumptie?
+								</button>
+							</p>
+						</div>
+						<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+							<div class="card-body">
+								Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non
+								cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
+								on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson
+								cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
+								aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+							</div>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-header" id="headingFour">
+							<p class="mb-0">
+								<button
+									class="btn btn-link collapsed"
+									type="button"
+									data-toggle="collapse"
+									data-target="#collapseFour"
+									aria-expanded="false"
+									aria-controls="collapseFour"
+								>
+									Wat als ik niet op het uitgiftemoment aanwezig kan zijn?
+								</button>
+							</p>
+						</div>
+						<div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+							<div class="card-body">
+								Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non
+								cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
+								on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson
+								cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
+								aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+							</div>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-header" id="headingFive">
+							<p class="mb-0">
+								<button
+									class="btn btn-link collapsed"
+									type="button"
+									data-toggle="collapse"
+									data-target="#collapseFive"
+									aria-expanded="false"
+									aria-controls="collapseFive"
+								>
+									Waar kan ik een klacht indienen?
+								</button>
+							</p>
+						</div>
+						<div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+							<div class="card-body">
+								Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non
+								cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
+								on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson
+								cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
+								aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="container agenda">
-				<h2>Agenda</h2>
-				<div class="cards">
-					<div class="card">
-						<h2 class="card-title">17 januari 2020</h2>
-						<div class="card-body">
-							<p class="card-text">
-								<span><i class="far fa-question-circle"></i> Uitgiftemoment achternaam A t/m L </span>
-								<span><i class="far fa-clock"></i> 13:00 - 15:30 uur</span>
-								<span><i class="fas fa-map-marker-alt"></i> Lombok 1, 9951SC Winsum</span>
-							</p>
-							<a href="#" class="link-arrow"><i class="fas fa-arrow-right"></i></a>
-						</div>
-					</div>
-					<div class="card">
-						<h2 class="card-title">24 januari 2020</h2>
-						<div class="card-body">
-							<p class="card-text">
-								<span><i class="far fa-question-circle"></i> Uitgiftemoment achternaam M t/m Z </span>
-								<span><i class="far fa-clock"></i> 13:00 - 15:30 uur</span>
-								<span><i class="fas fa-map-marker-alt"></i> Lombok 1, 9951SC Winsum</span>
-							</p>
-							<a href="#" class="link-arrow"><i class="fas fa-arrow-right"></i></a>
-						</div>
-					</div>
-					<div class="card">
-						<h2 class="card-title">19 februari 2020</h2>
-						<div class="card-body">
-							<p class="card-text">
-								<span><i class="far fa-question-circle"></i> Inzamelmoment </span>
-								<span><i class="far fa-clock"></i> 13:00 - 15:30 uur</span>
-								<span><i class="fas fa-map-marker-alt"></i> Lombok 1, 9951SC Winsum</span>
-							</p>
-							<a href="#" class="link-arrow"><i class="fas fa-arrow-right"></i></a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="container news">
-				<h2>Nieuws</h2>
-				<div class="cards">
-					<div class="card">
-						<img class="card-img-top" src="https://picsum.photos/400/300" alt="Card image cap" />
-						<div class="card-body">
-							<h2 class="card-title">Een 10 voor voedselveiligheid</h2>
-							<h3 class="card-title">25 november 2019</h3>
-							<p class="card-text">
-								Afgelopen week hebben wij het goed nieuws mogen ontvangen dat wij tijdens de controle op voedselveiligheid door Sensz zijn
-								beoordeeld met een 10!
-							</p>
-							<a href="#" class="link-arrow"><i class="fas fa-arrow-right"></i></a>
-						</div>
-					</div>
-					<div class="card">
-						<img class="card-img-top" src="https://picsum.photos/400/300" alt="Card image cap" />
-						<div class="card-body">
-							<h2 class="card-title">Oproep voor Voedselbank Het Hogeland</h2>
-							<h3 class="card-title">18 juli 2019</h3>
-							<p class="card-text">
-								De Voedselbank Het Hogeland is bezig met het oprichten van een inzamel- en promotieteam. Dit team willen we inzetten om bij
-								supermarkten voedsel in te zamelen.
-							</p>
-							<a href="#" class="link-arrow"><i class="fas fa-arrow-right"></i></a>
-						</div>
-					</div>
-					<div class="card">
-						<img class="card-img-top" src="https://picsum.photos/400/300" alt="Card image cap" />
-						<div class="card-body">
-							<h2 class="card-title">Een bijzondere donatie</h2>
-							<h3 class="card-title">17 juni 2019</h3>
-							<p class="card-text">
-								Afgelopen week ontvingen wij een heel bijzondere donatie. Albert en Coba van Lune hebben een tijdje geleden hun zilveren
-								huwelijk mogen vieren.
-							</p>
-							<a href="#" class="link-arrow"><i class="fas fa-arrow-right"></i></a>
-						</div>
-					</div>
-				</div>
-				<a class="link-more-news link-arrow" href="#">Lees meer nieuws <i class="fas fa-arrow-right"></i></a>
 			</div>
 		</main>
 
@@ -282,11 +290,10 @@
 						<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
 							<div class="card-body">
 								<ul>
-									<li><a href="#">De voedselbank</a></li>
+									<li><a href="#">Ons Verhaal</a></li>
 									<li><a href="#">Nieuws</a></li>
-									<li><a href="aboutus-faq.html">Veelgestelde vragen</a></li><li><a href="aboutus-contact.html">Contact</a></li>
-
-
+									<li><a href="aboutus-faq.html">Veelgestelde vragen</a></li>
+									<li><a href="aboutus-contact.html">Contact</a></li>
 								</ul>
 							</div>
 						</div>
@@ -310,8 +317,8 @@
 								<ul>
 									<li><a href="client-criteria-test.html">Criteriatoets</a></li>
 									<li><a href="client-issue.html">Uitgifte</a></li>
-									<li><a href="client-recipes.html">Recepten</a></li><li><a href="client-external.html">Aanmelden</a></li>
-									
+									<li><a href="client-recipes.html">Recepten</a></li>
+									<li><a href="client-external.html">Aanmelden</a></li>
 								</ul>
 							</div>
 						</div>
@@ -356,7 +363,6 @@
 						<div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
 							<div class="card-body">
 								<ul>
-									
 									<li><a href="volunteer-jobs.html">Vacatures</a></li>
 									<li><a href="#" target="_blank">Intranet</a></li>
 								</ul>
@@ -369,11 +375,10 @@
 				<div class="col">
 					<ul>
 						<li class="footer-title"><a href="index.html">Over ons</a></li>
-						<li><a href="#">De voedselbank</a></li>
+						<li><a href="#">Ons verhaal</a></li>
 						<li><a href="#">Nieuws</a></li>
-						<li><a href="aboutus-faq.html">Veelgestelde vragen</a></li><li><a href="aboutus-contact.html">Contact</a></li>
-
-
+						<li><a href="aboutus-faq.html">Veelgestelde vragen</a></li>
+						<li><a href="aboutus-contact.html">Contact</a></li>
 					</ul>
 				</div>
 				<div class="col">
@@ -381,8 +386,8 @@
 						<li class="footer-title">Klanten</li>
 						<li><a href="client-criteria-test.html">Criteriatoets</a></li>
 						<li><a href="client-issue.html">Uitgifte</a></li>
-						<li><a href="client-recipes.html">Recepten</a></li><li><a href="client-external.html">Aanmelden</a></li>
-					
+						<li><a href="client-recipes.html">Recepten</a></li>
+						<li><a href="client-external.html">Aanmelden</a></li>
 					</ul>
 				</div>
 				<div class="col">
@@ -395,23 +400,9 @@
 				<div class="col">
 					<ul>
 						<li class="footer-title">Vrijwilligers</li>
-						
+
 						<li><a href="volunteer-jobs.html">Vacatures</a></li>
 						<li><a href="#" target="_blank">Intranet</a></li>
-					</ul>
-				</div>
-
-				
-				<div class="col">
-					<ul>
-						<li class="footer-title">Contact gegevens</li>
-						
-							<li><i class="fas fa-phone-alt footer-contact"></i>&nbsp;06 16913697</li>
-							<li><i class="fas fa-map-marker-alt footer-contact"></i>&nbsp;Lombok 1, 9951SC Winsum</li>
-							<br>
-							<li class="navigation-donate"><a class="btn btn-nav-donate" href="donate-money.html" role="button">Doneer nu</a></li>
-
-
 					</ul>
 				</div>
 			</div>
@@ -423,9 +414,28 @@
 					<a href="#">Colofon</a>
 				</div>
 			</div>
+
+			<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							...
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+							<button type="button" class="btn btn-primary">Save changes</button>
+						</div>
+					</div>
+				</div>
+			</div>
 		</footer>
 
-		<!-- Optional JavaScript -->
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 		<script
 			src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -442,5 +452,7 @@
 			integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
 			crossorigin="anonymous"
 		></script>
+		<script src="https://kit.fontawesome.com/ffe8fc33ca.js" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="js/javascript.js"></script>
 	</body>
 </html>

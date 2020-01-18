@@ -1,6 +1,6 @@
 html {
 	scroll-behavior: smooth;
-  }
+}
 
 .main-client-criteria-test {
 	padding-bottom: 4rem;
@@ -10,7 +10,6 @@ html {
 	}
 
 	.cards {
-
 	}
 }
 
@@ -83,41 +82,6 @@ html {
 	width: 2.6rem;
 }
 
-.overlay {
-	height: 100%;
-	width: 100%;
-	z-index: 10;
-	opacity: 0.4;
-	pointer-events: none;
-}
-
-main .extern-company {
-	a {
-		display: block;
-		margin-bottom: 0.5rem;
-		text-decoration: none;
-
-		i {
-			margin-right: 0.5rem;
-		}
-	}
-
-	p {
-		margin-bottom: 2rem;
-	}
-
-	@media screen and (min-width: 768px) {
-		.cards {
-			flex-wrap: wrap;
-			padding-top: 2rem;
-			padding-bottom: 0;
-
-			.card {
-				flex: auto;
-				margin-bottom: 2rem;
-				margin-right: 2rem;
-				width: calc(33% - 2rem);
-			}
-		}
-	}
+.hide {
+	display: none;
 }

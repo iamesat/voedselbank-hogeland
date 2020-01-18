@@ -36,7 +36,7 @@
 							<li class="nav-item ">
 								<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
 							</li>
-							<li class="nav-item dropdown">
+							<li class="nav-item dropdown active">
 								<a
 									class="nav-link dropdown-toggle"
 									href="#"
@@ -49,9 +49,11 @@
 									Klanten
 								</a>
 								<div class="dropdown-menu" aria-labelledby="customerDropdown">
-									<a class="dropdown-item" href="client-criteria-test.html">Criteriatoets</a>
-									<a class="dropdown-item" href="client-issue.html">Uitgifte</a>
-									<a class="dropdown-item" href="client-recipes.html">Recepten</a>
+									<a class="dropdown-item" href="client-external.html">Aanmelden</a
+									><a class="dropdown-item" href="client-issue.html">Uitgifte</a
+									><a class="dropdown-item" href="client-criteria-test.html">Criteriatoets</a>
+									<a class="dropdown-item" href="client-recipes.html">Recepten</a
+									><a class="dropdown-item" href="client-administration.html">Klantadministratie</a>
 								</div>
 							</li>
 							<li class="nav-item dropdown">
@@ -88,7 +90,7 @@
 									<a class="dropdown-item" href="#" target="_blank">Intranet</a>
 								</div>
 							</li>
-							<li class="nav-item dropdown  active">
+							<li class="nav-item dropdown">
 								<a
 									class="nav-link dropdown-toggle"
 									href="#"
@@ -101,9 +103,10 @@
 									Over ons
 								</a>
 								<div class="dropdown-menu" aria-labelledby="aboutUsDropdown">
-									<a class="dropdown-item" href="#">De voedselbank</a>
+									<a class="dropdown-item" href="#">Ons verhaal</a>
 									<a class="dropdown-item" href="#">Nieuws</a>
-									<a class="dropdown-item" href="contact.html">Contact</a>
+									<a class="dropdown-item" href="aboutus-faq.html">Veelgestelde vragen</a
+									><a class="dropdown-item" href="aboutus-contact.html">Contact</a>
 								</div>
 							</li>
 							<li class="navigation-donate"><a class="btn btn-nav-donate" href="donate-money.html" role="button">Doneer nu</a></li>
@@ -129,91 +132,55 @@
 				</nav>
 			</div>
 		</header>
-		<main class="main-client-criteria-test">
+		<main class="main-client-administration">
 			<nav aria-label="breadcrumb">
 				<div class="container">
 					<ol class="breadcrumb">
-						<li class="breadcrumb-item">Over ons</li>
-						<li class="breadcrumb-item" aria-current="page">Contact</li>
+						<li class="breadcrumb-item">Klanten</li>
+						<li class="breadcrumb-item" aria-current="page">Klantadministratie</li>
 					</ol>
 				</div>
 			</nav>
 
-			<div class="jumbotron jumbotron-fluid jumbotron-issue">
-				<div class="container">
-					<div class="jumbotron-flex">
-						<div class="col-lg">
+			<div class="container">
+				<div class="flex">
+					<div class="col about-us contact-client">
+						<h2>Klantenadministratie</h2>
 
-						<div class="google-maps">
-							<iframe
-								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2382.6313787878876!2d6.524703316197565!3d53.331953179975955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c9daf1d5376cdb%3A0x7d209d9a20400180!2sStichting%20Voedselbank%20Het%20Hogeland!5e0!3m2!1snl!2snl!4v1579207845557!5m2!1snl!2snl"
-								width="600"
-								height="500"
-								frameborder="0"
-								style="border:0;"
-								allowfullscreen=""
-							></iframe>
-						</div>
-					</div>
+						<dl class="row">
+							<dt class="col-sm-4"><i class="fas fa-phone-alt"></i> Telefoon</dt>
+							<dd class="col-sm-8">06 16913697</dd>
 
-						<div class="col about-us contact-client">
-							<div class="col-md">
-							<h2>Contact</h2>
+							<dt class="col-sm-4"><i class="fas fa-envelope"></i> E-mailadres</dt>
+							<dd class="col-sm-8">
+								intake@voedselbankhethogeland.nl
+							</dd>
 
-							<form>
-								<div class="form-row">
-								  <div class="form-group col-md-6">
-									<label for="inputEmail4">Naam</label>
-									<input type="text" class="form-control" id="inoutName" placeholder="Uw naam">
-								  </div>
-								  <div class="form-group col-md-6">
-									<label for="inputEmail4">Email</label>
-									<input type="email" class="form-control" id="inputEmail4" placeholder="Uw email">
-								  </div>
-								</div>
-								<div class="form-group">
-								  <label for="inputAddress">Onderwerp</label>
-								  <input type="text" class="form-control" id="inputAddress" placeholder="Uw onderwerp">
-								</div>
-								<div class="form-group">
-									<label for="exampleFormControlTextarea1">Bericht</label>
-									<textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Uw bericht"></textarea>
-								  </div>                   
-								<button type="submit" class="btn btn-secondary">Verzenden</button>
-							  </form>
-						</div>
-					</div>
-					
-					</div>
-				</div>
-			</div>
+							<dt class="col-sm-4"><i class="fas fa-map-marker-alt"></i> Adres</dt>
+							<dd class="col-sm-8">
+								Lombok 1, 9951SC Winsum
+							</dd>
 
-			<div class="container agenda">
-				<h2>Contact</h2>
-				<div class="cards issue-moment">
-					<div class="card">
-						<h2 class="card-title">Telefoon</h2>
-						<div class="card-body">
-							<p class="card-text">
-								<span>0616913697</span>
-							</p>
-						</div>
+							<dt class="col-sm-4"><i class="far fa-clock"></i> Openingstijden</dt>
+							<dd class="col-sm-8">
+								<ul>
+									<li>maandag 10.00-12.00 uur</li>
+									<li>woensdag 13.30-15.30 uur</li>
+									<li>donderdag 13.30-15.30 uur</li>
+									<li>vrijdag 10.00-15.30 uur</li>
+								</ul>
+							</dd>
+						</dl>
 					</div>
-					<div class="card">
-						<h2 class="card-title">E-mailadres</h2>
-						<div class="card-body">
-							<p class="card-text">
-								<span>intake@voedselbankhethogeland.nl</span>
-							</p>
-						</div>
-					</div>
-					<div class="card">
-						<h2 class="card-title">Adres</h2>
-						<div class="card-body">
-							<p class="card-text">
-								<span><i class="fas fa-map-marker-alt"></i> Lombok 1, 9951SC Winsum</span>
-							</p>
-						</div>
+					<div class="google-maps">
+						<iframe
+							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2382.6313787878876!2d6.524703316197565!3d53.331953179975955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c9daf1d5376cdb%3A0x7d209d9a20400180!2sStichting%20Voedselbank%20Het%20Hogeland!5e0!3m2!1snl!2snl!4v1579207845557!5m2!1snl!2snl"
+							width="330"
+							height="210"
+							frameborder="0"
+							style="border:0;"
+							allowfullscreen=""
+						></iframe>
 					</div>
 				</div>
 			</div>
@@ -236,9 +203,8 @@
 								<ul>
 									<li><a href="#">Ons Verhaal</a></li>
 									<li><a href="#">Nieuws</a></li>
-									<li><a href="contact.html">Contact</a></li>
-
-
+									<li><a href="aboutus-faq.html">Veelgestelde vragen</a></li>
+									<li><a href="aboutus-contact.html">Contact</a></li>
 								</ul>
 							</div>
 						</div>
@@ -262,7 +228,8 @@
 								<ul>
 									<li><a href="client-criteria-test.html">Criteriatoets</a></li>
 									<li><a href="client-issue.html">Uitgifte</a></li>
-									<li><a href="#">Recepten</a></li>
+									<li><a href="client-recipes.html">Recepten</a></li>
+									<li><a href="client-external.html">Aanmelden</a></li>
 								</ul>
 							</div>
 						</div>
@@ -321,9 +288,8 @@
 						<li class="footer-title"><a href="index.html">Over ons</a></li>
 						<li><a href="#">Ons verhaal</a></li>
 						<li><a href="#">Nieuws</a></li>
-						<li><a href="contact.html">Contact</a></li>
-
-
+						<li><a href="aboutus-faq.html">Veelgestelde vragen</a></li>
+						<li><a href="aboutus-contact.html">Contact</a></li>
 					</ul>
 				</div>
 				<div class="col">
@@ -331,7 +297,8 @@
 						<li class="footer-title">Klanten</li>
 						<li><a href="client-criteria-test.html">Criteriatoets</a></li>
 						<li><a href="client-issue.html">Uitgifte</a></li>
-						<li><a href="#">Recepten</a></li>
+						<li><a href="client-recipes.html">Recepten</a></li>
+						<li><a href="client-external.html">Aanmelden</a></li>
 					</ul>
 				</div>
 				<div class="col">
