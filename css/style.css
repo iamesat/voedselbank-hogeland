@@ -1,6 +1,7 @@
 body {
   font-family: "Source Sans Pro", sans-serif;
   color: #343434;
+  font-size: 1.125rem;
 }
 
 h1 {
@@ -18,8 +19,8 @@ h3 {
 }
 
 p {
-  font-size: 1rem;
-  font-weight: 300;
+  font-size: 1.125rem;
+  font-weight: 400;
 }
 
 header {
@@ -342,24 +343,27 @@ main .link-arrow:hover .fa-arrow-right {
   margin-left: 1rem;
   margin-right: -0.5rem;
 }
-main .agenda h2 {
+main.homepage .agenda, main.client-issue .agenda {
+  padding-bottom: 0;
+}
+main.homepage .agenda h2, main.client-issue .agenda h2 {
   margin: 3rem 0 1rem;
 }
 @media screen and (min-width: 768px) {
-  main .agenda .cards {
+  main.homepage .agenda .cards, main.client-issue .agenda .cards {
     padding-top: 1rem;
-    padding-bottom: 4rem;
+    padding-bottom: 2rem;
   }
 }
-main .agenda .card:not(:last-child) {
+main.homepage .agenda .cards .card, main.client-issue .agenda .cards .card {
   margin-bottom: 2rem;
 }
 @media screen and (min-width: 768px) {
-  main .agenda .card:not(:last-child) {
+  main.homepage .agenda .cards .card:not(:last-child), main.client-issue .agenda .cards .card:not(:last-child) {
     margin-right: 2rem;
   }
 }
-main .agenda .card-title {
+main.homepage .agenda .card-title, main.client-issue .agenda .card-title {
   background-color: #343434;
   color: #FFFFFF;
   padding: 1rem 1rem 1rem 1.5rem;
@@ -368,12 +372,31 @@ main .agenda .card-title {
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
 }
-main .agenda .card-text span {
+main.homepage .agenda .card-text span, main.client-issue .agenda .card-text span {
   display: block;
   margin-top: 0.5rem;
 }
-main .agenda .card-text span i {
+main.homepage .agenda .card-text span i, main.client-issue .agenda .card-text span i {
   margin-right: 0.5rem;
+}
+main.client-issue .agenda {
+  padding-bottom: 2rem;
+}
+@media screen and (min-width: 768px) {
+  main.client-issue .agenda {
+    padding-bottom: 4rem;
+  }
+}
+main.client-issue .agenda .cards .card:last-child {
+  margin-bottom: 0;
+}
+@media screen and (min-width: 768px) {
+  main.client-issue .agenda .cards {
+    padding-bottom: 0;
+  }
+  main.client-issue .agenda .cards .card:last-child {
+    margin-bottom: 2rem;
+  }
 }
 main .news {
   padding-bottom: 4rem;
