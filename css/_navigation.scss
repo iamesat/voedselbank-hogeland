@@ -93,6 +93,7 @@ header {
 	background-color: #f8f9fa;
 	border: 0;
 	padding: 0;
+	margin: 0.2rem 0 0;
 
 	@media screen and (min-width: 768px) {
 		border: 1px solid $lightgray;
@@ -121,3 +122,4 @@ header {
 .navbar-nav li:hover>.dropdown-menu {
 	display: block;
   }
+ 

@@ -235,6 +235,9 @@ footer .footer-side-info a:first-of-type {
 footer .footer-side-info span {
   margin-right: 1rem;
 }
+footer .navigation-donate {
+  margin-top: 0.3rem;
+}
 
 img {
   height: auto;
@@ -806,6 +809,44 @@ main .extern-company p {
 }
 .main-volunteer-jobs .vacatures h3 {
   padding-bottom: 1rem;
+}
+
+.breadcrumb {
+  margin-bottom: 0rem;
+}
+
+.main-about-us .about-us {
+  padding-left: 0rem !important;
+}
+.main-about-us h3 {
+  color: #F47A20;
+}
+.main-about-us .overons .card-title {
+  background-color: #F47A20;
+  color: #FFFFFF;
+  padding: 2rem 2rem 2rem 2rem;
+  text-align: center;
+  margin: 0;
+  font-size: 1rem;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+.main-about-us .overons p {
+  font-size: 14px;
+}
+.main-about-us .overons .maatschapplelijk {
+  padding: 1.5rem 1rem 1.3rem 1rem;
+}
+.main-about-us .bestuurstyle {
+  background-color: #FFFFFF;
+}
+
+.link-arrow {
+  color: #FFFFFF;
+}
+
+.google-maps {
+  margin: 0rem 0rem 0 0;
 }
 
 /*# sourceMappingURL=style.css.map */
