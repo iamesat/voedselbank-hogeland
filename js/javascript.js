@@ -5,3 +5,7 @@ $('#buttonstap2').click(function() {
 $('#buttonstap3').click(function() {
 	$('#stap3').removeClass('overlay');
 });
+
+$(document).ready(function(){
+    $('[data-toggle="popover"]').popover();   
+});
