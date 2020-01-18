@@ -778,6 +778,23 @@ main .extern-company p {
   }
 }
 
+.main-client-recipes .recipes h3 {
+  color: #2D8EFC;
+}
+@media screen and (min-width: 768px) {
+  .main-client-recipes .recipes .cards {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+  }
+  .main-client-recipes .recipes .cards .card {
+    flex: auto;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+    width: calc(33% - 2rem);
+  }
+}
+
 .main-volunteer-jobs .breadcrumb {
   margin-bottom: 0rem;
 }
