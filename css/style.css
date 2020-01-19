@@ -595,6 +595,18 @@ main .cards.collect-moment {
   margin-left: 0.5rem;
 }
 
+main.client .cards.select-target {
+  padding: 1rem 0 4rem;
+}
+main.client .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+main.client .card-body .btn-client {
+  margin-top: 2rem;
+}
+
 .agenda {
   padding-bottom: 2rem;
 }
@@ -776,24 +788,6 @@ main.main-client-external .criteria-heading {
   }
 }
 
-.main-client-administration {
-  padding-bottom: 2rem;
-}
-@media screen and (min-width: 768px) {
-  .main-client-administration {
-    padding-bottom: 4rem;
-  }
-}
-
-.flex {
-  padding-top: 2rem;
-}
-@media screen and (min-width: 768px) {
-  .flex {
-    display: flex;
-  }
-}
-
 .main-volunteer-jobs .breadcrumb {
   margin-bottom: 0rem;
 }
@@ -930,6 +924,10 @@ main.main-client-external .criteria-heading {
 .accordion .card-header .btn-link[aria-expanded=true]::after {
   border-top: 0;
   border-bottom: 0.3em solid;
+}
+
+.link-arrow {
+  color: #FFFFFF;
 }
 
 /*# sourceMappingURL=style.css.map */

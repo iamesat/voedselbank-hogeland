@@ -1,0 +1,15 @@
+main.client {
+	.cards.select-target {
+		padding: 1rem 0 4rem;
+	}
+
+	.card-body {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+
+		.btn-client {
+			margin-top: 2rem;
+		}
+	}
+}
