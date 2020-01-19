@@ -1,3 +1,23 @@
+.contact-us {
+	background-color: $orange;
+	color: $white;
+	font-size: 1rem;
+	padding: .5rem;
+	text-align: center;
+
+	span {
+		margin-right: .5rem;
+	}
+
+	 a {
+		 color: $white;
+	 }
+
+	 i {
+		 font-size: .875rem;
+	 }
+}
+
 main {
 	background-color: $lightgray;
 

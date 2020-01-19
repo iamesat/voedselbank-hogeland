@@ -246,6 +246,23 @@ img {
   max-width: 100%;
 }
 
+.contact-us {
+  background-color: #F47A20;
+  color: #FFFFFF;
+  font-size: 1rem;
+  padding: 0.5rem;
+  text-align: center;
+}
+.contact-us span {
+  margin-right: 0.5rem;
+}
+.contact-us a {
+  color: #FFFFFF;
+}
+.contact-us i {
+  font-size: 0.875rem;
+}
+
 main {
   background-color: #EFEFEF;
 }
