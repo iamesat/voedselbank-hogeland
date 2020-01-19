@@ -821,6 +821,51 @@ main.main-client-external .criteria-heading {
   padding-bottom: 1rem;
 }
 
+.breadcrumb {
+  margin-bottom: 0rem;
+}
+
+.main-about-us .about-us {
+  padding-left: 0rem !important;
+}
+.main-about-us h3 {
+  color: #F47A20;
+}
+.main-about-us .overons .card-title {
+  background-color: #F47A20;
+  color: #FFFFFF;
+  padding: 2rem 2rem 2rem 2rem;
+  text-align: center;
+  margin: 0;
+  font-size: 1rem;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+.main-about-us .overons p {
+  font-size: 14px;
+}
+.main-about-us .overons .maatschapplelijk {
+  padding: 1.5rem 1rem 1.3rem 1rem;
+}
+.main-about-us .bestuurstyle {
+  background-color: #FFFFFF;
+}
+
+.link-arrow {
+  color: #FFFFFF;
+}
+
+.main-news .h2news {
+  margin: 2rem 0 2rem 0;
+}
+.main-news .page-link {
+  color: #343434;
+}
+.main-news .page-item.active .page-link {
+  background-color: #F47A20;
+  border-color: #F47A20;
+}
+
 .faq {
   margin-top: 3rem;
   padding-bottom: 3rem;
@@ -886,6 +931,17 @@ main.main-client-external .criteria-heading {
 
 .link-arrow {
   color: #FFFFFF;
+}
+
+.main-news .h2news {
+  margin: 2rem 0 2rem 0;
+}
+.main-news .page-link {
+  color: #343434;
+}
+.main-news .page-item.active .page-link {
+  background-color: #F47A20;
+  border-color: #F47A20;
 }
 
 /*# sourceMappingURL=style.css.map */
