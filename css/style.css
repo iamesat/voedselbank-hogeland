@@ -958,8 +958,13 @@ main.main-client-external .criteria-heading {
 .aboutus-contact .contacth2 {
   color: #F47A20;
 }
-.aboutus-contact .klantenadmin {
+.aboutus-contact .aboutus-maps-container {
   background-color: #FFFFFF;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.aboutus-contact .klantadmin .card {
+  background-color: #f1f1f1;
 }
 
 .faq {
