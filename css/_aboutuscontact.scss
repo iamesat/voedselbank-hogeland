@@ -7,7 +7,18 @@
             color: $orange;
         }
 
-        .klantenadmin {
+        .form-control {
+            background-color: #EFEFEF;
+        }
+
+        .aboutus-maps-container {
         background-color: #FFFFFF;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+    .klantadmin {
+        .card {
+            background-color: #f1f1f1;
+        }
     }
 }
