@@ -480,9 +480,6 @@ main .link-more-news i {
   color: #F47A20;
 }
 
-main {
-  background-color: #EFEFEF;
-}
 main nav[aria-label=breadcrumb] {
   background-color: #343434;
   color: #FFFFFF;
