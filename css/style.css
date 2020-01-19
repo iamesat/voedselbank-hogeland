@@ -347,27 +347,27 @@ main .link-arrow:hover .fa-arrow-right {
   margin-left: 1rem;
   margin-right: -0.5rem;
 }
-main.homepage .agenda, main.client-issue .agenda {
+main.homepage .agenda, main.client-issue .agenda, main.donate-products .agenda, main.aboutus-contact .agenda {
   padding-bottom: 0;
 }
-main.homepage .agenda h2, main.client-issue .agenda h2 {
+main.homepage .agenda h2, main.client-issue .agenda h2, main.donate-products .agenda h2, main.aboutus-contact .agenda h2 {
   margin: 3rem 0 1rem;
 }
 @media screen and (min-width: 768px) {
-  main.homepage .agenda .cards, main.client-issue .agenda .cards {
+  main.homepage .agenda .cards, main.client-issue .agenda .cards, main.donate-products .agenda .cards, main.aboutus-contact .agenda .cards {
     padding-top: 1rem;
     padding-bottom: 2rem;
   }
 }
-main.homepage .agenda .cards .card, main.client-issue .agenda .cards .card {
+main.homepage .agenda .cards .card, main.client-issue .agenda .cards .card, main.donate-products .agenda .cards .card, main.aboutus-contact .agenda .cards .card {
   margin-bottom: 2rem;
 }
 @media screen and (min-width: 768px) {
-  main.homepage .agenda .cards .card:not(:last-child), main.client-issue .agenda .cards .card:not(:last-child) {
+  main.homepage .agenda .cards .card:not(:last-child), main.client-issue .agenda .cards .card:not(:last-child), main.donate-products .agenda .cards .card:not(:last-child), main.aboutus-contact .agenda .cards .card:not(:last-child) {
     margin-right: 2rem;
   }
 }
-main.homepage .agenda .card-title, main.client-issue .agenda .card-title {
+main.homepage .agenda .card-title, main.client-issue .agenda .card-title, main.donate-products .agenda .card-title, main.aboutus-contact .agenda .card-title {
   background-color: #343434;
   color: #FFFFFF;
   padding: 1rem 1rem 1rem 1.5rem;
@@ -376,11 +376,11 @@ main.homepage .agenda .card-title, main.client-issue .agenda .card-title {
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
 }
-main.homepage .agenda .card-text span, main.client-issue .agenda .card-text span {
+main.homepage .agenda .card-text span, main.client-issue .agenda .card-text span, main.donate-products .agenda .card-text span, main.aboutus-contact .agenda .card-text span {
   display: block;
   margin-top: 0.5rem;
 }
-main.homepage .agenda .card-text span i, main.client-issue .agenda .card-text span i {
+main.homepage .agenda .card-text span i, main.client-issue .agenda .card-text span i, main.donate-products .agenda .card-text span i, main.aboutus-contact .agenda .card-text span i {
   margin-right: 0.5rem;
 }
 main.client-issue .agenda {
@@ -401,6 +401,9 @@ main.client-issue .agenda .cards .card:last-child {
   main.client-issue .agenda .cards .card:last-child {
     margin-bottom: 2rem;
   }
+}
+main.donate-products .agenda .cards .card:not(:last-child) {
+  margin-right: 0;
 }
 main .news {
   padding-bottom: 4rem;

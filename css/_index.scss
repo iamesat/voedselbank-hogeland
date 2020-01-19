@@ -133,7 +133,9 @@ main {
 	}
 
 	&.homepage .agenda,
-	&.client-issue .agenda {
+	&.client-issue .agenda,
+	&.donate-products .agenda,
+	&.aboutus-contact .agenda {
 		padding-bottom: 0;
 
 		h2 {
@@ -197,6 +199,12 @@ main {
 					margin-bottom: 2rem;
 				}
 			}
+		}
+	}
+
+	&.donate-products .agenda {
+		.cards .card:not(:last-child) {
+			margin-right: 0;
 		}
 	}
 
