@@ -133,3 +133,31 @@ header {
 .modal-body {
 	margin-bottom: 1rem;
 }
+
+// Navigatie css dropdown effect
+
+.dropdownAnimatie {
+	animation-name: dropdownAnimatie;
+  }
+
+@media (min-width: 992px) {
+	.animatie {
+	  animation-duration: 0.3s;
+	  animation-fill-mode: both;
+	}
+  }
+  
+  @keyframes dropdownAnimatie {
+	10% {
+	  transform: translateY(1rem);
+	  opacity: 0;
+	}
+	100% {
+	  transform:translateY(0rem);
+	  opacity: 1;
+	}
+	0% {
+	  transform: translateY(1rem);
+	  opacity: 0;
+	}
+  }
