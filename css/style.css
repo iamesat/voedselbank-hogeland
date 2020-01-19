@@ -900,6 +900,10 @@ main.main-client-external .criteria-heading {
   border-color: #F47A20;
 }
 
+.google-maps {
+  margin: 0rem 4rem 4rem 0;
+}
+
 .faq {
   margin-top: 3rem;
   padding-bottom: 3rem;
