@@ -930,4 +930,15 @@ main.main-client-external .criteria-heading {
   color: #FFFFFF;
 }
 
+.main-news .h2news {
+  margin: 2rem 0 2rem 0;
+}
+.main-news .page-link {
+  color: #343434;
+}
+.main-news .page-item.active .page-link {
+  background-color: #F47A20;
+  border-color: #F47A20;
+}
+
 /*# sourceMappingURL=style.css.map */
