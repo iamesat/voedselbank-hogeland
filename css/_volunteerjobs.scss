@@ -9,11 +9,19 @@
     padding-left: 0rem !important;
 }
 
+input.form-control {
+    background-color: $white;
+}
 
-.btn-volunteer {
+.input-group-text {
+    background-color: $white;
+}
+
+
+.btn-donate {
 
     color: $white;
-    background-color: $green;
+    background-color: $orange;
     font-weight: 700;
     max-width: 100%;
     padding: 15px;
@@ -22,7 +30,7 @@
     &:hover,
     &:active,
     &:focus {
-        background-color: darken($color: $green, $amount: 10%);
+        background-color: darken($color: $orange, $amount: 10%);
     }
 }
 
