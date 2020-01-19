@@ -544,7 +544,6 @@ main .donate-form {
 @media screen and (min-width: 768px) {
   main .donate-form {
     height: 100%;
-    margin-top: -1rem;
     padding: 9.5rem 2rem;
   }
 }
