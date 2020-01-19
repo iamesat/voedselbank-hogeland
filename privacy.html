@@ -36,10 +36,10 @@
 							<li class="nav-item ">
 								<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
 							</li>
-							<li class="nav-item dropdown active">
+							<li class="nav-item dropdown">
 								<a
 									class="nav-link dropdown-toggle"
-									href="client.html"
+									href="#"
 									id="customerDropdown"
 									role="button"
 									data-toggle="dropdown"
@@ -52,7 +52,8 @@
 									<a class="dropdown-item" href="client-external.html">Aanmelden</a
 									><a class="dropdown-item" href="client-issue.html">Uitgifte</a
 									><a class="dropdown-item" href="client-criteria-test.html">Criteriatoets</a>
-									<a class="dropdown-item" href="client-recipes.html">Recepten</a>
+									<a class="dropdown-item" href="client-recipes.html">Recepten</a
+									>
 								</div>
 							</li>
 							<li class="nav-item dropdown">
@@ -134,63 +135,32 @@
 				</nav>
 			</div>
 		</header>
-		<main class="main-client-criteria-test">
+		<main class="main-about-us">
 			<nav aria-label="breadcrumb">
 				<div class="container">
 					<ol class="breadcrumb">
-						<li class="breadcrumb-item">Klanten</li>
-						<li class="breadcrumb-item" aria-current="page">Criteriatoets</li>
+						<li class="breadcrumb-item">Privacy</li>
 					</ol>
 				</div>
 			</nav>
 
-			<div class="container criteria-heading">
-				<h1>Snel weten of u in aanmerking komt voor voedselhulp?</h1>
-				<h3>Doe de criteriatoets!</h3>
-				<p>
-					Kom snel en eenvoudig te weten of u in aanmerking komt voor de diensten die Voedselbank Het Hogeland u te bieden heeft. De criteriatoets
-					bestaat uit twee stappen waardoor u binnen één minuut weet wat de vervolgstappen zijn.
-				</p>
-			</div>
+			<div class="jumbotron jumbotron-fluid">
+				<div class="container helpbox">
+					<div class="jumbotron-flex">
+						<div class="col about-us">
+							<h1>Privacy</h1>
+							<hr>
+							<p>Met de grootst mogelijke zorg wordt gewaakt over de privacy van degenen die de pakketten ontvangen. Hun gegevens
+								worden niet aan anderen ter beschikking gesteld of ter inzage gegeven. De Voedselbank en iedereen die bij de uitdeling
+								of toekenning van de pakketten betrokken is, is verplicht zich hieraan te houden.
 
-			<div class="container question rounded">
-				<div class="left">
-					<h2>Uit hoeveel personen bestaat uw huishouden?</h2>
-					<label>Mijn huishouden bestaat uit </label>
-					<input type="text" id="personenID" class="form-control form-personen" placeholder="0" /><label> &nbsp; personen.</label>
-
-					<a class="next" href="#stap2" id="buttonstap2">Volgende stap <i class="fas fa-arrow-right"></i></a>
-				</div>
-				<img src="img/toets/01-tangle.png" alt="..." />
-			</div>
-
-			<div class="container question rounded hide" id="stap2">
-				<div class="left">
-					<h2>
-						Heeft u meer of minder dan € <span id="total">450</span>,- te besteden na aftrek van uw vaste lasten?
-					</h2>
-					<div class="custom-control custom-radio custom-control-inline">
-						<input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input" />
-						<label class="custom-control-label" for="customRadioInline1">Meer</label>
+								De gegevens dienen uitsluitend om de continuïteit te kunnen garanderen voor het geval de uitdelende instantie of persoon
+								haar taak niet meer kan of wil verrichten, om vast te kunnen leggen tot wanneer de hulp noodzakelijk is en als
+								verantwoording ten opzichte van donateurs en andere belanghebbenden wat er met de ingezamelde goederen gebeurt.
+							</p>
+						</div>
 					</div>
-					<div class="custom-control custom-radio custom-control-inline">
-						<input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input" />
-						<label class="custom-control-label" for="customRadioInline2">Minder</label>
-					</div>
-					<a class="next" href="#stap3" id="buttonstap3">Volgende stap <i class="fas fa-arrow-right"></i></a>
 				</div>
-				<img src="img/toets/02-tangle.png" alt="..." />
-			</div>
-
-			<div class="container question rounded hide" id="stap3">
-				<div class="left">
-					<h2 id="outcomeTitle">U komt in aanmerking voor een voedselpakket van de voedselbank</h2>
-					<label id="outcomeText">Afhankelijk van uw situatie kunt u contact zoeken met een externe instanties om de aanmelding te voltooien.</label>
-					<button onclick="window.location = 'client-external.html'" type="button" class="btn btn-primary next">
-						Bekijk de instanties<i class="fas fa-arrow-right"></i>
-					</button>
-				</div>
-				<img src="img/toets/03-tangle.png" alt="..." />
 			</div>
 		</main>
 
@@ -328,12 +298,13 @@
 			<div class="footer-side-info">
 				<div class="container">
 					<a href="#">&copy; 2019 Voedselbank Het Hogeland</a>
-					<a href="privacy.html">Privacy</a>
+					<a href="#">Privacy</a>
 					<a href="#">Disclaimer</a>
 					<a href="#">Colofon</a>
 				</div>
 			</div>
 		</footer>
+
 
 		<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 			<div class="modal-dialog" role="document">
