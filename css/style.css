@@ -957,6 +957,9 @@ main.main-client-external .criteria-heading {
 .aboutus-contact .contacth2 {
   color: #F47A20;
 }
+.aboutus-contact .form-control {
+  background-color: #EFEFEF;
+}
 .aboutus-contact .aboutus-maps-container {
   background-color: #FFFFFF;
   padding-top: 4rem;
