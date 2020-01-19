@@ -2,20 +2,25 @@
 	background-color: $orange;
 	color: $white;
 	font-size: 1rem;
-	padding: .5rem;
+	padding: 0.5rem;
 	text-align: center;
 
 	span {
-		margin-right: .5rem;
+		margin-right: 0.5rem;
+		display: block;
+
+		@media screen and (min-width: 768px) {
+			display: inline;
+		}
 	}
 
-	 a {
-		 color: $white;
-	 }
+	a {
+		color: $white;
+	}
 
-	 i {
-		 font-size: .875rem;
-	 }
+	i {
+		font-size: 0.875rem;
+	}
 }
 
 main {

@@ -31,10 +31,6 @@ header {
 .nav-item {
 	padding: 0.5rem;
 
-	@media screen and (min-width: 768px) {
-		margin-right: 0.5rem;
-	}
-
 	& + .nav-item {
 		border-top: 1px solid $lightgray;
 
@@ -105,11 +101,6 @@ header {
 	}
 }
 
-#languageDropdown {
-	color: $darkgray;
-	font-size: 1rem;
-}
-
 .navbar-light .navbar-nav .show > .nav-link,
 .navbar-light .navbar-nav .active > .nav-link {
 	color: $orange;
@@ -119,7 +110,26 @@ header {
 	color: $black;
 }
 
-.navbar-nav li:hover>.dropdown-menu {
+.navbar-nav li:hover > .dropdown-menu {
 	display: block;
-  }
- 
+}
+
+.navbar-light .navbar-nav .language-dropdown,
+.navbar-light .navbar-nav .search-link {
+	color: $darkgray;
+	font-size: 1rem;
+}
+
+.search-link {
+	i {
+		font-size: 0.875rem;
+	}
+}
+
+.modal-header {
+	color: $orange;
+}
+
+.modal-body {
+	margin-bottom: 1rem;
+}
