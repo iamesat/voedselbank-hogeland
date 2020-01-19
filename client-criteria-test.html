@@ -52,8 +52,7 @@
 									<a class="dropdown-item" href="client-external.html">Aanmelden</a
 									><a class="dropdown-item" href="client-issue.html">Uitgifte</a
 									><a class="dropdown-item" href="client-criteria-test.html">Criteriatoets</a>
-									<a class="dropdown-item" href="client-recipes.html">Recepten</a
-									>
+									<a class="dropdown-item" href="client-recipes.html">Recepten</a>
 								</div>
 							</li>
 							<li class="nav-item dropdown">
@@ -112,7 +111,7 @@
 							<li class="navigation-donate"><a class="btn btn-nav-donate" href="donate-money.html" role="button">Doneer nu</a></li>
 							<li class="nav-item dropdown">
 								<a
-									class="nav-link dropdown-toggle"
+									class="nav-link dropdown-toggle language-dropdown"
 									href="#"
 									id="languageDropdown"
 									role="button"
@@ -126,6 +125,9 @@
 									<a class="dropdown-item" href="#">NL</a>
 									<a class="dropdown-item" href="#">ENG</a>
 								</div>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link search-link" role="button" data-toggle="modal" data-target="#exampleModal" href="#"><i class="fas fa-search"></i></a>
 							</li>
 						</ul>
 					</div>
@@ -189,159 +191,171 @@
 			<div class="container question rounded hide" id="stap3">
 				<div class="left">
 					<h2>U komt in aanmerking voor een voedselpakket van de voedselbank</h2>
-					<label
-						>Download hieronder het aanmeldformulier. Afhankelijk van uw situatie kunt u contact zoeken met een externe
-						instanties om de aanmelding te voltooien. In het gedownloadde aanmeldformulier vindt u welke gegevens u dient mee te nemen naar de
-						gekozen instanties.</label
-					>
-					<button type="button" class="btn btn-primary next">Download aanmeldformulier <i class="fas fa-download"></i></button>
+					<label>Afhankelijk van uw situatie kunt u contact zoeken met een externe instanties om de aanmelding te voltooien.</label>
+					<button onclick="window.location = 'client-external.html'" type="button" class="btn btn-primary next">
+						Bekijk de instanties<i class="fas fa-arrow-right"></i>
+					</button>
 				</div>
 				<img src="img/toets/03-tangle.png" alt="..." />
 			</div>
 		</main>
 
 		<footer>
-	<div class="container d-lg-none d-xl-none">
-		<div id="accordion">
-			<div class="card">
-				<div class="card-header" id="headingTwo">
-					<h5 class="mb-0">
-						<button
-							class="btn btn-link collapsed"
-							data-toggle="collapse"
-							data-target="#collapseTwo"
-							aria-expanded="false"
-							aria-controls="collapseTwo"
-						>
-							Klanten
-						</button>
-					</h5>
-				</div>
-				<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-					<div class="card-body">
-						<ul>
-							<li><a href="client-criteria-test.html">Criteriatoets</a></li>
-							<li><a href="client-issue.html">Uitgifte</a></li>
-							<li><a href="client-recipes.html">Recepten</a></li>
-							<li><a href="client-external.html">Aanmelden</a></li>
-						</ul>
+			<div class="container d-lg-none d-xl-none">
+				<div id="accordion">
+					<div class="card">
+						<div class="card-header" id="headingTwo">
+							<h5 class="mb-0">
+								<button
+									class="btn btn-link collapsed"
+									data-toggle="collapse"
+									data-target="#collapseTwo"
+									aria-expanded="false"
+									aria-controls="collapseTwo"
+								>
+									Klanten
+								</button>
+							</h5>
+						</div>
+						<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+							<div class="card-body">
+								<ul>
+									<li><a href="client-criteria-test.html">Criteriatoets</a></li>
+									<li><a href="client-issue.html">Uitgifte</a></li>
+									<li><a href="client-recipes.html">Recepten</a></li>
+									<li><a href="client-external.html">Aanmelden</a></li>
+								</ul>
+							</div>
+						</div>
 					</div>
-				</div>
-			</div>
-			<div class="card">
-				<div class="card-header" id="headingThree">
-					<h5 class="mb-0">
-						<button
-							class="btn btn-link collapsed"
-							data-toggle="collapse"
-							data-target="#collapseThree"
-							aria-expanded="false"
-							aria-controls="collapseThree"
-						>
-							Donateurs
-						</button>
-					</h5>
-				</div>
-				<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-					<div class="card-body">
-						<ul>
-							<li><a href="donate-products.html">Producten doneren</a></li>
-							<li><a href="donate-money.html">Geld doneren</a></li>
-						</ul>
+					<div class="card">
+						<div class="card-header" id="headingThree">
+							<h5 class="mb-0">
+								<button
+									class="btn btn-link collapsed"
+									data-toggle="collapse"
+									data-target="#collapseThree"
+									aria-expanded="false"
+									aria-controls="collapseThree"
+								>
+									Donateurs
+								</button>
+							</h5>
+						</div>
+						<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+							<div class="card-body">
+								<ul>
+									<li><a href="donate-products.html">Producten doneren</a></li>
+									<li><a href="donate-money.html">Geld doneren</a></li>
+								</ul>
+							</div>
+						</div>
 					</div>
-				</div>
-			</div>
-			<div class="card">
-				<div class="card-header" id="headingFour">
-					<h5 class="mb-0">
-						<button
-							class="btn btn-link collapsed"
-							data-toggle="collapse"
-							data-target="#collapseFour"
-							aria-expanded="false"
-							aria-controls="collapseFour"
-						>
-							Vrijwilligers
-						</button>
-					</h5>
-				</div>
-				<div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
-					<div class="card-body">
-						<ul>
-							<li><a href="volunteer-jobs.html">Vacatures</a></li>
-							<li><a href="#" target="_blank">Intranet</a></li>
-						</ul>
+					<div class="card">
+						<div class="card-header" id="headingFour">
+							<h5 class="mb-0">
+								<button
+									class="btn btn-link collapsed"
+									data-toggle="collapse"
+									data-target="#collapseFour"
+									aria-expanded="false"
+									aria-controls="collapseFour"
+								>
+									Vrijwilligers
+								</button>
+							</h5>
+						</div>
+						<div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+							<div class="card-body">
+								<ul>
+									<li><a href="volunteer-jobs.html">Vacatures</a></li>
+									<li><a href="#" target="_blank">Intranet</a></li>
+								</ul>
+							</div>
+						</div>
 					</div>
-				</div>
-			</div>
-			<div class="card">
-				<div class="card-header" id="headingOne">
-					<h5 class="mb-0">
-						<button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-controls="collapseOne">
-							Over ons
-						</button>
-					</h5>
-				</div>
+					<div class="card">
+						<div class="card-header" id="headingOne">
+							<h5 class="mb-0">
+								<button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-controls="collapseOne">
+									Over ons
+								</button>
+							</h5>
+						</div>
 
-				<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-					<div class="card-body">
-						<ul>
-							<li><a href="aboutus-story.html">Ons verhaal</a></li>
-							<li><a href="aboutus-news.html">Nieuws</a></li>
-							<li><a href="aboutus-faq.html">Veelgestelde vragen</a></li>
-							<li><a href="aboutus-contact.html">Contact</a></li>
-						</ul>
+						<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+							<div class="card-body">
+								<ul>
+									<li><a href="aboutus-story.html">Ons verhaal</a></li>
+									<li><a href="aboutus-news.html">Nieuws</a></li>
+									<li><a href="aboutus-faq.html">Veelgestelde vragen</a></li>
+									<li><a href="aboutus-contact.html">Contact</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container d-none d-lg-flex footer-rows">
+				<div class="col">
+					<ul>
+						<li class="footer-title">Klanten</li>
+						<li><a href="client-external.html">Aanmelden</a></li>
+						<li><a href="client-issue.html">Uitgifte</a></li>
+						<li><a href="client-criteria-test.html">Criteriatoets</a></li>
+						<li><a href="client-recipes.html">Recepten</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<ul>
+						<li class="footer-title">Donateurs</li>
+						<li><a href="donate-products.html">Producten doneren</a></li>
+						<li><a href="donate-money.html">Geld doneren</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<ul>
+						<li class="footer-title">Vrijwilligers</li>
+
+						<li><a href="volunteer-jobs.html">Vacatures</a></li>
+						<li><a href="#" target="_blank">Intranet</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<ul>
+						<li class="footer-title"><a href="aboutus-story.html">Over ons</a></li>
+						<li><a href="aboutus-story.html">Ons verhaal</a></li>
+						<li><a href="aboutus-news.html">Nieuws</a></li>
+						<li><a href="aboutus-faq.html">Veelgestelde vragen</a></li>
+						<li><a href="aboutus-contact.html">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer-side-info">
+				<div class="container">
+					<a href="#">&copy; 2019 Voedselbank Het Hogeland</a>
+					<a href="#">Privacy</a>
+					<a href="#">Disclaimer</a>
+					<a href="#">Colofon</a>
+				</div>
+			</div>
+		</footer>
+
+		<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h2 class="modal-title" id="exampleModalLabel">Zoeken</h2>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						De zoek-functie is momenteel niet beschikbaar, onze excuses hiervoor! We zijn druk bezig met de ontwikkeling hiervan.
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	<div class="container d-none d-lg-flex footer-rows">
-		
-		<div class="col">
-			<ul>
-				<li class="footer-title">Klanten</li>
-				<li><a href="client-external.html">Aanmelden</a></li>
-				<li><a href="client-issue.html">Uitgifte</a></li>
-				<li><a href="client-criteria-test.html">Criteriatoets</a></li>
-				<li><a href="client-recipes.html">Recepten</a></li>
-			</ul>
-		</div>
-		<div class="col">
-			<ul>
-				<li class="footer-title">Donateurs</li>
-				<li><a href="donate-products.html">Producten doneren</a></li>
-				<li><a href="donate-money.html">Geld doneren</a></li>
-			</ul>
-		</div>
-		<div class="col">
-			<ul>
-				<li class="footer-title">Vrijwilligers</li>
-
-				<li><a href="volunteer-jobs.html">Vacatures</a></li>
-				<li><a href="#" target="_blank">Intranet</a></li>
-			</ul>
-		</div>
-		<div class="col">
-			<ul>
-				<li class="footer-title"><a href="aboutus-story.html">Over ons</a></li>
-				<li><a href="aboutus-story.html">Ons verhaal</a></li>
-				<li><a href="aboutus-news.html">Nieuws</a></li>
-				<li><a href="aboutus-faq.html">Veelgestelde vragen</a></li>
-				<li><a href="aboutus-contact.html">Contact</a></li>
-			</ul>
-		</div>
-	</div>
-	<div class="footer-side-info">
-		<div class="container">
-			<a href="#">&copy; 2019 Voedselbank Het Hogeland</a>
-			<a href="#">Privacy</a>
-			<a href="#">Disclaimer</a>
-			<a href="#">Colofon</a>
-		</div>
-	</div>
-</footer>
-
 
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 		<script

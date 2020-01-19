@@ -56,11 +56,6 @@ header {
 .nav-item {
   padding: 0.5rem;
 }
-@media screen and (min-width: 768px) {
-  .nav-item {
-    margin-right: 0.5rem;
-  }
-}
 .nav-item + .nav-item {
   border-top: 1px solid #EFEFEF;
 }
@@ -129,11 +124,6 @@ header {
   padding: 0.5rem;
 }
 
-#languageDropdown {
-  color: #AAAAAA;
-  font-size: 1rem;
-}
-
 .navbar-light .navbar-nav .show > .nav-link,
 .navbar-light .navbar-nav .active > .nav-link {
   color: #F47A20;
@@ -145,6 +135,24 @@ header {
 
 .navbar-nav li:hover > .dropdown-menu {
   display: block;
+}
+
+.navbar-light .navbar-nav .language-dropdown,
+.navbar-light .navbar-nav .search-link {
+  color: #AAAAAA;
+  font-size: 1rem;
+}
+
+.search-link i {
+  font-size: 0.875rem;
+}
+
+.modal-header {
+  color: #F47A20;
+}
+
+.modal-body {
+  margin-bottom: 1rem;
 }
 
 footer {
@@ -255,6 +263,12 @@ img {
 }
 .contact-us span {
   margin-right: 0.5rem;
+  display: block;
+}
+@media screen and (min-width: 768px) {
+  .contact-us span {
+    display: inline;
+  }
 }
 .contact-us a {
   color: #FFFFFF;
@@ -456,6 +470,10 @@ main .link-more-news i {
   margin-left: 0.5rem;
 }
 
+.donate .criteria-heading h3 {
+  color: #F47A20;
+}
+
 main {
   background-color: #EFEFEF;
 }
@@ -481,7 +499,6 @@ main .pro-donate {
 main ol {
   margin-bottom: 3rem;
   padding-left: 1rem;
-  font-weight: 300;
 }
 main ol li {
   padding-left: 0.5rem;
