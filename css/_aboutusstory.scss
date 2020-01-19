@@ -1,0 +1,39 @@
+.breadcrumb {
+    margin-bottom: 0rem;
+}
+.main-about-us {
+
+    .about-us{
+        padding-left: 0rem!important;
+    }
+
+    h2 {
+        padding-bottom: 2rem;
+    }
+
+    h3 {
+        color: $orange;
+    }
+
+    .overons {
+        .card-title {
+            background-color: $orange;
+            color: #FFFFFF;
+            padding: 2rem 2rem 2rem 2rem;
+            text-align: center;
+            margin: 0;
+            font-size: 1rem;
+            border-top-left-radius: 0.25rem;
+            border-top-right-radius: 0.25rem;
+        }
+
+        .maatschapplelijk {
+            padding: 1.5rem 1rem 1.3rem 1rem;
+        }
+    }
+
+    .bestuurstyle {
+        background-color: #FFFFFF;
+    }
+
+}

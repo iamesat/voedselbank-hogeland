@@ -890,6 +890,13 @@ main.main-client-external .criteria-heading {
   padding-bottom: 1rem;
 }
 
+.aboutus .criteria-heading h3 {
+  color: #F47A20;
+}
+.aboutus .cards.select-target {
+  padding: 1rem 0 4rem;
+}
+
 .breadcrumb {
   margin-bottom: 0rem;
 }
@@ -918,37 +925,6 @@ main.main-client-external .criteria-heading {
 }
 .main-about-us .bestuurstyle {
   background-color: #FFFFFF;
-}
-
-.link-arrow {
-  color: #FFFFFF;
-}
-
-.main-news .h2news {
-  margin: 2rem 0 2rem 0;
-}
-.main-news .page-link {
-  color: #343434;
-}
-.main-news .page-item.active .page-link {
-  background-color: #F47A20;
-  border-color: #F47A20;
-}
-@media screen and (max-width: 992px) {
-  .main-news .card-img-right {
-    display: none !important;
-  }
-}
-.main-news .card-img-right {
-  width: 200px;
-  height: 271px;
-}
-.main-news .card p {
-  padding-bottom: 1rem;
-}
-.main-news .pagination-container {
-  padding-top: 2rem;
-  padding-bottom: 4rem;
 }
 
 .aboutus-contact .google-maps {
