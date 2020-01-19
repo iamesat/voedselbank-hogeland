@@ -858,16 +858,22 @@ main.main-client-external .criteria-heading {
 .main-volunteer-jobs .about-us {
   padding-left: 0rem !important;
 }
-.main-volunteer-jobs .btn-volunteer {
+.main-volunteer-jobs input.form-control {
+  background-color: #FFFFFF;
+}
+.main-volunteer-jobs .input-group-text {
+  background-color: #FFFFFF;
+}
+.main-volunteer-jobs .btn-donate {
   color: #FFFFFF;
-  background-color: #6BCB4F;
+  background-color: #F47A20;
   font-weight: 700;
   max-width: 100%;
   padding: 15px;
   height: 22%;
 }
-.main-volunteer-jobs .btn-volunteer:hover, .main-volunteer-jobs .btn-volunteer:active, .main-volunteer-jobs .btn-volunteer:focus {
-  background-color: #51b235;
+.main-volunteer-jobs .btn-donate:hover, .main-volunteer-jobs .btn-donate:active, .main-volunteer-jobs .btn-donate:focus {
+  background-color: #d6610b;
 }
 .main-volunteer-jobs h3 {
   color: #6BCB4F !important;
@@ -892,6 +898,9 @@ main.main-client-external .criteria-heading {
 .main-about-us .about-us {
   padding-left: 0rem !important;
 }
+.main-about-us h2 {
+  padding-bottom: 2rem;
+}
 .main-about-us h3 {
   color: #F47A20;
 }
@@ -904,9 +913,6 @@ main.main-client-external .criteria-heading {
   font-size: 1rem;
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
-}
-.main-about-us .overons p {
-  font-size: 14px;
 }
 .main-about-us .overons .maatschapplelijk {
   padding: 1.5rem 1rem 1.3rem 1rem;
@@ -929,9 +935,6 @@ main.main-client-external .criteria-heading {
   background-color: #F47A20;
   border-color: #F47A20;
 }
-.main-news .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
 @media screen and (max-width: 992px) {
   .main-news .card-img-right {
     display: none !important;
@@ -945,8 +948,8 @@ main.main-client-external .criteria-heading {
   padding-bottom: 1rem;
 }
 .main-news .pagination-container {
-  padding-bottom: 2rem;
   padding-top: 2rem;
+  padding-bottom: 4rem;
 }
 
 .aboutus-contact .google-maps {
@@ -1036,9 +1039,6 @@ main.main-client-external .criteria-heading {
   background-color: #F47A20;
   border-color: #F47A20;
 }
-.main-news .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
 @media screen and (max-width: 992px) {
   .main-news .card-img-right {
     display: none !important;
@@ -1052,8 +1052,8 @@ main.main-client-external .criteria-heading {
   padding-bottom: 1rem;
 }
 .main-news .pagination-container {
-  padding-bottom: 2rem;
   padding-top: 2rem;
+  padding-bottom: 4rem;
 }
 
 /*# sourceMappingURL=style.css.map */
