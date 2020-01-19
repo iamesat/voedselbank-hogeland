@@ -851,6 +851,17 @@ main.main-client-external .criteria-heading {
   }
 }
 
+.volunteer .criteria-heading h3 {
+  color: #6BCB4F;
+}
+.volunteer .cards.select-target {
+  padding: 1rem 0 4rem;
+}
+
+.modal-header.intranet-modal-header {
+  color: #6BCB4F;
+}
+
 .main-volunteer-jobs .breadcrumb {
   margin-bottom: 0rem;
 }
@@ -890,10 +901,10 @@ main.main-client-external .criteria-heading {
   padding-bottom: 1rem;
 }
 
-.volunteer .criteria-heading h3 {
-  color: #6BCB4F;
+.aboutus .criteria-heading h3 {
+  color: #F47A20;
 }
-.volunteer .cards.select-target {
+.aboutus .cards.select-target {
   padding: 1rem 0 4rem;
 }
 

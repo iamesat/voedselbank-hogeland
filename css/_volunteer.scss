@@ -1,9 +1,15 @@
-.aboutus {
+.volunteer {
 	.criteria-heading h3 {
-		color: $orange;
+		color: $green;
 	}
 
 	.cards.select-target {
 		padding: 1rem 0 4rem;
+	}
+}
+
+.modal-header {
+	&.intranet-modal-header {
+		color: $green;
 	}
 }
