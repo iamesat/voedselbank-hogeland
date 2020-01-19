@@ -36,10 +36,10 @@
 							<li class="nav-item ">
 								<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
 							</li>
-							<li class="nav-item dropdown active">
+							<li class="nav-item dropdown">
 								<a
 									class="nav-link dropdown-toggle"
-									href="#"
+									href="client.html"
 									id="customerDropdown"
 									role="button"
 									data-toggle="dropdown"
@@ -49,11 +49,9 @@
 									Klanten
 								</a>
 								<div class="dropdown-menu" aria-labelledby="customerDropdown">
-									<a class="dropdown-item" href="client-external.html">Aanmelden</a
-									><a class="dropdown-item" href="client-issue.html">Uitgifte</a
-									><a class="dropdown-item" href="client-criteria-test.html">Criteriatoets</a>
-									<a class="dropdown-item" href="client-recipes.html">Recepten</a
-									><a class="dropdown-item" href="client-administration.html">Klantadministratie</a>
+									<a class="dropdown-item" href="client-criteria-test.html">Criteriatoets</a>
+									<a class="dropdown-item" href="client-issue.html">Uitgifte</a>
+									<a class="dropdown-item" href="client-recipes.html">Recepten</a>
 								</div>
 							</li>
 							<li class="nav-item dropdown">
@@ -73,7 +71,7 @@
 									<a class="dropdown-item" href="donate-money.html">Geld</a>
 								</div>
 							</li>
-							<li class="nav-item dropdown">
+							<li class="nav-item dropdown active">
 								<a
 									class="nav-link dropdown-toggle"
 									href="#"
@@ -86,7 +84,7 @@
 									Vrijwilligers
 								</a>
 								<div class="dropdown-menu" aria-labelledby="volunteerDropdown">
-									<a class="dropdown-item" href="volunteer-jobs.html">Vacatures</a>
+									<a class="dropdown-item" href="#">Vacatures</a>
 									<a class="dropdown-item" href="#" target="_blank">Intranet</a>
 								</div>
 							</li>
@@ -103,10 +101,10 @@
 									Over ons
 								</a>
 								<div class="dropdown-menu" aria-labelledby="aboutUsDropdown">
-									<a class="dropdown-item" href="#">Ons verhaal</a>
+									<a class="dropdown-item" href="#">De voedselbank</a>
 									<a class="dropdown-item" href="#">Nieuws</a>
-									<a class="dropdown-item" href="aboutus-faq.html">Veelgestelde vragen</a
-									><a class="dropdown-item" href="aboutus-contact.html">Contact</a>
+									<a class="dropdown-item" href="contact.html">Contact</a>
+
 								</div>
 							</li>
 							<li class="navigation-donate"><a class="btn btn-nav-donate" href="donate-money.html" role="button">Doneer nu</a></li>
@@ -132,58 +130,110 @@
 				</nav>
 			</div>
 		</header>
-		<main class="main-client-administration">
+		<main class="main-about-us">
 			<nav aria-label="breadcrumb">
 				<div class="container">
 					<ol class="breadcrumb">
-						<li class="breadcrumb-item">Klanten</li>
-						<li class="breadcrumb-item" aria-current="page">Klantadministratie</li>
+						<li class="breadcrumb-item">Over ons</li>
+						<li class="breadcrumb-item" aria-current="page">Nieuws</li>
 					</ol>
 				</div>
 			</nav>
 
-			<div class="container">
-				<div class="flex">
-					<div class="col about-us contact-client">
-						<h2>Klantenadministratie</h2>
-
-						<dl class="row">
-							<dt class="col-sm-4"><i class="fas fa-phone-alt"></i> Telefoon</dt>
-							<dd class="col-sm-8">06 16913697</dd>
-
-							<dt class="col-sm-4"><i class="fas fa-envelope"></i> E-mailadres</dt>
-							<dd class="col-sm-8">
-								intake@voedselbankhethogeland.nl
-							</dd>
-
-							<dt class="col-sm-4"><i class="fas fa-map-marker-alt"></i> Adres</dt>
-							<dd class="col-sm-8">
-								Lombok 1, 9951SC Winsum
-							</dd>
-
-							<dt class="col-sm-4"><i class="far fa-clock"></i> Openingstijden</dt>
-							<dd class="col-sm-8">
-								<ul>
-									<li>maandag 10.00-12.00 uur</li>
-									<li>woensdag 13.30-15.30 uur</li>
-									<li>donderdag 13.30-15.30 uur</li>
-									<li>vrijdag 10.00-15.30 uur</li>
-								</ul>
-							</dd>
-						</dl>
-					</div>
-					<div class="google-maps">
-						<iframe
-							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2382.6313787878876!2d6.524703316197565!3d53.331953179975955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c9daf1d5376cdb%3A0x7d209d9a20400180!2sStichting%20Voedselbank%20Het%20Hogeland!5e0!3m2!1snl!2snl!4v1579207845557!5m2!1snl!2snl"
-							width="330"
-							height="210"
-							frameborder="0"
-							style="border:0;"
-							allowfullscreen=""
-						></iframe>
+	
+			<div class="container news">
+				<h2>Nieuws</h2>
+			<div class="row mb-2">
+					<div class="col-md-12">
+					  <div class="card flex-md-row mb-4 box-shadow h-md-250">
+						<div class="card-body d-flex flex-column align-items-start">
+						  <h2>Een 10 voor voedselveiligheid!</h2>
+						  <div class="mb-1 text-muted">Maandag 25 november 2019</div>
+						  <p class="card-text mb-auto">Afgelopen week hebben wij het goede nieuws mogen ontvangen dat wij tijdens de controle op voedselveiligheid door Sensz zijn beoordeeld met een 10!...</p>
+							<a href="#" class="link-about-us link-arrow">Lees verder <i class="fas fa-arrow-right"></i></a>
+						</div>
+						<img class="card-img-right flex-auto d-none d-md-block" data-src="" alt="news 2" style="width: 200px; height: 250px;" src="img/news/download.svg">
+					  </div>
 					</div>
 				</div>
 			</div>
+
+			<div class="container overons">
+				<div class="row mb-2">
+					<div class="col-md-6">
+						<div class="card flex-md-row mb-4 box-shadow h-md-250">
+						  <div class="card-body d-flex flex-column align-items-start">
+							<h2>Een 10 voor voedselveiligheid!</h2>
+							<div class="mb-1 text-muted">Maandag 25 november 2019</div>
+							<p class="card-text mb-auto">Afgelopen week hebben wij het goede nieuws mogen ontvangen dat wij tijdens de controle op voedselveiligheid door Sensz zijn beoordeeld met een 10!...</p>
+							  <a href="#" class="link-about-us link-arrow">Lees verder <i class="fas fa-arrow-right"></i></a>
+						  </div>
+						  <img class="card-img-right flex-auto d-none d-md-block" data-src="" alt="news 2" style="width: 200px; height: 250px;" src="img/news/download.svg">
+						</div>
+					  </div>
+					  <div class="col-md-6">
+						<div class="card flex-md-row mb-4 box-shadow h-md-250">
+						  <div class="card-body d-flex flex-column align-items-start">
+							<h2>Een 10 voor voedselveiligheid!</h2>
+							<div class="mb-1 text-muted">Maandag 25 november 2019</div>
+							<p class="card-text mb-auto">Afgelopen week hebben wij het goede nieuws mogen ontvangen dat wij tijdens de controle op voedselveiligheid door Sensz zijn beoordeeld met een 10!...
+							  </p>
+							  <a href="#" class="link-about-us link-arrow">Lees verder <i class="fas fa-arrow-right"></i></a>
+						  </div>
+						  <img class="card-img-right flex-auto d-none d-md-block" data-src="" alt="news 2" style="width: 200px; height: 250px;" src="img/news/download.svg">
+						</div>
+					  </div>
+				  </div>
+			</div>
+
+			<div class="container overons">
+				<div class="row mb-2">
+					<div class="col-md-6">
+						<div class="card flex-md-row mb-4 box-shadow h-md-250">
+						  <div class="card-body d-flex flex-column align-items-start">
+							<h2>Een 10 voor voedselveiligheid!</h2>
+							<div class="mb-1 text-muted">Maandag 25 november 2019</div>
+							<p class="card-text mb-auto">Afgelopen week hebben wij het goede nieuws mogen ontvangen dat wij tijdens de controle op voedselveiligheid door Sensz zijn beoordeeld met een 10!.....</p>
+							  <a href="#" class="link-about-us link-arrow">Lees verder <i class="fas fa-arrow-right"></i></a>
+						  </div>
+						  <img class="card-img-right flex-auto d-none d-md-block" data-src="" alt="news 2" style="width: 200px; height: 250px;" src="img/news/download.svg">
+						</div>
+					  </div>
+					<div class="col-md-6">
+						<div class="card flex-md-row mb-4 box-shadow h-md-250">
+						  <div class="card-body d-flex flex-column align-items-start">
+							<h2>Een 10 voor voedselveiligheid!</h2>
+							<div class="mb-1 text-muted">Maandag 25 november 2019</div>
+							<p class="card-text mb-auto">Afgelopen week hebben wij het goede nieuws mogen ontvangen dat wij tijdens de controle op voedselveiligheid door Sensz zijn beoordeeld met een 10!...</p>
+							  <a href="#" class="link-about-us link-arrow">Lees verder <i class="fas fa-arrow-right"></i></a>
+						  </div>
+						  <img class="card-img-right flex-auto d-none d-md-block" data-src="" alt="news 2" style="width: 200px; height: 250px;" src="img/news/download.svg">
+						</div>
+					  </div>
+				  </div>
+			</div>
+
+			<div class="jumbotron jumbotron-fluid">
+				<div class="container helpbox">
+					<div class="jumbotron-flex">
+						<div class="col about-us">
+							<h1>Privacy</h1>
+							<hr>
+							<p>Met de grootst mogelijke zorg wordt gewaakt over de privacy van degenen die de pakketten ontvangen. Hun gegevens
+worden niet aan anderen ter beschikking gesteld of ter inzage gegeven. De Voedselbank en iedereen die bij de uitdeling
+of toekenning van de pakketten betrokken is, is verplicht zich hieraan te houden.
+
+De gegevens dienen uitsluitend om de continuïteit te kunnen garanderen voor het geval de uitdelende instantie of persoon
+haar taak niet meer kan of wil verrichten, om vast te kunnen leggen tot wanneer de hulp noodzakelijk is en als
+verantwoording ten opzichte van donateurs en andere belanghebbenden wat er met de ingezamelde goederen gebeurt.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
 		</main>
 
 		<footer>
@@ -203,8 +253,9 @@
 								<ul>
 									<li><a href="#">Ons Verhaal</a></li>
 									<li><a href="#">Nieuws</a></li>
-									<li><a href="aboutus-faq.html">Veelgestelde vragen</a></li>
-									<li><a href="aboutus-contact.html">Contact</a></li>
+									<li><a href="contact.html">Contact</a></li>
+
+
 								</ul>
 							</div>
 						</div>
@@ -228,8 +279,7 @@
 								<ul>
 									<li><a href="client-criteria-test.html">Criteriatoets</a></li>
 									<li><a href="client-issue.html">Uitgifte</a></li>
-									<li><a href="client-recipes.html">Recepten</a></li>
-									<li><a href="client-external.html">Aanmelden</a></li>
+									<li><a href="#">Recepten</a></li>
 								</ul>
 							</div>
 						</div>
@@ -274,7 +324,7 @@
 						<div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
 							<div class="card-body">
 								<ul>
-									<li><a href="volunteer-jobs.html">Vacatures</a></li>
+									<li><a href="#">Vacatures</a></li>
 									<li><a href="#" target="_blank">Intranet</a></li>
 								</ul>
 							</div>
@@ -288,8 +338,9 @@
 						<li class="footer-title"><a href="index.html">Over ons</a></li>
 						<li><a href="#">Ons verhaal</a></li>
 						<li><a href="#">Nieuws</a></li>
-						<li><a href="aboutus-faq.html">Veelgestelde vragen</a></li>
-						<li><a href="aboutus-contact.html">Contact</a></li>
+						<li><a href="contact.html">Contact</a></li>
+
+
 					</ul>
 				</div>
 				<div class="col">
@@ -297,8 +348,7 @@
 						<li class="footer-title">Klanten</li>
 						<li><a href="client-criteria-test.html">Criteriatoets</a></li>
 						<li><a href="client-issue.html">Uitgifte</a></li>
-						<li><a href="client-recipes.html">Recepten</a></li>
-						<li><a href="client-external.html">Aanmelden</a></li>
+						<li><a href="#">Recepten</a></li>
 					</ul>
 				</div>
 				<div class="col">
@@ -312,7 +362,7 @@
 					<ul>
 						<li class="footer-title">Vrijwilligers</li>
 
-						<li><a href="volunteer-jobs.html">Vacatures</a></li>
+						<li><a href="#">Vacatures</a></li>
 						<li><a href="#" target="_blank">Intranet</a></li>
 					</ul>
 				</div>

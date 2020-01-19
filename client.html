@@ -41,7 +41,7 @@
 							<li class="nav-item dropdown">
 								<a
 									class="nav-link dropdown-toggle"
-									href="#"
+									href="client.html"
 									id="customerDropdown"
 									role="button"
 									data-toggle="dropdown"
@@ -55,7 +55,7 @@
 									><a class="dropdown-item" href="client-issue.html">Uitgifte</a
 									><a class="dropdown-item" href="client-criteria-test.html">Criteriatoets</a>
 									<a class="dropdown-item" href="client-recipes.html">Recepten</a
-									><a class="dropdown-item" href="client-administration.html">Klantadministratie</a>
+									>
 								</div>
 							</li>
 							<li class="nav-item dropdown">
@@ -135,41 +135,65 @@
 			</div>
 		</header>
 
-		<main class="homepage">
+		<main class="client">
+			<nav aria-label="breadcrumb">
+				<div class="container">
+					<ol class="breadcrumb">
+						<li class="breadcrumb-item" aria-current="page">Klanten</li>
+					</ol>
+				</div>
+			</nav>
+
+			<div class="container criteria-heading">
+				<h1>Wat kunnen we voor u doen?</h1>
+				<h3>We helpen u graag verder</h3>
+				<p>
+					Elk gezin (dat aan de criteria voldoet) woonachtig in de gemeenten Winsum, De Marne en Eemsmond kan voedselpakketten krijgen van de Voedselbank Het Hogeland te Winsum. Ook omliggende gemeenten is mogelijk. Hieronder vindt u informatie over hoe u zich kunt aanmelden, wanneer het voedselpakket wordt uitgegeven, of u in aanmerking komt voor een voedselpakket en een aantal lekkere recepten die u voor een prikkie kunt maken met ingrediënten van de voedselbank.
+				</p>
+			</div>
+
 			<div class="container">
 				<div class="cards select-target">
 					<div class="card">
 						<div class="card-body">
-							<h2 class="card-title">Aanmelden</h2>
-							<p class="card-text">
-								Als u zich wil aanmelden voor voedselhulp zoek dan contact met een van onze hulpverlenende instanties.
-							</p>
-							<a href="client-criteria-test.html" class="btn btn-client">Bekijk de instanties</a>
+							<div>
+								<h2 class="card-title">Aanmelden</h2>
+								<p class="card-text">
+									Als u zich wil aanmelden voor voedselhulp zoek dan contact met een van onze hulpverlenende instanties.
+								</p>
+							</div>
+							<a href="client-external.html" class="btn btn-client">Bekijk de instanties</a>
 						</div>
 					</div>
 					<div class="card">
 						<div class="card-body">
-							<h2 class="card-title">Uitgifte</h2>
-							<p class="card-text">Benieuwd naar wanneer u het voedselpakket kunt ophalen?</p>
-							<a href="donate-money.html" class="btn btn-donate">Uitgiftemomenten</a>
+							<div>
+								<h2 class="card-title">Uitgifte</h2>
+								<p class="card-text">Benieuwd naar wanneer u het voedselpakket kunt ophalen?</p>
+							</div>
+							<a href="client-issue.html" class="btn btn-client">Uitgiftemomenten</a>
 						</div>
 					</div>
 					<div class="card">
 						<div class="card-body">
-							<h2 class="card-title">Criteriatoets</h2>
-							<p class="card-text">
-								Met onze test weet u binnen 1 minuut of u in aamerking komt voor een voedselpakket.
-							</p>
-							<a href="#" class="btn btn-volunteer">Doe de test</a>
+							<div>
+								<h2 class="card-title">Criteriatoets</h2>
+								<p class="card-text">
+									Met onze test weet u binnen 1 minuut of u in aamerking komt voor een voedselpakket.
+								</p>
+							</div>
+							<a href="client-criteria-test.html" class="btn btn-client">Doe de test</a>
 						</div>
 					</div>
 					<div class="card">
 						<div class="card-body">
-							<h2 class="card-title">Recepten</h2>
-							<p class="card-text">
-								Wilt u ook lekker en gezond koken voor een prikkie? We helpen u op weg.
-							</p>
-							<a href="#" class="btn btn-volunteer">Bekijk de recepten</a>
+							<div>
+								<h2 class="card-title">Recepten</h2>
+								<p class="card-text">
+									Wilt u ook lekker en gezond koken voor een prikkie? We helpen u op weg.
+								</p>
+							</div>
+							<a href="client-recipes.html" class="btn btn-client">Bekijk de recepten</a>
 						</div>
 					</div>
 				</div>
@@ -177,145 +201,147 @@
 		</main>
 
 		<footer>
-			<div class="container d-lg-none d-xl-none">
-				<div id="accordion">
-					<div class="card">
-						<div class="card-header" id="headingOne">
-							<h5 class="mb-0">
-								<button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-controls="collapseOne">
-									Over ons
-								</button>
-							</h5>
-						</div>
+	<div class="container d-lg-none d-xl-none">
+		<div id="accordion">
+			<div class="card">
+				<div class="card-header" id="headingTwo">
+					<h5 class="mb-0">
+						<button
+							class="btn btn-link collapsed"
+							data-toggle="collapse"
+							data-target="#collapseTwo"
+							aria-expanded="false"
+							aria-controls="collapseTwo"
+						>
+							Klanten
+						</button>
+					</h5>
+				</div>
+				<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+					<div class="card-body">
+						<ul>
+							<li><a href="client-criteria-test.html">Criteriatoets</a></li>
+							<li><a href="client-issue.html">Uitgifte</a></li>
+							<li><a href="client-recipes.html">Recepten</a></li>
+							<li><a href="client-external.html">Aanmelden</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" id="headingThree">
+					<h5 class="mb-0">
+						<button
+							class="btn btn-link collapsed"
+							data-toggle="collapse"
+							data-target="#collapseThree"
+							aria-expanded="false"
+							aria-controls="collapseThree"
+						>
+							Donateurs
+						</button>
+					</h5>
+				</div>
+				<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+					<div class="card-body">
+						<ul>
+							<li><a href="donate-products.html">Producten doneren</a></li>
+							<li><a href="donate-money.html">Geld doneren</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" id="headingFour">
+					<h5 class="mb-0">
+						<button
+							class="btn btn-link collapsed"
+							data-toggle="collapse"
+							data-target="#collapseFour"
+							aria-expanded="false"
+							aria-controls="collapseFour"
+						>
+							Vrijwilligers
+						</button>
+					</h5>
+				</div>
+				<div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+					<div class="card-body">
+						<ul>
+							<li><a href="volunteer-jobs.html">Vacatures</a></li>
+							<li><a href="#" target="_blank">Intranet</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" id="headingOne">
+					<h5 class="mb-0">
+						<button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-controls="collapseOne">
+							Over ons
+						</button>
+					</h5>
+				</div>
 
-						<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-							<div class="card-body">
-								<ul>
-									<li><a href="#">De voedselbank</a></li>
-									<li><a href="#">Nieuws</a></li>
-									<li><a href="aboutus-faq.html">Veelgestelde vragen</a></li>
-									<li><a href="aboutus-contact.html">Contact</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="card">
-						<div class="card-header" id="headingTwo">
-							<h5 class="mb-0">
-								<button
-									class="btn btn-link collapsed"
-									data-toggle="collapse"
-									data-target="#collapseTwo"
-									aria-expanded="false"
-									aria-controls="collapseTwo"
-								>
-									Klanten
-								</button>
-							</h5>
-						</div>
-						<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-							<div class="card-body">
-								<ul>
-									<li><a href="client-criteria-test.html">Criteriatoets</a></li>
-									<li><a href="client-issue.html">Uitgifte</a></li>
-									<li><a href="client-recipes.html">Recepten</a></li>
-									<li><a href="client-external.html">Aanmelden</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="card">
-						<div class="card-header" id="headingThree">
-							<h5 class="mb-0">
-								<button
-									class="btn btn-link collapsed"
-									data-toggle="collapse"
-									data-target="#collapseThree"
-									aria-expanded="false"
-									aria-controls="collapseThree"
-								>
-									Donateurs
-								</button>
-							</h5>
-						</div>
-						<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-							<div class="card-body">
-								<ul>
-									<li><a href="donate-products.html">Producten</a></li>
-									<li><a href="donate-money.html">Geld</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="card">
-						<div class="card-header" id="headingFour">
-							<h5 class="mb-0">
-								<button
-									class="btn btn-link collapsed"
-									data-toggle="collapse"
-									data-target="#collapseFour"
-									aria-expanded="false"
-									aria-controls="collapseFour"
-								>
-									Vrijwilligers
-								</button>
-							</h5>
-						</div>
-						<div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
-							<div class="card-body">
-								<ul>
-									<li><a href="volunteer-jobs.html">Vacatures</a></li>
-									<li><a href="#" target="_blank">Intranet</a></li>
-								</ul>
-							</div>
-						</div>
+				<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+					<div class="card-body">
+						<ul>
+							<li><a href="aboutus-story.html">Ons verhaal</a></li>
+							<li><a href="aboutus-news.html">Nieuws</a></li>
+							<li><a href="aboutus-faq.html">Veelgestelde vragen</a></li>
+							<li><a href="aboutus-contact.html">Contact</a></li>
+						</ul>
 					</div>
 				</div>
 			</div>
-			<div class="container d-none d-lg-flex footer-rows">
-				<div class="col">
-					<ul>
-						<li class="footer-title"><a href="index.html">Over ons</a></li>
-						<li><a href="#">De voedselbank</a></li>
-						<li><a href="#">Nieuws</a></li>
-						<li><a href="aboutus-faq.html">Veelgestelde vragen</a></li>
-						<li><a href="aboutus-contact.html">Contact</a></li>
-					</ul>
-				</div>
-				<div class="col">
-					<ul>
-						<li class="footer-title">Klanten</li>
-						<li><a href="client-criteria-test.html">Criteriatoets</a></li>
-						<li><a href="client-issue.html">Uitgifte</a></li>
-						<li><a href="client-recipes.html">Recepten</a></li>
-						<li><a href="client-external.html">Aanmelden</a></li>
-					</ul>
-				</div>
-				<div class="col">
-					<ul>
-						<li class="footer-title">Donateurs</li>
-						<li><a href="donate-products.html">Producten</a></li>
-						<li><a href="donate-money.html">Geld</a></li>
-					</ul>
-				</div>
-				<div class="col">
-					<ul>
-						<li class="footer-title">Vrijwilligers</li>
+		</div>
+	</div>
+	<div class="container d-none d-lg-flex footer-rows">
+		
+		<div class="col">
+			<ul>
+				<li class="footer-title">Klanten</li>
+				<li><a href="client-external.html">Aanmelden</a></li>
+				<li><a href="client-issue.html">Uitgifte</a></li>
+				<li><a href="client-criteria-test.html">Criteriatoets</a></li>
+				<li><a href="client-recipes.html">Recepten</a></li>
+			</ul>
+		</div>
+		<div class="col">
+			<ul>
+				<li class="footer-title">Donateurs</li>
+				<li><a href="donate-products.html">Producten doneren</a></li>
+				<li><a href="donate-money.html">Geld doneren</a></li>
+			</ul>
+		</div>
+		<div class="col">
+			<ul>
+				<li class="footer-title">Vrijwilligers</li>
 
-						<li><a href="volunteer-jobs.html">Vacatures</a></li>
-						<li><a href="#" target="_blank">Intranet</a></li>
-					</ul>
-				</div>
-			</div>
-			<div class="footer-side-info">
-				<div class="container">
-					<a href="#">&copy; 2019 Voedselbank Het Hogeland</a>
-					<a href="#">Privacy</a>
-					<a href="#">Disclaimer</a>
-					<a href="#">Colofon</a>
-				</div>
-			</div>
-		</footer>
+				<li><a href="volunteer-jobs.html">Vacatures</a></li>
+				<li><a href="#" target="_blank">Intranet</a></li>
+			</ul>
+		</div>
+		<div class="col">
+			<ul>
+				<li class="footer-title"><a href="aboutus-story.html">Over ons</a></li>
+				<li><a href="aboutus-story.html">Ons verhaal</a></li>
+				<li><a href="aboutus-news.html">Nieuws</a></li>
+				<li><a href="aboutus-faq.html">Veelgestelde vragen</a></li>
+				<li><a href="aboutus-contact.html">Contact</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="footer-side-info">
+		<div class="container">
+			<a href="#">&copy; 2019 Voedselbank Het Hogeland</a>
+			<a href="#">Privacy</a>
+			<a href="#">Disclaimer</a>
+			<a href="#">Colofon</a>
+		</div>
+	</div>
+</footer>
+
 
 		<!-- Optional JavaScript -->
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
