@@ -905,6 +905,21 @@ main.main-client-external .criteria-heading {
   background-color: #F47A20;
   border-color: #F47A20;
 }
+.main-news .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+@media screen and (max-width: 992px) {
+  .main-news .card-img-right {
+    display: none !important;
+  }
+}
+.main-news .card-img-right {
+  width: 200px;
+  height: 271px;
+}
+.main-news .card p {
+  padding-bottom: 1rem;
+}
 
 .aboutus-contact .google-maps {
   margin: 0rem 4rem 4rem 0;
@@ -992,6 +1007,21 @@ main.main-client-external .criteria-heading {
 .main-news .page-item.active .page-link {
   background-color: #F47A20;
   border-color: #F47A20;
+}
+.main-news .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+@media screen and (max-width: 992px) {
+  .main-news .card-img-right {
+    display: none !important;
+  }
+}
+.main-news .card-img-right {
+  width: 200px;
+  height: 271px;
+}
+.main-news .card p {
+  padding-bottom: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */
