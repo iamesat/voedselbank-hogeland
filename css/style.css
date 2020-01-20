@@ -869,10 +869,16 @@ main.main-client-external .criteria-heading {
   padding-left: 0rem !important;
 }
 .main-volunteer-jobs input.form-control {
-  background-color: #FFFFFF;
+  background-color: #EFEFEF;
 }
 .main-volunteer-jobs .input-group-text {
+  background-color: #EFEFEF;
+}
+.main-volunteer-jobs .whitesection {
   background-color: #FFFFFF;
+}
+.main-volunteer-jobs .whitesection h2 {
+  padding-top: 2rem;
 }
 .main-volunteer-jobs .btn-donate {
   color: #FFFFFF;
@@ -899,6 +905,13 @@ main.main-client-external .criteria-heading {
 }
 .main-volunteer-jobs .vacatures h3 {
   padding-bottom: 1rem;
+}
+.main-volunteer-jobs .vacatures h2 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.main-volunteer-jobs .vacatures .btn-donate {
+  margin-bottom: 4rem;
 }
 
 .aboutus .criteria-heading h3 {
